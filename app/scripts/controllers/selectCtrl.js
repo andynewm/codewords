@@ -1,16 +1,16 @@
 ﻿angular.module('codeword')
-    .controller('selectCtrl', ['$scope', function ($scope) {
+	.controller('selectCtrl', ['$scope', function ($scope) {
 
-        $scope.range = function (n) {
+		$scope.range = function (n) {
 
-        	var a = [];
-        	
-        	for (var i = 0; i < n; i++) {
-        		a.push(i);
-        	}
+			var a = [];
+			
+			for (var i = 0; i < n; i++) {
+				a.push(i);
+			}
 
-        	return a;
+			return a;
 
-        }
+		}
 
-    }]);
+	}]);
