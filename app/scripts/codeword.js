@@ -10,9 +10,9 @@
                 templateUrl: 'views/puzzle.html',
                 controller: 'puzzleCtrl',
                 resolve: {
-                    puzzle: function(puzzleFactory, $route) {
+                    puzzle: ['puzzleFactory', '$route', function(puzzleFactory, $route) {
                         return puzzleFactory.load($route.current.params.id)
-                    }
+                    }]
                 }
             })
             .otherwise({redirectTo: '/'});
