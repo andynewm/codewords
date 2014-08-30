@@ -1,5 +1,5 @@
 ﻿angular.module('codeword')
-	.controller('puzzleCtrl', function ($scope, $routeParams, puzzle) {
+	.controller('puzzleCtrl', ['$scope', '$routeParams', 'puzzle' , function ($scope, $routeParams, puzzle) {
 
 		$scope.puzzleNumber = $routeParams.id;
 		$scope.map = puzzle.map;
@@ -24,4 +24,4 @@
 			});
 		};
 
-	});
+	}]);

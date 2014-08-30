@@ -1,5 +1,5 @@
 ﻿angular.module('codeword')
-    .controller('selectCtrl', function ($scope) {
+    .controller('selectCtrl', ['$scope', function ($scope) {
 
         $scope.range = function (n) {
 
@@ -13,4 +13,4 @@
 
         }
 
-    });
+    }]);
