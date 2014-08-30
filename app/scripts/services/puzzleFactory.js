@@ -33,12 +33,21 @@
 			this.initState = puzzle.state.slice(0);
 			this.solution = puzzle.solution;
 			this.map = puzzle.map;
+			this.inverseState = puzzle.state.reduce(function (obj, item, index) {
+				if (item) {
+					obj[item] = index + 1;
+				}
+				return obj;
+			}, {});
 
 		}
 
 		Puzzle.prototype.setLetter = function (code, letter) {
 
-			this.state.forEach(function (value, i, state) {
+			var state = this.state;
+			var inverseState = this.inverseState;
+
+			state.forEach(function (value, i) {
 
 				if (value == letter) {
 
@@ -47,7 +56,10 @@
 				}
 
 			})
-			this.state[code] = letter;
+			
+			state[code] = letter;
+
+			inverseState[letter] = code + 1;
 
 		}
 
@@ -57,6 +69,10 @@
 				return x == solution[i];
 			});
 
+		}
+
+		Puzzle.prototype.match = function (letter) {
+			return this.inverseState[letter];
 		}
 
 		return { load: load };

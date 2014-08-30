@@ -13,9 +13,7 @@
 		}
 
 		$scope.select = function (cell) {
-
 			$scope.selected = cell;
-
 		}
 
 		$scope.setLetter = function (cell, option) {
@@ -23,5 +21,9 @@
 				puzzle.setLetter(cell, option);
 			});
 		};
+
+		$scope.match = function (letter) {
+			return puzzle.match(letter);
+		}
 
 	}]);
