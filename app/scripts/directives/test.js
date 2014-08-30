@@ -10,49 +10,56 @@ angular.module('codeword')
 			link: function (scope, element) {
 
 				element.on('keydown', function (e) {
-					if (e.which == 39) {
-						$(this)
-							.closest('td')
-							.nextAll()
-							.find('.cell:not(.default)')
-							.first()
-							.focus();
-					}
 
-					if (e.which == 38) {
-						var index = $(this)
-							.closest('td')
-							.index() + 1;
+					switch(e.which) {
+						case 39:
+							$(this)
+								.closest('td')
+								.nextAll()
+								.find('.cell:not(.default)')
+								.first()
+								.focus();
 
-						$(this)
-							.closest('tr')
-							.prevAll()
-							.find('td:nth-child(' + index + ') .cell:not(.default)')
-							.last()
-							.focus();
-					};
+							return false;
 
-					if (e.which == 37) {
-						$(this)
-							.closest('td')
-							.prevAll()
-							.find('.cell:not(.default)')
-							.last()
-							.focus();
-					}
+						case 38:
+							var index = $(this)
+								.closest('td')
+								.index() + 1;
 
-					if (e.which == 40) {						
-						var index = $(this)
-							.closest('td')
-							.index() + 1;
+							$(this)
+								.closest('tr')
+								.prevAll()
+								.find('td:nth-child(' + index + ') .cell:not(.default)')
+								.last()
+								.focus();
 
-						$(this)
-							.closest('tr')
-							.nextAll()
-							.find('td:nth-child(' + index + ') .cell:not(.default)')
-							.first()
-							.focus();
-					}
+							return false;
+
+						case 37:
+							$(this)
+								.closest('td')
+								.prevAll()
+								.find('.cell:not(.default)')
+								.last()
+								.focus();
+
+							return false;
+
+						case 40:
+							var index = $(this)
+								.closest('td')
+								.index() + 1;
+
+							$(this)
+								.closest('tr')
+								.nextAll()
+								.find('td:nth-child(' + index + ') .cell:not(.default)')
+								.first()
+								.focus();
+
+							return false;
+						}
 
 					if (isLetter(e.which)) {
 						var option = String.fromCharCode(e.which).toUpperCase();
