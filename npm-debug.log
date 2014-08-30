@@ -1,0 +1,3188 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'yeoman' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose cache add [ 'yeoman', null ]
+5 verbose cache add name=undefined spec="yeoman" args=["yeoman",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yeoman',
+6 verbose parsed url   path: 'yeoman',
+6 verbose parsed url   href: 'yeoman' }
+7 silly lockFile 6b23522e-yeoman yeoman
+8 verbose lock yeoman /Users/andy/.npm/6b23522e-yeoman.lock
+9 silly lockFile 6b23522e-yeoman yeoman
+10 silly lockFile 6b23522e-yeoman yeoman
+11 verbose addNamed [ 'yeoman', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 70747b36-yeoman yeoman@
+14 verbose lock yeoman@ /Users/andy/.npm/70747b36-yeoman.lock
+15 silly addNameRange { name: 'yeoman', range: '*', hasData: false }
+16 verbose request where is /yeoman
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 2d403e1c1e5f485d
+19 verbose url raw /yeoman
+20 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman' ]
+21 verbose url resolved https://registry.npmjs.org/yeoman
+22 verbose request where is https://registry.npmjs.org/yeoman
+23 info trying registry request attempt 1 at 12:31:33
+24 http GET https://registry.npmjs.org/yeoman
+25 http 200 https://registry.npmjs.org/yeoman
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:34 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"96UW9FV54I3ZT0Y1PV414NG1Q"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '28000',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '2384',
+26 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1409398293.972655,VS0,VE353',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'yeoman', range: '*', hasData: true }
+28 silly addNameRange versions [ 'yeoman',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.9.3',
+28 silly addNameRange     '0.9.4',
+28 silly addNameRange     '0.9.5',
+28 silly addNameRange     '0.9.6' ] ]
+29 verbose addNamed [ 'yeoman', '0.9.6' ]
+30 verbose addNamed [ '0.9.6', '0.9.6' ]
+31 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+32 verbose lock yeoman@0.9.6 /Users/andy/.npm/72540a0c-yeoman-0-9-6.lock
+33 warn deprecated yeoman@0.9.6: The Yeoman CLI is deprecated. See http://yeoman.io/migrate.html for more info.
+34 silly lockFile b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+35 verbose lock https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz /Users/andy/.npm/b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz',
+36 verbose addRemoteTarball   '23f72f46ea517508be07c5f8a8a707de241b9d6b' ]
+37 info retry fetch attempt 1 at 12:31:34
+38 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+39 http GET https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+40 http 200 https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+41 silly lockFile b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+42 silly lockFile b1f1a287-pmjs-org-yeoman-yeoman-0-9-6-tgz https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz
+43 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+44 silly lockFile 72540a0c-yeoman-0-9-6 yeoman@0.9.6
+45 silly lockFile 70747b36-yeoman yeoman@
+46 silly lockFile 70747b36-yeoman yeoman@
+47 silly resolved [ { name: 'yeoman',
+47 silly resolved     version: '0.9.6',
+47 silly resolved     description: 'The Yeoman CLI is deprecated. See http://yeoman.io/migrate.html for more info.',
+47 silly resolved     keywords:
+47 silly resolved      [ 'front-end',
+47 silly resolved        'development',
+47 silly resolved        'dev',
+47 silly resolved        'build',
+47 silly resolved        'web',
+47 silly resolved        'tool',
+47 silly resolved        'cli',
+47 silly resolved        'scaffold',
+47 silly resolved        'stack' ],
+47 silly resolved     homepage: 'http://yeoman.io',
+47 silly resolved     bugs: { url: 'https://github.com/yeoman/yeoman/issues' },
+47 silly resolved     author: { name: 'Chrome Developer Relations' },
+47 silly resolved     main: './yeoman',
+47 silly resolved     bin:
+47 silly resolved      { yeoman: './bin/yeoman',
+47 silly resolved        _yeomaninsight: './bin/yeomaninsight.py' },
+47 silly resolved     directories: { man: './man' },
+47 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yeoman.git' },
+47 silly resolved     scripts:
+47 silly resolved      { test: 'node node_modules/mocha/bin/mocha test/test-*.js',
+47 silly resolved        manpages: './scripts/docs-build' },
+47 silly resolved     dependencies:
+47 silly resolved      { grunt: 'http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+47 silly resolved        'yeoman-generators': 'http://github.com/yeoman/generators/archive/0.9.5.tar.gz',
+47 silly resolved        bower: '~0.3.0',
+47 silly resolved        open: '0.0.2',
+47 silly resolved        rimraf: '~2.0.1',
+47 silly resolved        mkdirp: '~0.3.1',
+47 silly resolved        requirejs: '~2.0.2',
+47 silly resolved        'clean-css': '~0.3.2',
+47 silly resolved        connect: '~2.2.1',
+47 silly resolved        request: '~2.9.200',
+47 silly resolved        'html-minifier': '~0.4.5',
+47 silly resolved        which: '~1.0.5',
+47 silly resolved        cheerio: '~0.9.2',
+47 silly resolved        fstream: '~0.1.18',
+47 silly resolved        'fstream-ignore': '0.0.5',
+47 silly resolved        tar: '~0.1.13',
+47 silly resolved        'coffee-script': '~1.3.3',
+47 silly resolved        'grunt-jasmine-task': '~0.2.2',
+47 silly resolved        'faye-websocket': '~0.4.2',
+47 silly resolved        shelljs: '~0.0.6',
+47 silly resolved        prompt: '~0.1.12',
+47 silly resolved        colors: '~0.6.0',
+47 silly resolved        'grunt-mocha': '~0.1.3',
+47 silly resolved        'es6-collections': '>=0.2.0',
+47 silly resolved        'grunt-contrib-coffee': '~0.3.1' },
+47 silly resolved     devDependencies: { mocha: '~1.4.0', ronn: '~0.3.8' },
+47 silly resolved     engines: { node: '>=0.8.0' },
+47 silly resolved     man:
+47 silly resolved      [ '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/bower.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/build.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/faq.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/folders.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/gruntfile.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/init.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/insight.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/serve.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/server.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/test.1',
+47 silly resolved        '/Users/sindresorhus/.npm/yeoman/0.9.6/package/man/yeoman.1' ],
+47 silly resolved     _id: 'yeoman@0.9.6',
+47 silly resolved     dist:
+47 silly resolved      { shasum: '23f72f46ea517508be07c5f8a8a707de241b9d6b',
+47 silly resolved        tarball: 'http://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz' },
+47 silly resolved     _from: 'yeoman@',
+47 silly resolved     _npmVersion: '1.2.32',
+47 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     deprecated: 'The Yeoman CLI is deprecated. See http://yeoman.io/migrate.html for more info.',
+47 silly resolved     _shasum: '23f72f46ea517508be07c5f8a8a707de241b9d6b',
+47 silly resolved     _resolved: 'https://registry.npmjs.org/yeoman/-/yeoman-0.9.6.tgz' } ]
+48 info install yeoman@0.9.6 into /usr/local/lib
+49 info installOne yeoman@0.9.6
+50 verbose lib/node_modules/yeoman unbuild
+51 verbose tar unpack /Users/andy/.npm/yeoman/0.9.6/package.tgz
+52 silly lockFile 76e4d9e1-sr-local-lib-node-modules-yeoman tar:///usr/local/lib/node_modules/yeoman
+53 verbose lock tar:///usr/local/lib/node_modules/yeoman /Users/andy/.npm/76e4d9e1-sr-local-lib-node-modules-yeoman.lock
+54 silly lockFile bb1f8385-ndy-npm-yeoman-0-9-6-package-tgz tar:///Users/andy/.npm/yeoman/0.9.6/package.tgz
+55 verbose lock tar:///Users/andy/.npm/yeoman/0.9.6/package.tgz /Users/andy/.npm/bb1f8385-ndy-npm-yeoman-0-9-6-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry Gruntfile.js
+59 silly gunzTarPerm extractEntry yeoman.js
+60 silly gunzTarPerm extractEntry doc/bower.md
+61 silly gunzTarPerm extractEntry doc/build.md
+62 silly gunzTarPerm extractEntry doc/faq.md
+63 silly gunzTarPerm extractEntry doc/folders.md
+64 silly gunzTarPerm extractEntry doc/gruntfile.md
+65 silly gunzTarPerm extractEntry doc/init.md
+66 silly gunzTarPerm extractEntry doc/insight.md
+67 silly gunzTarPerm extractEntry doc/server.md
+68 silly gunzTarPerm extractEntry doc/test.md
+69 silly gunzTarPerm extractEntry doc/yeoman.md
+70 silly gunzTarPerm extractEntry lib/plugins/insight.js
+71 silly gunzTarPerm extractEntry lib/plugins/updater.js
+72 silly gunzTarPerm extractEntry lib/support/confess.js
+73 silly gunzTarPerm extractEntry lib/support/confess.json
+74 silly gunzTarPerm extractEntry lib/utils/fetch.js
+75 silly gunzTarPerm extractEntry lib/utils/index.js
+76 silly gunzTarPerm extractEntry man/init.1
+77 silly gunzTarPerm extractEntry man/bower.1
+78 silly gunzTarPerm extractEntry man/faq.1
+79 silly gunzTarPerm extractEntry man/folders.1
+80 silly gunzTarPerm extractEntry man/gruntfile.1
+81 silly gunzTarPerm extractEntry man/build.1
+82 silly gunzTarPerm extractEntry man/insight.1
+83 silly gunzTarPerm extractEntry man/serve.1
+84 silly gunzTarPerm extractEntry man/server.1
+85 silly gunzTarPerm extractEntry man/test.1
+86 silly gunzTarPerm extractEntry man/yeoman.1
+87 silly gunzTarPerm extractEntry bin/help.txt
+88 silly gunzTarPerm extractEntry bin/yeoman
+89 silly gunzTarPerm extractEntry bin/yeomaninsight.py
+90 silly gunzTarPerm extractEntry readme.md
+91 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/package.json
+92 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/.npmignore
+93 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/Gruntfile.js
+94 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/.htaccess
+95 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/favicon.ico
+96 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/.npmignore
+97 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/destroy.png
+98 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/img/nyan.gif
+99 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/index.html
+100 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/Task.js
+101 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/TaskApp.js
+102 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/Tasks.js
+103 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm.js
+104 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/main.js
+105 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/plugins.js
+106 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/spineModule.js
+107 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/Task.coffee
+108 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/TaskApp.coffee
+109 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/coffee/Tasks.coffee
+110 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/jquery/jquery.js
+111 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/jquery/component.json
+112 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/package.json
+113 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/.npmignore
+114 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/README.md
+115 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/LICENSE
+116 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/index.js
+117 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/Cakefile
+118 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/component.json
+119 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/ajax.js
+120 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/list.js
+121 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/local.js
+122 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/manager.js
+123 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/relation.js
+124 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/route.js
+125 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/lib/spine.js
+126 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/ajax.coffee
+127 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/list.coffee
+128 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/local.coffee
+129 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/manager.coffee
+130 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/relation.coffee
+131 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/route.coffee
+132 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/src/spine.coffee
+133 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/ajax.html
+134 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/index.html
+135 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.html.js
+136 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.js
+137 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jquery.js
+138 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/MIT.LICENSE
+139 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/lib/jasmine.css
+140 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/manager.html
+141 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/route.html
+142 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/ajax.js
+143 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/class.js
+144 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/controller.js
+145 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/events.js
+146 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/manager.js
+147 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.js
+148 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.local.js
+149 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/model.relation.js
+150 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/components/spine/test/specs/route.js
+151 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm/fun.hm
+152 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/hm/nyan.hm
+153 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/README.md
+154 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/cs.js
+155 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/jquery.tmpl.js
+156 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/json2.js
+157 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/modernizr-2.5.3.min.js
+158 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/require.js
+159 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/underscore.js
+160 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/.jshintrc
+161 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-alert.js
+162 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-carousel.js
+163 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-collapse.js
+164 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-dropdown.js
+165 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-modal.js
+166 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-button.js
+167 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-scrollspy.js
+168 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-tab.js
+169 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-tooltip.js
+170 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-transition.js
+171 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-typeahead.js
+172 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/bootstrap/bootstrap-popover.js
+173 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakWorker.js
+174 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakGenerator.js
+175 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/License.txt
+176 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/README.markdown
+177 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/ReadMe
+178 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/demo.html
+179 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/ChangeLog.txt
+180 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/la_dict
+181 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/af_dict
+182 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/config
+183 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/cs_dict
+184 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/cy_dict
+185 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/da_dict
+186 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/de_dict
+187 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/el_dict
+188 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/en_dict
+189 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/eo_dict
+190 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/es_dict
+191 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/fi_dict
+192 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/fr_dict
+193 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/grc_dict
+194 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hbs_dict
+195 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hi_dict
+196 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hu_dict
+197 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/hy_dict
+198 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/id_dict
+199 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/intonations
+200 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/is_dict
+201 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/it_dict
+202 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/jbo_dict
+203 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ka_dict
+204 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/kn_dict
+205 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ku_dict
+206 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ca_dict
+207 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/lv_dict
+208 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/in1_phtrans
+209 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/af1_phtrans
+210 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/cr1_phtrans
+211 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/cs_phtrans
+212 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de2_phtrans
+213 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de4_phtrans
+214 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/de6_phtrans
+215 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/en1_phtrans
+216 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/es_phtrans
+217 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/fr1_phtrans
+218 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/gr2_phtrans
+219 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/grc-de6_phtrans
+220 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/hu1_phtrans
+221 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ic1_phtrans
+222 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/id1_phtrans
+223 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ca1_phtrans
+224 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/it3_phtrans
+225 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/la1_phtrans
+226 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/nl_phtrans
+227 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pl1_phtrans
+228 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pt1_phtrans
+229 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/pt_phtrans
+230 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ptbr4_phtrans
+231 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ptbr_phtrans
+232 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/ro1_phtrans
+233 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/sv2_phtrans
+234 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/sv_phtrans
+235 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/tr1_phtrans
+236 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/us3_phtrans
+237 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mbrola_ph/us_phtrans
+238 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/mk_dict
+239 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ml_dict
+240 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/nci_dict
+241 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/nl_dict
+242 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/no_dict
+243 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pap_dict
+244 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phondata
+245 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phonindex
+246 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/phontab
+247 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pl_dict
+248 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/pt_dict
+249 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ro_dict
+250 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ru_dict
+251 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sk_dict
+252 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sq_dict
+253 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sv_dict
+254 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/sw_dict
+255 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/ta_dict
+256 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/tr_dict
+257 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/vi_dict
+258 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ka
+259 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m1
+260 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/croak
+261 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f2
+262 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f3
+263 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f4
+264 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f5
+265 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt
+266 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt2
+267 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/klatt3
+268 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/f1
+269 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m2
+270 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m3
+271 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m4
+272 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m5
+273 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m6
+274 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/m7
+275 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/whisper
+276 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/!v/whisperf
+277 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/bs
+278 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ca
+279 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/cs
+280 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/cy
+281 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/da
+282 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/de
+283 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/default
+284 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/el
+285 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en
+286 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-n
+287 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-rp
+288 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-sc
+289 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-us
+290 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-wi
+291 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/en/en-wm
+292 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/eo
+293 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/es
+294 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/es-la
+295 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fi
+296 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fr
+297 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/fr-be
+298 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hi
+299 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hr
+300 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hu
+301 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hy
+302 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/hy-west
+303 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/id
+304 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/is
+305 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/it
+306 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/af
+307 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/kn
+308 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ku
+309 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/la
+310 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/lv
+311 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-gr2-en
+312 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-af1
+313 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br1
+314 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br3
+315 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-br4
+316 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-cr1
+317 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-cz2
+318 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de2
+319 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de4
+320 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de4-en
+321 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de5
+322 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de5-en
+323 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de6
+324 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de6-grc
+325 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-de7
+326 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-en1
+327 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-es1
+328 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-es2
+329 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr1
+330 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr1-en
+331 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr4
+332 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-fr4-en
+333 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-gr2
+334 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-af1-en
+335 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-hu1
+336 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-hu1-en
+337 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ic1
+338 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-id1
+339 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-it3
+340 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-it4
+341 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-la1
+342 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-nl2
+343 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-nl2-en
+344 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pl1
+345 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pl1-en
+346 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-pt1
+347 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ro1
+348 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-ro1-en
+349 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw1
+350 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw1-en
+351 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw2
+352 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-sw2-en
+353 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-tr1
+354 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-tr2
+355 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us1
+356 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us2
+357 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mb/mb-us3
+358 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/mk
+359 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ml
+360 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/nl
+361 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/no
+362 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pl
+363 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pt
+364 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/pt-pt
+365 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ro
+366 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ru
+367 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sk
+368 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sq
+369 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sr
+370 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sv
+371 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/sw
+372 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/ta
+373 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/grc
+374 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/jbo
+375 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/nci
+376 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/test/pap
+377 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/tr
+378 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/vi
+379 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/zh
+380 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/voices/zh-yue
+381 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/zh_dict
+382 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/espeak-data/zhy_dict
+383 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/helloworld.html
+384 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/speakClient.hm
+385 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/AUTHORS
+386 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ka_list
+387 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ReadMe
+388 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/af_rules
+389 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ca_list
+390 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ca_rules
+391 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cs_list
+392 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cs_rules
+393 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cy_list
+394 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/cy_rules
+395 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_extra
+396 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_list
+397 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/da_rules
+398 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/de_list
+399 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/de_rules
+400 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/dict_log
+401 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/dict_phonemes
+402 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/el_list
+403 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/el_rules
+404 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/en_list
+405 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/en_rules
+406 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/eo_list
+407 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/eo_rules
+408 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/es_list
+409 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/es_rules
+410 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fi_list
+411 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fi_rules
+412 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fr_list
+413 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/fr_rules
+414 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/grc_list
+415 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/grc_rules
+416 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hbs_list
+417 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hbs_rules
+418 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hi_list
+419 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hi_rules
+420 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hu_list
+421 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hu_rules
+422 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hy_list
+423 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/hy_rules
+424 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/id_list
+425 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/id_rules
+426 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/is_list
+427 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/is_rules
+428 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_list
+429 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_listx
+430 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/it_rules
+431 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/jbo_list
+432 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/jbo_rules
+433 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/af_list
+434 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ka_rules
+435 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/kn_list
+436 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/kn_rules
+437 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ku_list
+438 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ku_rules
+439 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/la_list
+440 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/la_rules
+441 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/lv_list
+442 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/lv_rules
+443 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/mk_list
+444 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/mk_rules
+445 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ml_list
+446 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ml_rules
+447 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nci_list
+448 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nci_rules
+449 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nl_list
+450 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/nl_rules
+451 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/no_list
+452 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/no_rules
+453 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pap_list
+454 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pap_rules
+455 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pl_list
+456 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pl_rules
+457 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pt_list
+458 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/pt_rules
+459 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ro_list
+460 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ro_rules
+461 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ru_list
+462 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ru_rules
+463 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sk_list
+464 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sk_rules
+465 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sq_list
+466 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sq_rules
+467 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sv_list
+468 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sv_rules
+469 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sw_list
+470 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/sw_rules
+471 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ta_list
+472 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/ta_rules
+473 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/tr_list
+474 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/tr_rules
+475 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/vi_list
+476 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/vi_rules
+477 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zh_list
+478 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zh_rules
+479 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/scripts/vendor/speak/dictsource/zhy_rules
+480 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap.sass
+481 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap_awesome.sass
+482 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/_compass_twitter_bootstrap_responsive.sass
+483 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_navs.sass
+484 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_accordion.sass
+485 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_breadcrumbs.sass
+486 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_button-groups.sass
+487 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_buttons.sass
+488 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_carousel.sass
+489 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_close.sass
+490 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_code.sass
+491 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_component-animations.sass
+492 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_dropdowns.sass
+493 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_font-awesome.sass
+494 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_forms.sass
+495 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_grid.sass
+496 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_hero-unit.sass
+497 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_labels-badges.sass
+498 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_layouts.sass
+499 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_mixins.sass
+500 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_modals.sass
+501 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_navbar.sass
+502 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_alerts.sass
+503 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_pager.sass
+504 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_pagination.sass
+505 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_popovers.sass
+506 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_progress-bars.sass
+507 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_reset.sass
+508 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-1200px-min.sass
+509 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-767px-max.sass
+510 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-768px-979px.sass
+511 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-navbar.sass
+512 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_responsive-utilities.sass
+513 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_scaffolding.sass
+514 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_sprites.sass
+515 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_tables.sass
+516 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_thumbnails.sass
+517 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_tooltip.sass
+518 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_type.sass
+519 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_utilities.sass
+520 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_variables.sass
+521 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/sass/compass_twitter_bootstrap/_wells.sass
+522 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/app/styles/style.css
+523 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/config.rb
+524 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/index.html
+525 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine-html.js
+526 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine.js
+527 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/MIT.LICENSE
+528 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/lib/jasmine-1.2.0/jasmine.css
+529 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/runner/headless.js
+530 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/runner/html.js
+531 silly gunzTarPerm extractEntry samples/todos_spine_requirejs/test/spec/introduction.js
+532 silly gunzTarPerm extractEntry scripts/docs-build
+533 silly gunzTarPerm extractEntry scripts/pre-commit
+534 silly gunzTarPerm extractEntry tasks/bower.js
+535 silly gunzTarPerm extractEntry tasks/html.js
+536 silly gunzTarPerm extractEntry tasks/img.js
+537 silly gunzTarPerm extractEntry tasks/usemin.js
+538 silly gunzTarPerm extractEntry tasks/css.js
+539 silly gunzTarPerm extractEntry tasks/compass.js
+540 silly gunzTarPerm extractEntry tasks/misc.js
+541 silly gunzTarPerm extractEntry tasks/rev.js
+542 silly gunzTarPerm extractEntry tasks/rjs.js
+543 silly gunzTarPerm extractEntry tasks/server.js
+544 silly gunzTarPerm extractEntry tasks/tar.js
+545 silly gunzTarPerm extractEntry tasks/yeoman.js
+546 silly gunzTarPerm extractEntry tasks/manifest.js
+547 silly gunzTarPerm extractEntry tasks/livereload/livereload.js
+548 silly gunzTarPerm extractEntry tasks/init/yeoman.js
+549 silly gunzTarPerm extractEntry test/test-bower.js
+550 silly gunzTarPerm extractEntry test/test-build.js
+551 silly gunzTarPerm extractEntry test/test-usemin.js
+552 silly gunzTarPerm extractEntry test/fixtures/usemin.html
+553 silly gunzTarPerm extractEntry test/helpers/index.js
+554 silly gunzTarPerm extractEntry test/helpers/runnable.js
+555 silly gunzTarPerm extractEntry test/mocha.opts
+556 silly gunzTarPerm extractEntry test/test-insight.py
+557 silly gunzTarPerm extractEntry .jshintrc
+558 silly lockFile 76e4d9e1-sr-local-lib-node-modules-yeoman tar:///usr/local/lib/node_modules/yeoman
+559 silly lockFile 76e4d9e1-sr-local-lib-node-modules-yeoman tar:///usr/local/lib/node_modules/yeoman
+560 silly lockFile bb1f8385-ndy-npm-yeoman-0-9-6-package-tgz tar:///Users/andy/.npm/yeoman/0.9.6/package.tgz
+561 silly lockFile bb1f8385-ndy-npm-yeoman-0-9-6-package-tgz tar:///Users/andy/.npm/yeoman/0.9.6/package.tgz
+562 info preinstall yeoman@0.9.6
+563 verbose readDependencies using package.json deps
+564 verbose readDependencies using package.json deps
+565 verbose cache add [ 'grunt@http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+565 verbose cache add   null ]
+566 verbose cache add name=undefined spec="grunt@http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz" args=["grunt@http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz",null]
+567 verbose parsed url { protocol: null,
+567 verbose parsed url   slashes: null,
+567 verbose parsed url   auth: null,
+567 verbose parsed url   host: null,
+567 verbose parsed url   port: null,
+567 verbose parsed url   hostname: null,
+567 verbose parsed url   hash: null,
+567 verbose parsed url   search: null,
+567 verbose parsed url   query: null,
+567 verbose parsed url   pathname: 'grunt@http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+567 verbose parsed url   path: 'grunt@http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+567 verbose parsed url   href: 'grunt@http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz' }
+568 verbose cache add [ 'yeoman-generators@http://github.com/yeoman/generators/archive/0.9.5.tar.gz',
+568 verbose cache add   null ]
+569 verbose cache add name=undefined spec="yeoman-generators@http://github.com/yeoman/generators/archive/0.9.5.tar.gz" args=["yeoman-generators@http://github.com/yeoman/generators/archive/0.9.5.tar.gz",null]
+570 verbose parsed url { protocol: null,
+570 verbose parsed url   slashes: null,
+570 verbose parsed url   auth: null,
+570 verbose parsed url   host: null,
+570 verbose parsed url   port: null,
+570 verbose parsed url   hostname: null,
+570 verbose parsed url   hash: null,
+570 verbose parsed url   search: null,
+570 verbose parsed url   query: null,
+570 verbose parsed url   pathname: 'yeoman-generators@http://github.com/yeoman/generators/archive/0.9.5.tar.gz',
+570 verbose parsed url   path: 'yeoman-generators@http://github.com/yeoman/generators/archive/0.9.5.tar.gz',
+570 verbose parsed url   href: 'yeoman-generators@http://github.com/yeoman/generators/archive/0.9.5.tar.gz' }
+571 verbose cache add [ 'bower@~0.3.0', null ]
+572 verbose cache add name=undefined spec="bower@~0.3.0" args=["bower@~0.3.0",null]
+573 verbose parsed url { protocol: null,
+573 verbose parsed url   slashes: null,
+573 verbose parsed url   auth: null,
+573 verbose parsed url   host: null,
+573 verbose parsed url   port: null,
+573 verbose parsed url   hostname: null,
+573 verbose parsed url   hash: null,
+573 verbose parsed url   search: null,
+573 verbose parsed url   query: null,
+573 verbose parsed url   pathname: 'bower@~0.3.0',
+573 verbose parsed url   path: 'bower@~0.3.0',
+573 verbose parsed url   href: 'bower@~0.3.0' }
+574 verbose cache add [ 'open@0.0.2', null ]
+575 verbose cache add name=undefined spec="open@0.0.2" args=["open@0.0.2",null]
+576 verbose parsed url { protocol: null,
+576 verbose parsed url   slashes: null,
+576 verbose parsed url   auth: null,
+576 verbose parsed url   host: null,
+576 verbose parsed url   port: null,
+576 verbose parsed url   hostname: null,
+576 verbose parsed url   hash: null,
+576 verbose parsed url   search: null,
+576 verbose parsed url   query: null,
+576 verbose parsed url   pathname: 'open@0.0.2',
+576 verbose parsed url   path: 'open@0.0.2',
+576 verbose parsed url   href: 'open@0.0.2' }
+577 verbose cache add [ 'rimraf@~2.0.1', null ]
+578 verbose cache add name=undefined spec="rimraf@~2.0.1" args=["rimraf@~2.0.1",null]
+579 verbose parsed url { protocol: null,
+579 verbose parsed url   slashes: null,
+579 verbose parsed url   auth: null,
+579 verbose parsed url   host: null,
+579 verbose parsed url   port: null,
+579 verbose parsed url   hostname: null,
+579 verbose parsed url   hash: null,
+579 verbose parsed url   search: null,
+579 verbose parsed url   query: null,
+579 verbose parsed url   pathname: 'rimraf@~2.0.1',
+579 verbose parsed url   path: 'rimraf@~2.0.1',
+579 verbose parsed url   href: 'rimraf@~2.0.1' }
+580 verbose cache add name="grunt" spec="http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz" args=["grunt","http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz"]
+581 verbose parsed url { protocol: 'http:',
+581 verbose parsed url   slashes: true,
+581 verbose parsed url   auth: null,
+581 verbose parsed url   host: 'github.com',
+581 verbose parsed url   port: null,
+581 verbose parsed url   hostname: 'github.com',
+581 verbose parsed url   hash: null,
+581 verbose parsed url   search: null,
+581 verbose parsed url   query: null,
+581 verbose parsed url   pathname: '/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+581 verbose parsed url   path: '/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+581 verbose parsed url   href: 'http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz' }
+582 silly lockFile f287ea7e--grunt-archive-0ba6d4b529-tar-gz http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz
+583 verbose lock http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz /Users/andy/.npm/f287ea7e--grunt-archive-0ba6d4b529-tar-gz.lock
+584 verbose cache add name="yeoman-generators" spec="http://github.com/yeoman/generators/archive/0.9.5.tar.gz" args=["yeoman-generators","http://github.com/yeoman/generators/archive/0.9.5.tar.gz"]
+585 verbose parsed url { protocol: 'http:',
+585 verbose parsed url   slashes: true,
+585 verbose parsed url   auth: null,
+585 verbose parsed url   host: 'github.com',
+585 verbose parsed url   port: null,
+585 verbose parsed url   hostname: 'github.com',
+585 verbose parsed url   hash: null,
+585 verbose parsed url   search: null,
+585 verbose parsed url   query: null,
+585 verbose parsed url   pathname: '/yeoman/generators/archive/0.9.5.tar.gz',
+585 verbose parsed url   path: '/yeoman/generators/archive/0.9.5.tar.gz',
+585 verbose parsed url   href: 'http://github.com/yeoman/generators/archive/0.9.5.tar.gz' }
+586 silly lockFile 39a440c4--generators-archive-0-9-5-tar-gz http://github.com/yeoman/generators/archive/0.9.5.tar.gz
+587 verbose lock http://github.com/yeoman/generators/archive/0.9.5.tar.gz /Users/andy/.npm/39a440c4--generators-archive-0-9-5-tar-gz.lock
+588 verbose cache add name="bower" spec="~0.3.0" args=["bower","~0.3.0"]
+589 verbose parsed url { protocol: null,
+589 verbose parsed url   slashes: null,
+589 verbose parsed url   auth: null,
+589 verbose parsed url   host: null,
+589 verbose parsed url   port: null,
+589 verbose parsed url   hostname: null,
+589 verbose parsed url   hash: null,
+589 verbose parsed url   search: null,
+589 verbose parsed url   query: null,
+589 verbose parsed url   pathname: '~0.3.0',
+589 verbose parsed url   path: '~0.3.0',
+589 verbose parsed url   href: '~0.3.0' }
+590 verbose addNamed [ 'bower', '~0.3.0' ]
+591 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+592 silly lockFile 3741dbef-bower-0-3-0 bower@~0.3.0
+593 verbose lock bower@~0.3.0 /Users/andy/.npm/3741dbef-bower-0-3-0.lock
+594 verbose cache add name="open" spec="0.0.2" args=["open","0.0.2"]
+595 verbose parsed url { protocol: null,
+595 verbose parsed url   slashes: null,
+595 verbose parsed url   auth: null,
+595 verbose parsed url   host: null,
+595 verbose parsed url   port: null,
+595 verbose parsed url   hostname: null,
+595 verbose parsed url   hash: null,
+595 verbose parsed url   search: null,
+595 verbose parsed url   query: null,
+595 verbose parsed url   pathname: '0.0.2',
+595 verbose parsed url   path: '0.0.2',
+595 verbose parsed url   href: '0.0.2' }
+596 verbose addNamed [ 'open', '0.0.2' ]
+597 verbose addNamed [ '0.0.2', '0.0.2' ]
+598 silly lockFile 14da5d7e-open-0-0-2 open@0.0.2
+599 verbose lock open@0.0.2 /Users/andy/.npm/14da5d7e-open-0-0-2.lock
+600 verbose cache add [ 'mkdirp@~0.3.1', null ]
+601 verbose cache add name=undefined spec="mkdirp@~0.3.1" args=["mkdirp@~0.3.1",null]
+602 verbose parsed url { protocol: null,
+602 verbose parsed url   slashes: null,
+602 verbose parsed url   auth: null,
+602 verbose parsed url   host: null,
+602 verbose parsed url   port: null,
+602 verbose parsed url   hostname: null,
+602 verbose parsed url   hash: null,
+602 verbose parsed url   search: null,
+602 verbose parsed url   query: null,
+602 verbose parsed url   pathname: 'mkdirp@~0.3.1',
+602 verbose parsed url   path: 'mkdirp@~0.3.1',
+602 verbose parsed url   href: 'mkdirp@~0.3.1' }
+603 verbose cache add [ 'requirejs@~2.0.2', null ]
+604 verbose cache add name=undefined spec="requirejs@~2.0.2" args=["requirejs@~2.0.2",null]
+605 verbose parsed url { protocol: null,
+605 verbose parsed url   slashes: null,
+605 verbose parsed url   auth: null,
+605 verbose parsed url   host: null,
+605 verbose parsed url   port: null,
+605 verbose parsed url   hostname: null,
+605 verbose parsed url   hash: null,
+605 verbose parsed url   search: null,
+605 verbose parsed url   query: null,
+605 verbose parsed url   pathname: 'requirejs@~2.0.2',
+605 verbose parsed url   path: 'requirejs@~2.0.2',
+605 verbose parsed url   href: 'requirejs@~2.0.2' }
+606 verbose cache add [ 'clean-css@~0.3.2', null ]
+607 verbose cache add name=undefined spec="clean-css@~0.3.2" args=["clean-css@~0.3.2",null]
+608 verbose parsed url { protocol: null,
+608 verbose parsed url   slashes: null,
+608 verbose parsed url   auth: null,
+608 verbose parsed url   host: null,
+608 verbose parsed url   port: null,
+608 verbose parsed url   hostname: null,
+608 verbose parsed url   hash: null,
+608 verbose parsed url   search: null,
+608 verbose parsed url   query: null,
+608 verbose parsed url   pathname: 'clean-css@~0.3.2',
+608 verbose parsed url   path: 'clean-css@~0.3.2',
+608 verbose parsed url   href: 'clean-css@~0.3.2' }
+609 verbose cache add name="rimraf" spec="~2.0.1" args=["rimraf","~2.0.1"]
+610 verbose parsed url { protocol: null,
+610 verbose parsed url   slashes: null,
+610 verbose parsed url   auth: null,
+610 verbose parsed url   host: null,
+610 verbose parsed url   port: null,
+610 verbose parsed url   hostname: null,
+610 verbose parsed url   hash: null,
+610 verbose parsed url   search: null,
+610 verbose parsed url   query: null,
+610 verbose parsed url   pathname: '~2.0.1',
+610 verbose parsed url   path: '~2.0.1',
+610 verbose parsed url   href: '~2.0.1' }
+611 verbose addNamed [ 'rimraf', '~2.0.1' ]
+612 verbose addNamed [ null, '>=2.0.1-0 <2.1.0-0' ]
+613 silly lockFile f13b63b4-rimraf-2-0-1 rimraf@~2.0.1
+614 verbose lock rimraf@~2.0.1 /Users/andy/.npm/f13b63b4-rimraf-2-0-1.lock
+615 verbose cache add name="mkdirp" spec="~0.3.1" args=["mkdirp","~0.3.1"]
+616 verbose parsed url { protocol: null,
+616 verbose parsed url   slashes: null,
+616 verbose parsed url   auth: null,
+616 verbose parsed url   host: null,
+616 verbose parsed url   port: null,
+616 verbose parsed url   hostname: null,
+616 verbose parsed url   hash: null,
+616 verbose parsed url   search: null,
+616 verbose parsed url   query: null,
+616 verbose parsed url   pathname: '~0.3.1',
+616 verbose parsed url   path: '~0.3.1',
+616 verbose parsed url   href: '~0.3.1' }
+617 verbose addNamed [ 'mkdirp', '~0.3.1' ]
+618 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+619 silly lockFile 5fc19bb2-mkdirp-0-3-1 mkdirp@~0.3.1
+620 verbose lock mkdirp@~0.3.1 /Users/andy/.npm/5fc19bb2-mkdirp-0-3-1.lock
+621 verbose cache add name="requirejs" spec="~2.0.2" args=["requirejs","~2.0.2"]
+622 verbose parsed url { protocol: null,
+622 verbose parsed url   slashes: null,
+622 verbose parsed url   auth: null,
+622 verbose parsed url   host: null,
+622 verbose parsed url   port: null,
+622 verbose parsed url   hostname: null,
+622 verbose parsed url   hash: null,
+622 verbose parsed url   search: null,
+622 verbose parsed url   query: null,
+622 verbose parsed url   pathname: '~2.0.2',
+622 verbose parsed url   path: '~2.0.2',
+622 verbose parsed url   href: '~2.0.2' }
+623 verbose addNamed [ 'requirejs', '~2.0.2' ]
+624 verbose addNamed [ null, '>=2.0.2-0 <2.1.0-0' ]
+625 silly lockFile 0bb51518-requirejs-2-0-2 requirejs@~2.0.2
+626 verbose lock requirejs@~2.0.2 /Users/andy/.npm/0bb51518-requirejs-2-0-2.lock
+627 verbose cache add [ 'connect@~2.2.1', null ]
+628 verbose cache add name=undefined spec="connect@~2.2.1" args=["connect@~2.2.1",null]
+629 verbose parsed url { protocol: null,
+629 verbose parsed url   slashes: null,
+629 verbose parsed url   auth: null,
+629 verbose parsed url   host: null,
+629 verbose parsed url   port: null,
+629 verbose parsed url   hostname: null,
+629 verbose parsed url   hash: null,
+629 verbose parsed url   search: null,
+629 verbose parsed url   query: null,
+629 verbose parsed url   pathname: 'connect@~2.2.1',
+629 verbose parsed url   path: 'connect@~2.2.1',
+629 verbose parsed url   href: 'connect@~2.2.1' }
+630 verbose cache add [ 'request@~2.9.200', null ]
+631 verbose cache add name=undefined spec="request@~2.9.200" args=["request@~2.9.200",null]
+632 verbose parsed url { protocol: null,
+632 verbose parsed url   slashes: null,
+632 verbose parsed url   auth: null,
+632 verbose parsed url   host: null,
+632 verbose parsed url   port: null,
+632 verbose parsed url   hostname: null,
+632 verbose parsed url   hash: null,
+632 verbose parsed url   search: null,
+632 verbose parsed url   query: null,
+632 verbose parsed url   pathname: 'request@~2.9.200',
+632 verbose parsed url   path: 'request@~2.9.200',
+632 verbose parsed url   href: 'request@~2.9.200' }
+633 verbose cache add name="clean-css" spec="~0.3.2" args=["clean-css","~0.3.2"]
+634 verbose parsed url { protocol: null,
+634 verbose parsed url   slashes: null,
+634 verbose parsed url   auth: null,
+634 verbose parsed url   host: null,
+634 verbose parsed url   port: null,
+634 verbose parsed url   hostname: null,
+634 verbose parsed url   hash: null,
+634 verbose parsed url   search: null,
+634 verbose parsed url   query: null,
+634 verbose parsed url   pathname: '~0.3.2',
+634 verbose parsed url   path: '~0.3.2',
+634 verbose parsed url   href: '~0.3.2' }
+635 verbose addNamed [ 'clean-css', '~0.3.2' ]
+636 verbose addNamed [ null, '>=0.3.2-0 <0.4.0-0' ]
+637 silly lockFile e88db108-clean-css-0-3-2 clean-css@~0.3.2
+638 verbose lock clean-css@~0.3.2 /Users/andy/.npm/e88db108-clean-css-0-3-2.lock
+639 verbose addRemoteTarball [ 'http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz',
+639 verbose addRemoteTarball   null ]
+640 verbose addRemoteTarball [ 'http://github.com/yeoman/generators/archive/0.9.5.tar.gz',
+640 verbose addRemoteTarball   null ]
+641 silly addNameRange { name: 'bower', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+642 verbose cache add name="connect" spec="~2.2.1" args=["connect","~2.2.1"]
+643 verbose parsed url { protocol: null,
+643 verbose parsed url   slashes: null,
+643 verbose parsed url   auth: null,
+643 verbose parsed url   host: null,
+643 verbose parsed url   port: null,
+643 verbose parsed url   hostname: null,
+643 verbose parsed url   hash: null,
+643 verbose parsed url   search: null,
+643 verbose parsed url   query: null,
+643 verbose parsed url   pathname: '~2.2.1',
+643 verbose parsed url   path: '~2.2.1',
+643 verbose parsed url   href: '~2.2.1' }
+644 verbose addNamed [ 'connect', '~2.2.1' ]
+645 verbose addNamed [ null, '>=2.2.1-0 <2.3.0-0' ]
+646 silly lockFile c4784122-connect-2-2-1 connect@~2.2.1
+647 verbose lock connect@~2.2.1 /Users/andy/.npm/c4784122-connect-2-2-1.lock
+648 verbose cache add [ 'html-minifier@~0.4.5', null ]
+649 verbose cache add name=undefined spec="html-minifier@~0.4.5" args=["html-minifier@~0.4.5",null]
+650 verbose parsed url { protocol: null,
+650 verbose parsed url   slashes: null,
+650 verbose parsed url   auth: null,
+650 verbose parsed url   host: null,
+650 verbose parsed url   port: null,
+650 verbose parsed url   hostname: null,
+650 verbose parsed url   hash: null,
+650 verbose parsed url   search: null,
+650 verbose parsed url   query: null,
+650 verbose parsed url   pathname: 'html-minifier@~0.4.5',
+650 verbose parsed url   path: 'html-minifier@~0.4.5',
+650 verbose parsed url   href: 'html-minifier@~0.4.5' }
+651 verbose cache add [ 'which@~1.0.5', null ]
+652 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+653 verbose parsed url { protocol: null,
+653 verbose parsed url   slashes: null,
+653 verbose parsed url   auth: null,
+653 verbose parsed url   host: null,
+653 verbose parsed url   port: null,
+653 verbose parsed url   hostname: null,
+653 verbose parsed url   hash: null,
+653 verbose parsed url   search: null,
+653 verbose parsed url   query: null,
+653 verbose parsed url   pathname: 'which@~1.0.5',
+653 verbose parsed url   path: 'which@~1.0.5',
+653 verbose parsed url   href: 'which@~1.0.5' }
+654 verbose cache add [ 'cheerio@~0.9.2', null ]
+655 verbose cache add name=undefined spec="cheerio@~0.9.2" args=["cheerio@~0.9.2",null]
+656 verbose parsed url { protocol: null,
+656 verbose parsed url   slashes: null,
+656 verbose parsed url   auth: null,
+656 verbose parsed url   host: null,
+656 verbose parsed url   port: null,
+656 verbose parsed url   hostname: null,
+656 verbose parsed url   hash: null,
+656 verbose parsed url   search: null,
+656 verbose parsed url   query: null,
+656 verbose parsed url   pathname: 'cheerio@~0.9.2',
+656 verbose parsed url   path: 'cheerio@~0.9.2',
+656 verbose parsed url   href: 'cheerio@~0.9.2' }
+657 verbose cache add [ 'fstream@~0.1.18', null ]
+658 verbose cache add name=undefined spec="fstream@~0.1.18" args=["fstream@~0.1.18",null]
+659 verbose parsed url { protocol: null,
+659 verbose parsed url   slashes: null,
+659 verbose parsed url   auth: null,
+659 verbose parsed url   host: null,
+659 verbose parsed url   port: null,
+659 verbose parsed url   hostname: null,
+659 verbose parsed url   hash: null,
+659 verbose parsed url   search: null,
+659 verbose parsed url   query: null,
+659 verbose parsed url   pathname: 'fstream@~0.1.18',
+659 verbose parsed url   path: 'fstream@~0.1.18',
+659 verbose parsed url   href: 'fstream@~0.1.18' }
+660 verbose cache add [ 'fstream-ignore@0.0.5', null ]
+661 verbose cache add name=undefined spec="fstream-ignore@0.0.5" args=["fstream-ignore@0.0.5",null]
+662 verbose parsed url { protocol: null,
+662 verbose parsed url   slashes: null,
+662 verbose parsed url   auth: null,
+662 verbose parsed url   host: null,
+662 verbose parsed url   port: null,
+662 verbose parsed url   hostname: null,
+662 verbose parsed url   hash: null,
+662 verbose parsed url   search: null,
+662 verbose parsed url   query: null,
+662 verbose parsed url   pathname: 'fstream-ignore@0.0.5',
+662 verbose parsed url   path: 'fstream-ignore@0.0.5',
+662 verbose parsed url   href: 'fstream-ignore@0.0.5' }
+663 verbose cache add [ 'tar@~0.1.13', null ]
+664 verbose cache add name=undefined spec="tar@~0.1.13" args=["tar@~0.1.13",null]
+665 verbose parsed url { protocol: null,
+665 verbose parsed url   slashes: null,
+665 verbose parsed url   auth: null,
+665 verbose parsed url   host: null,
+665 verbose parsed url   port: null,
+665 verbose parsed url   hostname: null,
+665 verbose parsed url   hash: null,
+665 verbose parsed url   search: null,
+665 verbose parsed url   query: null,
+665 verbose parsed url   pathname: 'tar@~0.1.13',
+665 verbose parsed url   path: 'tar@~0.1.13',
+665 verbose parsed url   href: 'tar@~0.1.13' }
+666 verbose cache add name="request" spec="~2.9.200" args=["request","~2.9.200"]
+667 verbose parsed url { protocol: null,
+667 verbose parsed url   slashes: null,
+667 verbose parsed url   auth: null,
+667 verbose parsed url   host: null,
+667 verbose parsed url   port: null,
+667 verbose parsed url   hostname: null,
+667 verbose parsed url   hash: null,
+667 verbose parsed url   search: null,
+667 verbose parsed url   query: null,
+667 verbose parsed url   pathname: '~2.9.200',
+667 verbose parsed url   path: '~2.9.200',
+667 verbose parsed url   href: '~2.9.200' }
+668 verbose addNamed [ 'request', '~2.9.200' ]
+669 verbose addNamed [ null, '>=2.9.200-0 <2.10.0-0' ]
+670 silly lockFile 1659c081-request-2-9-200 request@~2.9.200
+671 verbose lock request@~2.9.200 /Users/andy/.npm/1659c081-request-2-9-200.lock
+672 silly addNameRange { name: 'rimraf', range: '>=2.0.1-0 <2.1.0-0', hasData: false }
+673 silly addNameRange { name: 'mkdirp', range: '>=0.3.1-0 <0.4.0-0', hasData: false }
+674 silly addNameRange { name: 'requirejs',
+674 silly addNameRange   range: '>=2.0.2-0 <2.1.0-0',
+674 silly addNameRange   hasData: false }
+675 verbose cache add name="html-minifier" spec="~0.4.5" args=["html-minifier","~0.4.5"]
+676 verbose parsed url { protocol: null,
+676 verbose parsed url   slashes: null,
+676 verbose parsed url   auth: null,
+676 verbose parsed url   host: null,
+676 verbose parsed url   port: null,
+676 verbose parsed url   hostname: null,
+676 verbose parsed url   hash: null,
+676 verbose parsed url   search: null,
+676 verbose parsed url   query: null,
+676 verbose parsed url   pathname: '~0.4.5',
+676 verbose parsed url   path: '~0.4.5',
+676 verbose parsed url   href: '~0.4.5' }
+677 verbose addNamed [ 'html-minifier', '~0.4.5' ]
+678 verbose addNamed [ null, '>=0.4.5-0 <0.5.0-0' ]
+679 silly lockFile bd8a6d97-html-minifier-0-4-5 html-minifier@~0.4.5
+680 verbose lock html-minifier@~0.4.5 /Users/andy/.npm/bd8a6d97-html-minifier-0-4-5.lock
+681 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+682 verbose parsed url { protocol: null,
+682 verbose parsed url   slashes: null,
+682 verbose parsed url   auth: null,
+682 verbose parsed url   host: null,
+682 verbose parsed url   port: null,
+682 verbose parsed url   hostname: null,
+682 verbose parsed url   hash: null,
+682 verbose parsed url   search: null,
+682 verbose parsed url   query: null,
+682 verbose parsed url   pathname: '~1.0.5',
+682 verbose parsed url   path: '~1.0.5',
+682 verbose parsed url   href: '~1.0.5' }
+683 verbose addNamed [ 'which', '~1.0.5' ]
+684 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+685 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+686 verbose lock which@~1.0.5 /Users/andy/.npm/d158d65e-which-1-0-5.lock
+687 verbose cache add name="cheerio" spec="~0.9.2" args=["cheerio","~0.9.2"]
+688 verbose parsed url { protocol: null,
+688 verbose parsed url   slashes: null,
+688 verbose parsed url   auth: null,
+688 verbose parsed url   host: null,
+688 verbose parsed url   port: null,
+688 verbose parsed url   hostname: null,
+688 verbose parsed url   hash: null,
+688 verbose parsed url   search: null,
+688 verbose parsed url   query: null,
+688 verbose parsed url   pathname: '~0.9.2',
+688 verbose parsed url   path: '~0.9.2',
+688 verbose parsed url   href: '~0.9.2' }
+689 verbose addNamed [ 'cheerio', '~0.9.2' ]
+690 verbose addNamed [ null, '>=0.9.2-0 <0.10.0-0' ]
+691 silly lockFile 7f3e93b9-cheerio-0-9-2 cheerio@~0.9.2
+692 verbose lock cheerio@~0.9.2 /Users/andy/.npm/7f3e93b9-cheerio-0-9-2.lock
+693 verbose cache add name="fstream" spec="~0.1.18" args=["fstream","~0.1.18"]
+694 verbose parsed url { protocol: null,
+694 verbose parsed url   slashes: null,
+694 verbose parsed url   auth: null,
+694 verbose parsed url   host: null,
+694 verbose parsed url   port: null,
+694 verbose parsed url   hostname: null,
+694 verbose parsed url   hash: null,
+694 verbose parsed url   search: null,
+694 verbose parsed url   query: null,
+694 verbose parsed url   pathname: '~0.1.18',
+694 verbose parsed url   path: '~0.1.18',
+694 verbose parsed url   href: '~0.1.18' }
+695 verbose addNamed [ 'fstream', '~0.1.18' ]
+696 verbose addNamed [ null, '>=0.1.18-0 <0.2.0-0' ]
+697 silly lockFile 69d1cbab-fstream-0-1-18 fstream@~0.1.18
+698 verbose lock fstream@~0.1.18 /Users/andy/.npm/69d1cbab-fstream-0-1-18.lock
+699 verbose cache add name="fstream-ignore" spec="0.0.5" args=["fstream-ignore","0.0.5"]
+700 verbose parsed url { protocol: null,
+700 verbose parsed url   slashes: null,
+700 verbose parsed url   auth: null,
+700 verbose parsed url   host: null,
+700 verbose parsed url   port: null,
+700 verbose parsed url   hostname: null,
+700 verbose parsed url   hash: null,
+700 verbose parsed url   search: null,
+700 verbose parsed url   query: null,
+700 verbose parsed url   pathname: '0.0.5',
+700 verbose parsed url   path: '0.0.5',
+700 verbose parsed url   href: '0.0.5' }
+701 verbose addNamed [ 'fstream-ignore', '0.0.5' ]
+702 verbose addNamed [ '0.0.5', '0.0.5' ]
+703 silly lockFile 2284ac87-fstream-ignore-0-0-5 fstream-ignore@0.0.5
+704 verbose lock fstream-ignore@0.0.5 /Users/andy/.npm/2284ac87-fstream-ignore-0-0-5.lock
+705 verbose cache add [ 'coffee-script@~1.3.3', null ]
+706 verbose cache add name=undefined spec="coffee-script@~1.3.3" args=["coffee-script@~1.3.3",null]
+707 verbose parsed url { protocol: null,
+707 verbose parsed url   slashes: null,
+707 verbose parsed url   auth: null,
+707 verbose parsed url   host: null,
+707 verbose parsed url   port: null,
+707 verbose parsed url   hostname: null,
+707 verbose parsed url   hash: null,
+707 verbose parsed url   search: null,
+707 verbose parsed url   query: null,
+707 verbose parsed url   pathname: 'coffee-script@~1.3.3',
+707 verbose parsed url   path: 'coffee-script@~1.3.3',
+707 verbose parsed url   href: 'coffee-script@~1.3.3' }
+708 verbose cache add [ 'grunt-jasmine-task@~0.2.2', null ]
+709 verbose cache add name=undefined spec="grunt-jasmine-task@~0.2.2" args=["grunt-jasmine-task@~0.2.2",null]
+710 verbose parsed url { protocol: null,
+710 verbose parsed url   slashes: null,
+710 verbose parsed url   auth: null,
+710 verbose parsed url   host: null,
+710 verbose parsed url   port: null,
+710 verbose parsed url   hostname: null,
+710 verbose parsed url   hash: null,
+710 verbose parsed url   search: null,
+710 verbose parsed url   query: null,
+710 verbose parsed url   pathname: 'grunt-jasmine-task@~0.2.2',
+710 verbose parsed url   path: 'grunt-jasmine-task@~0.2.2',
+710 verbose parsed url   href: 'grunt-jasmine-task@~0.2.2' }
+711 verbose cache add [ 'faye-websocket@~0.4.2', null ]
+712 verbose cache add name=undefined spec="faye-websocket@~0.4.2" args=["faye-websocket@~0.4.2",null]
+713 verbose parsed url { protocol: null,
+713 verbose parsed url   slashes: null,
+713 verbose parsed url   auth: null,
+713 verbose parsed url   host: null,
+713 verbose parsed url   port: null,
+713 verbose parsed url   hostname: null,
+713 verbose parsed url   hash: null,
+713 verbose parsed url   search: null,
+713 verbose parsed url   query: null,
+713 verbose parsed url   pathname: 'faye-websocket@~0.4.2',
+713 verbose parsed url   path: 'faye-websocket@~0.4.2',
+713 verbose parsed url   href: 'faye-websocket@~0.4.2' }
+714 verbose cache add [ 'shelljs@~0.0.6', null ]
+715 verbose cache add name=undefined spec="shelljs@~0.0.6" args=["shelljs@~0.0.6",null]
+716 verbose parsed url { protocol: null,
+716 verbose parsed url   slashes: null,
+716 verbose parsed url   auth: null,
+716 verbose parsed url   host: null,
+716 verbose parsed url   port: null,
+716 verbose parsed url   hostname: null,
+716 verbose parsed url   hash: null,
+716 verbose parsed url   search: null,
+716 verbose parsed url   query: null,
+716 verbose parsed url   pathname: 'shelljs@~0.0.6',
+716 verbose parsed url   path: 'shelljs@~0.0.6',
+716 verbose parsed url   href: 'shelljs@~0.0.6' }
+717 verbose cache add name="tar" spec="~0.1.13" args=["tar","~0.1.13"]
+718 verbose parsed url { protocol: null,
+718 verbose parsed url   slashes: null,
+718 verbose parsed url   auth: null,
+718 verbose parsed url   host: null,
+718 verbose parsed url   port: null,
+718 verbose parsed url   hostname: null,
+718 verbose parsed url   hash: null,
+718 verbose parsed url   search: null,
+718 verbose parsed url   query: null,
+718 verbose parsed url   pathname: '~0.1.13',
+718 verbose parsed url   path: '~0.1.13',
+718 verbose parsed url   href: '~0.1.13' }
+719 verbose addNamed [ 'tar', '~0.1.13' ]
+720 verbose addNamed [ null, '>=0.1.13-0 <0.2.0-0' ]
+721 silly lockFile e648d358-tar-0-1-13 tar@~0.1.13
+722 verbose lock tar@~0.1.13 /Users/andy/.npm/e648d358-tar-0-1-13.lock
+723 silly addNameRange { name: 'clean-css',
+723 silly addNameRange   range: '>=0.3.2-0 <0.4.0-0',
+723 silly addNameRange   hasData: false }
+724 verbose request where is /requirejs
+725 verbose request registry https://registry.npmjs.org/
+726 verbose url raw /requirejs
+727 verbose url resolving [ 'https://registry.npmjs.org/', './requirejs' ]
+728 verbose url resolved https://registry.npmjs.org/requirejs
+729 verbose request where is https://registry.npmjs.org/requirejs
+730 info trying registry request attempt 1 at 12:31:36
+731 http GET https://registry.npmjs.org/requirejs
+732 silly addNameRange { name: 'connect', range: '>=2.2.1-0 <2.3.0-0', hasData: false }
+733 verbose cache add name="coffee-script" spec="~1.3.3" args=["coffee-script","~1.3.3"]
+734 verbose parsed url { protocol: null,
+734 verbose parsed url   slashes: null,
+734 verbose parsed url   auth: null,
+734 verbose parsed url   host: null,
+734 verbose parsed url   port: null,
+734 verbose parsed url   hostname: null,
+734 verbose parsed url   hash: null,
+734 verbose parsed url   search: null,
+734 verbose parsed url   query: null,
+734 verbose parsed url   pathname: '~1.3.3',
+734 verbose parsed url   path: '~1.3.3',
+734 verbose parsed url   href: '~1.3.3' }
+735 verbose addNamed [ 'coffee-script', '~1.3.3' ]
+736 verbose addNamed [ null, '>=1.3.3-0 <1.4.0-0' ]
+737 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+738 verbose lock coffee-script@~1.3.3 /Users/andy/.npm/f72bb580-coffee-script-1-3-3.lock
+739 verbose cache add name="grunt-jasmine-task" spec="~0.2.2" args=["grunt-jasmine-task","~0.2.2"]
+740 verbose parsed url { protocol: null,
+740 verbose parsed url   slashes: null,
+740 verbose parsed url   auth: null,
+740 verbose parsed url   host: null,
+740 verbose parsed url   port: null,
+740 verbose parsed url   hostname: null,
+740 verbose parsed url   hash: null,
+740 verbose parsed url   search: null,
+740 verbose parsed url   query: null,
+740 verbose parsed url   pathname: '~0.2.2',
+740 verbose parsed url   path: '~0.2.2',
+740 verbose parsed url   href: '~0.2.2' }
+741 verbose addNamed [ 'grunt-jasmine-task', '~0.2.2' ]
+742 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+743 silly lockFile c212c3e3-grunt-jasmine-task-0-2-2 grunt-jasmine-task@~0.2.2
+744 verbose lock grunt-jasmine-task@~0.2.2 /Users/andy/.npm/c212c3e3-grunt-jasmine-task-0-2-2.lock
+745 verbose cache add name="faye-websocket" spec="~0.4.2" args=["faye-websocket","~0.4.2"]
+746 verbose parsed url { protocol: null,
+746 verbose parsed url   slashes: null,
+746 verbose parsed url   auth: null,
+746 verbose parsed url   host: null,
+746 verbose parsed url   port: null,
+746 verbose parsed url   hostname: null,
+746 verbose parsed url   hash: null,
+746 verbose parsed url   search: null,
+746 verbose parsed url   query: null,
+746 verbose parsed url   pathname: '~0.4.2',
+746 verbose parsed url   path: '~0.4.2',
+746 verbose parsed url   href: '~0.4.2' }
+747 verbose addNamed [ 'faye-websocket', '~0.4.2' ]
+748 verbose addNamed [ null, '>=0.4.2-0 <0.5.0-0' ]
+749 silly lockFile c74c85de-faye-websocket-0-4-2 faye-websocket@~0.4.2
+750 verbose lock faye-websocket@~0.4.2 /Users/andy/.npm/c74c85de-faye-websocket-0-4-2.lock
+751 verbose cache add [ 'prompt@~0.1.12', null ]
+752 verbose cache add name=undefined spec="prompt@~0.1.12" args=["prompt@~0.1.12",null]
+753 verbose parsed url { protocol: null,
+753 verbose parsed url   slashes: null,
+753 verbose parsed url   auth: null,
+753 verbose parsed url   host: null,
+753 verbose parsed url   port: null,
+753 verbose parsed url   hostname: null,
+753 verbose parsed url   hash: null,
+753 verbose parsed url   search: null,
+753 verbose parsed url   query: null,
+753 verbose parsed url   pathname: 'prompt@~0.1.12',
+753 verbose parsed url   path: 'prompt@~0.1.12',
+753 verbose parsed url   href: 'prompt@~0.1.12' }
+754 verbose cache add [ 'colors@~0.6.0', null ]
+755 verbose cache add name=undefined spec="colors@~0.6.0" args=["colors@~0.6.0",null]
+756 verbose parsed url { protocol: null,
+756 verbose parsed url   slashes: null,
+756 verbose parsed url   auth: null,
+756 verbose parsed url   host: null,
+756 verbose parsed url   port: null,
+756 verbose parsed url   hostname: null,
+756 verbose parsed url   hash: null,
+756 verbose parsed url   search: null,
+756 verbose parsed url   query: null,
+756 verbose parsed url   pathname: 'colors@~0.6.0',
+756 verbose parsed url   path: 'colors@~0.6.0',
+756 verbose parsed url   href: 'colors@~0.6.0' }
+757 verbose cache add [ 'grunt-mocha@~0.1.3', null ]
+758 verbose cache add name=undefined spec="grunt-mocha@~0.1.3" args=["grunt-mocha@~0.1.3",null]
+759 verbose parsed url { protocol: null,
+759 verbose parsed url   slashes: null,
+759 verbose parsed url   auth: null,
+759 verbose parsed url   host: null,
+759 verbose parsed url   port: null,
+759 verbose parsed url   hostname: null,
+759 verbose parsed url   hash: null,
+759 verbose parsed url   search: null,
+759 verbose parsed url   query: null,
+759 verbose parsed url   pathname: 'grunt-mocha@~0.1.3',
+759 verbose parsed url   path: 'grunt-mocha@~0.1.3',
+759 verbose parsed url   href: 'grunt-mocha@~0.1.3' }
+760 verbose cache add [ 'es6-collections@>=0.2.0', null ]
+761 verbose cache add name=undefined spec="es6-collections@>=0.2.0" args=["es6-collections@>=0.2.0",null]
+762 verbose parsed url { protocol: null,
+762 verbose parsed url   slashes: null,
+762 verbose parsed url   auth: null,
+762 verbose parsed url   host: null,
+762 verbose parsed url   port: null,
+762 verbose parsed url   hostname: null,
+762 verbose parsed url   hash: null,
+762 verbose parsed url   search: null,
+762 verbose parsed url   query: null,
+762 verbose parsed url   pathname: 'es6-collections@%3E=0.2.0',
+762 verbose parsed url   path: 'es6-collections@%3E=0.2.0',
+762 verbose parsed url   href: 'es6-collections@%3E=0.2.0' }
+763 verbose cache add [ 'grunt-contrib-coffee@~0.3.1', null ]
+764 verbose cache add name=undefined spec="grunt-contrib-coffee@~0.3.1" args=["grunt-contrib-coffee@~0.3.1",null]
+765 verbose parsed url { protocol: null,
+765 verbose parsed url   slashes: null,
+765 verbose parsed url   auth: null,
+765 verbose parsed url   host: null,
+765 verbose parsed url   port: null,
+765 verbose parsed url   hostname: null,
+765 verbose parsed url   hash: null,
+765 verbose parsed url   search: null,
+765 verbose parsed url   query: null,
+765 verbose parsed url   pathname: 'grunt-contrib-coffee@~0.3.1',
+765 verbose parsed url   path: 'grunt-contrib-coffee@~0.3.1',
+765 verbose parsed url   href: 'grunt-contrib-coffee@~0.3.1' }
+766 verbose cache add name="shelljs" spec="~0.0.6" args=["shelljs","~0.0.6"]
+767 verbose parsed url { protocol: null,
+767 verbose parsed url   slashes: null,
+767 verbose parsed url   auth: null,
+767 verbose parsed url   host: null,
+767 verbose parsed url   port: null,
+767 verbose parsed url   hostname: null,
+767 verbose parsed url   hash: null,
+767 verbose parsed url   search: null,
+767 verbose parsed url   query: null,
+767 verbose parsed url   pathname: '~0.0.6',
+767 verbose parsed url   path: '~0.0.6',
+767 verbose parsed url   href: '~0.0.6' }
+768 verbose addNamed [ 'shelljs', '~0.0.6' ]
+769 verbose addNamed [ null, '>=0.0.6-0 <0.1.0-0' ]
+770 silly lockFile 51fc5c5c-shelljs-0-0-6 shelljs@~0.0.6
+771 verbose lock shelljs@~0.0.6 /Users/andy/.npm/51fc5c5c-shelljs-0-0-6.lock
+772 silly addNameRange { name: 'request',
+772 silly addNameRange   range: '>=2.9.200-0 <2.10.0-0',
+772 silly addNameRange   hasData: false }
+773 silly addNameRange { name: 'html-minifier',
+773 silly addNameRange   range: '>=0.4.5-0 <0.5.0-0',
+773 silly addNameRange   hasData: false }
+774 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+775 silly addNameRange { name: 'cheerio', range: '>=0.9.2-0 <0.10.0-0', hasData: false }
+776 silly addNameRange { name: 'fstream', range: '>=0.1.18-0 <0.2.0-0', hasData: false }
+777 verbose cache add name="prompt" spec="~0.1.12" args=["prompt","~0.1.12"]
+778 verbose parsed url { protocol: null,
+778 verbose parsed url   slashes: null,
+778 verbose parsed url   auth: null,
+778 verbose parsed url   host: null,
+778 verbose parsed url   port: null,
+778 verbose parsed url   hostname: null,
+778 verbose parsed url   hash: null,
+778 verbose parsed url   search: null,
+778 verbose parsed url   query: null,
+778 verbose parsed url   pathname: '~0.1.12',
+778 verbose parsed url   path: '~0.1.12',
+778 verbose parsed url   href: '~0.1.12' }
+779 verbose addNamed [ 'prompt', '~0.1.12' ]
+780 verbose addNamed [ null, '>=0.1.12-0 <0.2.0-0' ]
+781 silly lockFile 39e4a135-prompt-0-1-12 prompt@~0.1.12
+782 verbose lock prompt@~0.1.12 /Users/andy/.npm/39e4a135-prompt-0-1-12.lock
+783 verbose cache add name="colors" spec="~0.6.0" args=["colors","~0.6.0"]
+784 verbose parsed url { protocol: null,
+784 verbose parsed url   slashes: null,
+784 verbose parsed url   auth: null,
+784 verbose parsed url   host: null,
+784 verbose parsed url   port: null,
+784 verbose parsed url   hostname: null,
+784 verbose parsed url   hash: null,
+784 verbose parsed url   search: null,
+784 verbose parsed url   query: null,
+784 verbose parsed url   pathname: '~0.6.0',
+784 verbose parsed url   path: '~0.6.0',
+784 verbose parsed url   href: '~0.6.0' }
+785 verbose addNamed [ 'colors', '~0.6.0' ]
+786 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+787 silly lockFile 87ce7fc7-colors-0-6-0 colors@~0.6.0
+788 verbose lock colors@~0.6.0 /Users/andy/.npm/87ce7fc7-colors-0-6-0.lock
+789 verbose cache add name="grunt-mocha" spec="~0.1.3" args=["grunt-mocha","~0.1.3"]
+790 verbose parsed url { protocol: null,
+790 verbose parsed url   slashes: null,
+790 verbose parsed url   auth: null,
+790 verbose parsed url   host: null,
+790 verbose parsed url   port: null,
+790 verbose parsed url   hostname: null,
+790 verbose parsed url   hash: null,
+790 verbose parsed url   search: null,
+790 verbose parsed url   query: null,
+790 verbose parsed url   pathname: '~0.1.3',
+790 verbose parsed url   path: '~0.1.3',
+790 verbose parsed url   href: '~0.1.3' }
+791 verbose addNamed [ 'grunt-mocha', '~0.1.3' ]
+792 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+793 silly lockFile 0b644ca0-grunt-mocha-0-1-3 grunt-mocha@~0.1.3
+794 verbose lock grunt-mocha@~0.1.3 /Users/andy/.npm/0b644ca0-grunt-mocha-0-1-3.lock
+795 verbose cache add name="es6-collections" spec=">=0.2.0" args=["es6-collections",">=0.2.0"]
+796 verbose parsed url { protocol: null,
+796 verbose parsed url   slashes: null,
+796 verbose parsed url   auth: null,
+796 verbose parsed url   host: null,
+796 verbose parsed url   port: null,
+796 verbose parsed url   hostname: null,
+796 verbose parsed url   hash: null,
+796 verbose parsed url   search: null,
+796 verbose parsed url   query: null,
+796 verbose parsed url   pathname: '%3E=0.2.0',
+796 verbose parsed url   path: '%3E=0.2.0',
+796 verbose parsed url   href: '%3E=0.2.0' }
+797 verbose addNamed [ 'es6-collections', '>=0.2.0' ]
+798 verbose addNamed [ null, '>=0.2.0' ]
+799 silly lockFile e426cb81-es6-collections-0-2-0 es6-collections@>=0.2.0
+800 verbose lock es6-collections@>=0.2.0 /Users/andy/.npm/e426cb81-es6-collections-0-2-0.lock
+801 verbose cache add name="grunt-contrib-coffee" spec="~0.3.1" args=["grunt-contrib-coffee","~0.3.1"]
+802 verbose parsed url { protocol: null,
+802 verbose parsed url   slashes: null,
+802 verbose parsed url   auth: null,
+802 verbose parsed url   host: null,
+802 verbose parsed url   port: null,
+802 verbose parsed url   hostname: null,
+802 verbose parsed url   hash: null,
+802 verbose parsed url   search: null,
+802 verbose parsed url   query: null,
+802 verbose parsed url   pathname: '~0.3.1',
+802 verbose parsed url   path: '~0.3.1',
+802 verbose parsed url   href: '~0.3.1' }
+803 verbose addNamed [ 'grunt-contrib-coffee', '~0.3.1' ]
+804 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+805 silly lockFile fc10f0e7-grunt-contrib-coffee-0-3-1 grunt-contrib-coffee@~0.3.1
+806 verbose lock grunt-contrib-coffee@~0.3.1 /Users/andy/.npm/fc10f0e7-grunt-contrib-coffee-0-3-1.lock
+807 silly addNameRange { name: 'tar', range: '>=0.1.13-0 <0.2.0-0', hasData: false }
+808 verbose request where is /cheerio
+809 verbose request registry https://registry.npmjs.org/
+810 verbose url raw /cheerio
+811 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio' ]
+812 verbose url resolved https://registry.npmjs.org/cheerio
+813 verbose request where is https://registry.npmjs.org/cheerio
+814 info trying registry request attempt 1 at 12:31:36
+815 http GET https://registry.npmjs.org/cheerio
+816 silly addNameRange { name: 'coffee-script',
+816 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+816 silly addNameRange   hasData: false }
+817 silly addNameRange { name: 'grunt-jasmine-task',
+817 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+817 silly addNameRange   hasData: false }
+818 silly addNameRange { name: 'faye-websocket',
+818 silly addNameRange   range: '>=0.4.2-0 <0.5.0-0',
+818 silly addNameRange   hasData: false }
+819 silly addNameRange { name: 'shelljs', range: '>=0.0.6-0 <0.1.0-0', hasData: false }
+820 verbose request where is /open
+821 verbose request registry https://registry.npmjs.org/
+822 verbose url raw /open
+823 verbose url resolving [ 'https://registry.npmjs.org/', './open' ]
+824 verbose url resolved https://registry.npmjs.org/open
+825 verbose request where is https://registry.npmjs.org/open
+826 info trying registry request attempt 1 at 12:31:36
+827 verbose etag "6239UTUX9ZBR7FHCN5HCRE53O"
+828 http GET https://registry.npmjs.org/open
+829 verbose request where is /bower
+830 verbose request registry https://registry.npmjs.org/
+831 verbose url raw /bower
+832 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+833 verbose url resolved https://registry.npmjs.org/bower
+834 verbose request where is https://registry.npmjs.org/bower
+835 info trying registry request attempt 1 at 12:31:36
+836 verbose etag "CJL94FCWINZTCFLAS51CQ6754"
+837 http GET https://registry.npmjs.org/bower
+838 verbose request where is /grunt-jasmine-task
+839 verbose request registry https://registry.npmjs.org/
+840 verbose url raw /grunt-jasmine-task
+841 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-jasmine-task' ]
+842 verbose url resolved https://registry.npmjs.org/grunt-jasmine-task
+843 verbose request where is https://registry.npmjs.org/grunt-jasmine-task
+844 info trying registry request attempt 1 at 12:31:36
+845 http GET https://registry.npmjs.org/grunt-jasmine-task
+846 silly addNameRange { name: 'prompt', range: '>=0.1.12-0 <0.2.0-0', hasData: false }
+847 silly addNameRange { name: 'colors', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+848 silly addNameRange { name: 'grunt-mocha',
+848 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+848 silly addNameRange   hasData: false }
+849 silly addNameRange { name: 'es6-collections', range: '>=0.2.0', hasData: false }
+850 silly addNameRange { name: 'grunt-contrib-coffee',
+850 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+850 silly addNameRange   hasData: false }
+851 verbose request where is /rimraf
+852 verbose request registry https://registry.npmjs.org/
+853 verbose url raw /rimraf
+854 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+855 verbose url resolved https://registry.npmjs.org/rimraf
+856 verbose request where is https://registry.npmjs.org/rimraf
+857 info trying registry request attempt 1 at 12:31:36
+858 verbose etag "2BYIEW0O2R5E3JBVHDI3XHDIS"
+859 http GET https://registry.npmjs.org/rimraf
+860 verbose request where is /mkdirp
+861 verbose request registry https://registry.npmjs.org/
+862 verbose url raw /mkdirp
+863 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+864 verbose url resolved https://registry.npmjs.org/mkdirp
+865 verbose request where is https://registry.npmjs.org/mkdirp
+866 info trying registry request attempt 1 at 12:31:36
+867 verbose etag "6Q047JT57GUS3BZG6QDXLY71K"
+868 http GET https://registry.npmjs.org/mkdirp
+869 verbose request where is /prompt
+870 verbose request registry https://registry.npmjs.org/
+871 verbose url raw /prompt
+872 verbose url resolving [ 'https://registry.npmjs.org/', './prompt' ]
+873 verbose url resolved https://registry.npmjs.org/prompt
+874 verbose request where is https://registry.npmjs.org/prompt
+875 info trying registry request attempt 1 at 12:31:36
+876 http GET https://registry.npmjs.org/prompt
+877 verbose request where is /grunt-mocha
+878 verbose request registry https://registry.npmjs.org/
+879 verbose url raw /grunt-mocha
+880 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha' ]
+881 verbose url resolved https://registry.npmjs.org/grunt-mocha
+882 verbose request where is https://registry.npmjs.org/grunt-mocha
+883 info trying registry request attempt 1 at 12:31:36
+884 http GET https://registry.npmjs.org/grunt-mocha
+885 verbose request where is /es6-collections
+886 verbose request registry https://registry.npmjs.org/
+887 verbose url raw /es6-collections
+888 verbose url resolving [ 'https://registry.npmjs.org/', './es6-collections' ]
+889 verbose url resolved https://registry.npmjs.org/es6-collections
+890 verbose request where is https://registry.npmjs.org/es6-collections
+891 info trying registry request attempt 1 at 12:31:36
+892 http GET https://registry.npmjs.org/es6-collections
+893 verbose request where is /grunt-contrib-coffee
+894 verbose request registry https://registry.npmjs.org/
+895 verbose url raw /grunt-contrib-coffee
+896 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-coffee' ]
+897 verbose url resolved https://registry.npmjs.org/grunt-contrib-coffee
+898 verbose request where is https://registry.npmjs.org/grunt-contrib-coffee
+899 info trying registry request attempt 1 at 12:31:36
+900 http GET https://registry.npmjs.org/grunt-contrib-coffee
+901 verbose request where is /clean-css
+902 verbose request registry https://registry.npmjs.org/
+903 verbose url raw /clean-css
+904 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css' ]
+905 verbose url resolved https://registry.npmjs.org/clean-css
+906 verbose request where is https://registry.npmjs.org/clean-css
+907 info trying registry request attempt 1 at 12:31:36
+908 verbose etag "B7UHP4GWX64Z5FXVYCU5G1Y1L"
+909 http GET https://registry.npmjs.org/clean-css
+910 verbose request where is /connect
+911 verbose request registry https://registry.npmjs.org/
+912 verbose url raw /connect
+913 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+914 verbose url resolved https://registry.npmjs.org/connect
+915 verbose request where is https://registry.npmjs.org/connect
+916 info trying registry request attempt 1 at 12:31:36
+917 verbose etag "D2SK9SKTOETGHSI26774CH4QP"
+918 http GET https://registry.npmjs.org/connect
+919 info retry fetch attempt 1 at 12:31:36
+920 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz
+921 verbose request where is /request
+922 verbose request registry https://registry.npmjs.org/
+923 verbose url raw /request
+924 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+925 verbose url resolved https://registry.npmjs.org/request
+926 verbose request where is https://registry.npmjs.org/request
+927 info trying registry request attempt 1 at 12:31:36
+928 verbose etag "6CWP5S5RUVXE36N6LHWTDA7BQ"
+929 http GET https://registry.npmjs.org/request
+930 verbose request where is /which
+931 verbose request registry https://registry.npmjs.org/
+932 verbose url raw /which
+933 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+934 verbose url resolved https://registry.npmjs.org/which
+935 verbose request where is https://registry.npmjs.org/which
+936 info trying registry request attempt 1 at 12:31:36
+937 verbose etag "D1CXA5D4Y90FYSCWAVL67QCU8"
+938 http GET https://registry.npmjs.org/which
+939 verbose request where is /html-minifier
+940 verbose request registry https://registry.npmjs.org/
+941 verbose url raw /html-minifier
+942 verbose url resolving [ 'https://registry.npmjs.org/', './html-minifier' ]
+943 verbose url resolved https://registry.npmjs.org/html-minifier
+944 verbose request where is https://registry.npmjs.org/html-minifier
+945 info trying registry request attempt 1 at 12:31:36
+946 verbose etag "2VDDTT1N5F8BKU5RZ6PJ4D6HG"
+947 http GET https://registry.npmjs.org/html-minifier
+948 info retry fetch attempt 1 at 12:31:36
+949 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/github.com/yeoman/generators/archive/0.9.5.tar.gz
+950 verbose request where is /fstream-ignore
+951 verbose request registry https://registry.npmjs.org/
+952 verbose url raw /fstream-ignore
+953 verbose url resolving [ 'https://registry.npmjs.org/', './fstream-ignore' ]
+954 verbose url resolved https://registry.npmjs.org/fstream-ignore
+955 verbose request where is https://registry.npmjs.org/fstream-ignore
+956 info trying registry request attempt 1 at 12:31:36
+957 verbose etag "4LVQ6N1DMFJN877VX7Y8TFHL3"
+958 http GET https://registry.npmjs.org/fstream-ignore
+959 verbose request where is /fstream
+960 verbose request registry https://registry.npmjs.org/
+961 verbose url raw /fstream
+962 verbose url resolving [ 'https://registry.npmjs.org/', './fstream' ]
+963 verbose url resolved https://registry.npmjs.org/fstream
+964 verbose request where is https://registry.npmjs.org/fstream
+965 info trying registry request attempt 1 at 12:31:36
+966 verbose etag "6BRAV5U5Y9K621QG2NIKNNZSO"
+967 http GET https://registry.npmjs.org/fstream
+968 http GET http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz
+969 verbose request where is /tar
+970 verbose request registry https://registry.npmjs.org/
+971 verbose url raw /tar
+972 verbose url resolving [ 'https://registry.npmjs.org/', './tar' ]
+973 verbose url resolved https://registry.npmjs.org/tar
+974 verbose request where is https://registry.npmjs.org/tar
+975 info trying registry request attempt 1 at 12:31:36
+976 verbose etag "VT9NWKXIPNJ1BYLKQMOSY9TP"
+977 http GET https://registry.npmjs.org/tar
+978 verbose request where is /coffee-script
+979 verbose request registry https://registry.npmjs.org/
+980 verbose url raw /coffee-script
+981 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+982 verbose url resolved https://registry.npmjs.org/coffee-script
+983 verbose request where is https://registry.npmjs.org/coffee-script
+984 info trying registry request attempt 1 at 12:31:36
+985 verbose etag "46GDPIA3PE3S3ZA0AJ2OUKQKS"
+986 http GET https://registry.npmjs.org/coffee-script
+987 verbose request where is /faye-websocket
+988 verbose request registry https://registry.npmjs.org/
+989 verbose url raw /faye-websocket
+990 verbose url resolving [ 'https://registry.npmjs.org/', './faye-websocket' ]
+991 verbose url resolved https://registry.npmjs.org/faye-websocket
+992 verbose request where is https://registry.npmjs.org/faye-websocket
+993 info trying registry request attempt 1 at 12:31:36
+994 verbose etag "AFWCJ3E6IEK4L5J5X2TD2DEDX"
+995 http GET https://registry.npmjs.org/faye-websocket
+996 verbose request where is /shelljs
+997 verbose request registry https://registry.npmjs.org/
+998 verbose url raw /shelljs
+999 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+1000 verbose url resolved https://registry.npmjs.org/shelljs
+1001 verbose request where is https://registry.npmjs.org/shelljs
+1002 info trying registry request attempt 1 at 12:31:36
+1003 verbose etag "RBT12ASRGPWTW0UAU2M8NCPX"
+1004 http GET https://registry.npmjs.org/shelljs
+1005 http GET http://github.com/yeoman/generators/archive/0.9.5.tar.gz
+1006 verbose request where is /colors
+1007 verbose request registry https://registry.npmjs.org/
+1008 verbose url raw /colors
+1009 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+1010 verbose url resolved https://registry.npmjs.org/colors
+1011 verbose request where is https://registry.npmjs.org/colors
+1012 info trying registry request attempt 1 at 12:31:36
+1013 verbose etag "AHKR9DKQF2F508URK75TGDY8Z"
+1014 http GET https://registry.npmjs.org/colors
+1015 http 304 https://registry.npmjs.org/open
+1016 silly registry.get cb [ 304,
+1016 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1016 silly registry.get     server: 'Apache',
+1016 silly registry.get     via: '1.1 varnish',
+1016 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:36 GMT',
+1016 silly registry.get     'cache-control': 'max-age=60',
+1016 silly registry.get     etag: '"6239UTUX9ZBR7FHCN5HCRE53O"',
+1016 silly registry.get     'x-served-by': 'cache-lcy1131-LCY',
+1016 silly registry.get     'x-cache': 'HIT',
+1016 silly registry.get     'x-cache-hits': '1',
+1016 silly registry.get     'x-timer': 'S1409398296.868115,VS0,VE0',
+1016 silly registry.get     vary: 'Accept',
+1016 silly registry.get     'content-length': '0',
+1016 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1016 silly registry.get     connection: 'Keep-Alive' } ]
+1017 verbose etag https://registry.npmjs.org/open from cache
+1018 http 304 https://registry.npmjs.org/bower
+1019 silly registry.get cb [ 304,
+1019 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1019 silly registry.get     server: 'Apache',
+1019 silly registry.get     via: '1.1 varnish',
+1019 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:36 GMT',
+1019 silly registry.get     'cache-control': 'max-age=60',
+1019 silly registry.get     etag: '"CJL94FCWINZTCFLAS51CQ6754"',
+1019 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+1019 silly registry.get     'x-cache': 'HIT',
+1019 silly registry.get     'x-cache-hits': '1',
+1019 silly registry.get     'x-timer': 'S1409398296.872508,VS0,VE0',
+1019 silly registry.get     vary: 'Accept',
+1019 silly registry.get     'content-length': '0',
+1019 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1019 silly registry.get     connection: 'Keep-Alive' } ]
+1020 verbose etag https://registry.npmjs.org/bower from cache
+1021 silly lockFile ddb0b8ac-ry-npmjs-org-open-open-0-0-2-tgz https://registry.npmjs.org/open/-/open-0.0.2.tgz
+1022 verbose lock https://registry.npmjs.org/open/-/open-0.0.2.tgz /Users/andy/.npm/ddb0b8ac-ry-npmjs-org-open-open-0-0-2-tgz.lock
+1023 silly addNameRange number 2 { name: 'bower', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+1024 silly addNameRange versions [ 'bower',
+1024 silly addNameRange   [ '0.1.0',
+1024 silly addNameRange     '0.1.2',
+1024 silly addNameRange     '0.1.3',
+1024 silly addNameRange     '0.2.0',
+1024 silly addNameRange     '0.3.0',
+1024 silly addNameRange     '0.3.1',
+1024 silly addNameRange     '0.3.2',
+1024 silly addNameRange     '0.4.0',
+1024 silly addNameRange     '0.5.0',
+1024 silly addNameRange     '0.5.1',
+1024 silly addNameRange     '0.6.0',
+1024 silly addNameRange     '0.6.1',
+1024 silly addNameRange     '0.6.2',
+1024 silly addNameRange     '0.6.3',
+1024 silly addNameRange     '0.6.4',
+1024 silly addNameRange     '0.6.5',
+1024 silly addNameRange     '0.6.6',
+1024 silly addNameRange     '0.6.7',
+1024 silly addNameRange     '0.6.8',
+1024 silly addNameRange     '0.7.0',
+1024 silly addNameRange     '0.7.1',
+1024 silly addNameRange     '0.8.0',
+1024 silly addNameRange     '0.8.1',
+1024 silly addNameRange     '0.8.2',
+1024 silly addNameRange     '0.8.3',
+1024 silly addNameRange     '0.8.4',
+1024 silly addNameRange     '0.8.5',
+1024 silly addNameRange     '0.8.6',
+1024 silly addNameRange     '0.9.0',
+1024 silly addNameRange     '0.9.1',
+1024 silly addNameRange     '0.9.2',
+1024 silly addNameRange     '0.10.0',
+1024 silly addNameRange     '1.0.0',
+1024 silly addNameRange     '1.0.1',
+1024 silly addNameRange     '1.0.2',
+1024 silly addNameRange     '1.0.3',
+1024 silly addNameRange     '1.1.0',
+1024 silly addNameRange     '1.1.1',
+1024 silly addNameRange     '1.1.2',
+1024 silly addNameRange     '1.2.0',
+1024 silly addNameRange     '1.2.1',
+1024 silly addNameRange     '1.2.2',
+1024 silly addNameRange     '1.2.3',
+1024 silly addNameRange     '1.2.4',
+1024 silly addNameRange     '1.2.5',
+1024 silly addNameRange     '1.2.6',
+1024 silly addNameRange     '1.2.7',
+1024 silly addNameRange     '1.2.8',
+1024 silly addNameRange     '1.3.0',
+1024 silly addNameRange     '1.3.1',
+1024 silly addNameRange     '1.3.2',
+1024 silly addNameRange     '1.3.3',
+1024 silly addNameRange     '1.3.4',
+1024 silly addNameRange     '1.3.5',
+1024 silly addNameRange     '1.3.6',
+1024 silly addNameRange     '1.3.7',
+1024 silly addNameRange     '1.3.8',
+1024 silly addNameRange     '1.3.9' ] ]
+1025 verbose addNamed [ 'bower', '0.3.2' ]
+1026 verbose addNamed [ '0.3.2', '0.3.2' ]
+1027 silly lockFile dc6374eb-bower-0-3-2 bower@0.3.2
+1028 verbose lock bower@0.3.2 /Users/andy/.npm/dc6374eb-bower-0-3-2.lock
+1029 verbose addRemoteTarball [ 'https://registry.npmjs.org/open/-/open-0.0.2.tgz',
+1029 verbose addRemoteTarball   '0a620ba2574464742f51e69f8ba8eccfd97b5dfc' ]
+1030 info retry fetch attempt 1 at 12:31:36
+1031 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/open/-/open-0.0.2.tgz
+1032 http GET https://registry.npmjs.org/open/-/open-0.0.2.tgz
+1033 silly lockFile 8735d580--npmjs-org-bower-bower-0-3-2-tgz https://registry.npmjs.org/bower/-/bower-0.3.2.tgz
+1034 verbose lock https://registry.npmjs.org/bower/-/bower-0.3.2.tgz /Users/andy/.npm/8735d580--npmjs-org-bower-bower-0-3-2-tgz.lock
+1035 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-0.3.2.tgz',
+1035 verbose addRemoteTarball   '8553116cc03b3bf14e925125eee9b2bf355b67d5' ]
+1036 info retry fetch attempt 1 at 12:31:36
+1037 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/bower/-/bower-0.3.2.tgz
+1038 http GET https://registry.npmjs.org/bower/-/bower-0.3.2.tgz
+1039 http 304 https://registry.npmjs.org/rimraf
+1040 silly registry.get cb [ 304,
+1040 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1040 silly registry.get     server: 'Apache',
+1040 silly registry.get     via: '1.1 varnish',
+1040 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:36 GMT',
+1040 silly registry.get     'cache-control': 'max-age=60',
+1040 silly registry.get     etag: '"2BYIEW0O2R5E3JBVHDI3XHDIS"',
+1040 silly registry.get     'x-served-by': 'cache-lcy1131-LCY',
+1040 silly registry.get     'x-cache': 'HIT',
+1040 silly registry.get     'x-cache-hits': '1',
+1040 silly registry.get     'x-timer': 'S1409398296.900959,VS0,VE0',
+1040 silly registry.get     vary: 'Accept',
+1040 silly registry.get     'content-length': '0',
+1040 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1040 silly registry.get     connection: 'Keep-Alive' } ]
+1041 verbose etag https://registry.npmjs.org/rimraf from cache
+1042 http 304 https://registry.npmjs.org/mkdirp
+1043 silly registry.get cb [ 304,
+1043 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1043 silly registry.get     server: 'Apache',
+1043 silly registry.get     via: '1.1 varnish',
+1043 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:36 GMT',
+1043 silly registry.get     'cache-control': 'max-age=60',
+1043 silly registry.get     etag: '"6Q047JT57GUS3BZG6QDXLY71K"',
+1043 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+1043 silly registry.get     'x-cache': 'HIT',
+1043 silly registry.get     'x-cache-hits': '1',
+1043 silly registry.get     'x-timer': 'S1409398296.903767,VS0,VE0',
+1043 silly registry.get     vary: 'Accept',
+1043 silly registry.get     'content-length': '0',
+1043 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1043 silly registry.get     connection: 'Keep-Alive' } ]
+1044 verbose etag https://registry.npmjs.org/mkdirp from cache
+1045 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.1-0 <0.4.0-0', hasData: true }
+1046 silly addNameRange versions [ 'mkdirp',
+1046 silly addNameRange   [ '0.0.1',
+1046 silly addNameRange     '0.0.2',
+1046 silly addNameRange     '0.0.3',
+1046 silly addNameRange     '0.0.4',
+1046 silly addNameRange     '0.0.5',
+1046 silly addNameRange     '0.0.6',
+1046 silly addNameRange     '0.0.7',
+1046 silly addNameRange     '0.1.0',
+1046 silly addNameRange     '0.2.0',
+1046 silly addNameRange     '0.2.1',
+1046 silly addNameRange     '0.2.2',
+1046 silly addNameRange     '0.3.0',
+1046 silly addNameRange     '0.3.1',
+1046 silly addNameRange     '0.3.2',
+1046 silly addNameRange     '0.3.3',
+1046 silly addNameRange     '0.3.4',
+1046 silly addNameRange     '0.3.5',
+1046 silly addNameRange     '0.4.0',
+1046 silly addNameRange     '0.4.1',
+1046 silly addNameRange     '0.4.2',
+1046 silly addNameRange     '0.5.0' ] ]
+1047 verbose addNamed [ 'mkdirp', '0.3.5' ]
+1048 verbose addNamed [ '0.3.5', '0.3.5' ]
+1049 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+1050 verbose lock mkdirp@0.3.5 /Users/andy/.npm/67d2df2a-mkdirp-0-3-5.lock
+1051 silly addNameRange number 2 { name: 'rimraf', range: '>=2.0.1-0 <2.1.0-0', hasData: true }
+1052 silly addNameRange versions [ 'rimraf',
+1052 silly addNameRange   [ '1.0.0',
+1052 silly addNameRange     '1.0.1',
+1052 silly addNameRange     '1.0.2',
+1052 silly addNameRange     '1.0.4',
+1052 silly addNameRange     '1.0.5',
+1052 silly addNameRange     '1.0.6',
+1052 silly addNameRange     '1.0.7',
+1052 silly addNameRange     '1.0.8',
+1052 silly addNameRange     '1.0.9',
+1052 silly addNameRange     '2.0.0',
+1052 silly addNameRange     '2.0.1',
+1052 silly addNameRange     '2.0.2',
+1052 silly addNameRange     '2.0.3',
+1052 silly addNameRange     '2.1.0',
+1052 silly addNameRange     '2.1.1',
+1052 silly addNameRange     '2.1.2',
+1052 silly addNameRange     '2.1.3',
+1052 silly addNameRange     '2.1.4',
+1052 silly addNameRange     '2.2.0',
+1052 silly addNameRange     '2.2.1',
+1052 silly addNameRange     '2.2.2',
+1052 silly addNameRange     '2.2.3',
+1052 silly addNameRange     '2.2.4',
+1052 silly addNameRange     '2.2.5',
+1052 silly addNameRange     '2.2.6',
+1052 silly addNameRange     '2.2.8' ] ]
+1053 verbose addNamed [ 'rimraf', '2.0.3' ]
+1054 verbose addNamed [ '2.0.3', '2.0.3' ]
+1055 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+1056 verbose lock rimraf@2.0.3 /Users/andy/.npm/166fc4dd-rimraf-2-0-3.lock
+1057 http 200 https://registry.npmjs.org/requirejs
+1058 silly registry.get cb [ 200,
+1058 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1058 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1058 silly registry.get     etag: '"AIKH4BXL3D7I6C9MTMAV608GK"',
+1058 silly registry.get     'content-type': 'application/json',
+1058 silly registry.get     'cache-control': 'max-age=60',
+1058 silly registry.get     'content-length': '34680',
+1058 silly registry.get     'accept-ranges': 'bytes',
+1058 silly registry.get     via: '1.1 varnish',
+1058 silly registry.get     age: '1468',
+1058 silly registry.get     'x-served-by': 'cache-lcy1122-LCY',
+1058 silly registry.get     'x-cache': 'HIT',
+1058 silly registry.get     'x-cache-hits': '2',
+1058 silly registry.get     'x-timer': 'S1409398296.852268,VS0,VE0',
+1058 silly registry.get     vary: 'Accept',
+1058 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1058 silly registry.get     connection: 'Keep-Alive' } ]
+1059 silly lockFile bcfae994-pmjs-org-rimraf-rimraf-2-0-3-tgz https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz
+1060 verbose lock https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz /Users/andy/.npm/bcfae994-pmjs-org-rimraf-rimraf-2-0-3-tgz.lock
+1061 verbose addRemoteTarball [ 'https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz',
+1061 verbose addRemoteTarball   'f50a2965e7144e9afd998982f15df706730f56a9' ]
+1062 silly addNameRange number 2 { name: 'requirejs', range: '>=2.0.2-0 <2.1.0-0', hasData: true }
+1063 silly addNameRange versions [ 'requirejs',
+1063 silly addNameRange   [ '0.26.0',
+1063 silly addNameRange     '0.27.0',
+1063 silly addNameRange     '0.27.1',
+1063 silly addNameRange     '1.0.0',
+1063 silly addNameRange     '1.0.1',
+1063 silly addNameRange     '1.0.2',
+1063 silly addNameRange     '1.0.3',
+1063 silly addNameRange     '1.0.4',
+1063 silly addNameRange     '1.0.5',
+1063 silly addNameRange     '1.0.6',
+1063 silly addNameRange     '1.0.7',
+1063 silly addNameRange     '1.0.8',
+1063 silly addNameRange     '2.0.0',
+1063 silly addNameRange     '2.0.1',
+1063 silly addNameRange     '2.0.2',
+1063 silly addNameRange     '2.0.3',
+1063 silly addNameRange     '2.0.4',
+1063 silly addNameRange     '2.0.5',
+1063 silly addNameRange     '2.0.6',
+1063 silly addNameRange     '2.1.0',
+1063 silly addNameRange     '2.1.1',
+1063 silly addNameRange     '2.1.2',
+1063 silly addNameRange     '2.1.3',
+1063 silly addNameRange     '2.1.4',
+1063 silly addNameRange     '2.1.5',
+1063 silly addNameRange     '2.1.6',
+1063 silly addNameRange     '2.1.7',
+1063 silly addNameRange     '2.1.8',
+1063 silly addNameRange     '2.1.9',
+1063 silly addNameRange     '2.1.10',
+1063 silly addNameRange     '2.1.11',
+1063 silly addNameRange     '2.1.12',
+1063 silly addNameRange     '2.1.13',
+1063 silly addNameRange     '2.1.14' ] ]
+1064 verbose addNamed [ 'requirejs', '2.0.6' ]
+1065 verbose addNamed [ '2.0.6', '2.0.6' ]
+1066 silly lockFile dadba93d-requirejs-2-0-6 requirejs@2.0.6
+1067 verbose lock requirejs@2.0.6 /Users/andy/.npm/dadba93d-requirejs-2-0-6.lock
+1068 info retry fetch attempt 1 at 12:31:36
+1069 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz
+1070 silly lockFile 1446610b-rg-requirejs-requirejs-2-0-6-tgz https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz
+1071 verbose lock https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz /Users/andy/.npm/1446610b-rg-requirejs-requirejs-2-0-6-tgz.lock
+1072 http GET https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz
+1073 verbose addRemoteTarball [ 'https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz',
+1073 verbose addRemoteTarball   'bc6dd244aa638185cf63698692f739a7c89d296c' ]
+1074 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+1075 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+1076 silly lockFile 5fc19bb2-mkdirp-0-3-1 mkdirp@~0.3.1
+1077 silly lockFile 5fc19bb2-mkdirp-0-3-1 mkdirp@~0.3.1
+1078 info retry fetch attempt 1 at 12:31:36
+1079 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz
+1080 http GET https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz
+1081 http 200 https://registry.npmjs.org/grunt-jasmine-task
+1082 silly registry.get cb [ 200,
+1082 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1082 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1082 silly registry.get     etag: '"6NM0M1VGI46NUXR1AWA8JXMRL"',
+1082 silly registry.get     'content-type': 'application/json',
+1082 silly registry.get     'cache-control': 'max-age=60',
+1082 silly registry.get     'content-length': '7992',
+1082 silly registry.get     'accept-ranges': 'bytes',
+1082 silly registry.get     via: '1.1 varnish',
+1082 silly registry.get     age: '5801',
+1082 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
+1082 silly registry.get     'x-cache': 'MISS',
+1082 silly registry.get     'x-cache-hits': '0',
+1082 silly registry.get     'x-timer': 'S1409398296.876176,VS0,VE83',
+1082 silly registry.get     vary: 'Accept',
+1082 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1082 silly registry.get     connection: 'Keep-Alive' } ]
+1083 silly addNameRange number 2 { name: 'grunt-jasmine-task',
+1083 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+1083 silly addNameRange   hasData: true }
+1084 silly addNameRange versions [ 'grunt-jasmine-task',
+1084 silly addNameRange   [ '0.1.1', '0.2.0', '0.2.1', '0.2.2', '0.2.3' ] ]
+1085 verbose addNamed [ 'grunt-jasmine-task', '0.2.3' ]
+1086 verbose addNamed [ '0.2.3', '0.2.3' ]
+1087 silly lockFile 01c0ff83-grunt-jasmine-task-0-2-3 grunt-jasmine-task@0.2.3
+1088 verbose lock grunt-jasmine-task@0.2.3 /Users/andy/.npm/01c0ff83-grunt-jasmine-task-0-2-3.lock
+1089 silly lockFile 340a2099-ask-grunt-jasmine-task-0-2-3-tgz https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz
+1090 verbose lock https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz /Users/andy/.npm/340a2099-ask-grunt-jasmine-task-0-2-3-tgz.lock
+1091 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz',
+1091 verbose addRemoteTarball   '95eb34a493d3b07051a165b9701ffba050bd5491' ]
+1092 info retry fetch attempt 1 at 12:31:36
+1093 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz
+1094 http GET https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz
+1095 http 200 https://registry.npmjs.org/cheerio
+1096 silly registry.get cb [ 200,
+1096 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1096 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1096 silly registry.get     etag: '"CS38E0TQ5BDC9ZN7H1MDKE5X2"',
+1096 silly registry.get     'content-type': 'application/json',
+1096 silly registry.get     'cache-control': 'max-age=60',
+1096 silly registry.get     'content-length': '85054',
+1096 silly registry.get     'accept-ranges': 'bytes',
+1096 silly registry.get     via: '1.1 varnish',
+1096 silly registry.get     age: '1181',
+1096 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+1096 silly registry.get     'x-cache': 'HIT',
+1096 silly registry.get     'x-cache-hits': '1',
+1096 silly registry.get     'x-timer': 'S1409398296.864785,VS0,VE0',
+1096 silly registry.get     vary: 'Accept',
+1096 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1096 silly registry.get     connection: 'Keep-Alive' } ]
+1097 http 200 https://registry.npmjs.org/prompt
+1098 silly registry.get cb [ 200,
+1098 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1098 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1098 silly registry.get     etag: '"AZGDB7ZJIBHWUZKCLJ1CCBYV4"',
+1098 silly registry.get     'content-type': 'application/json',
+1098 silly registry.get     'cache-control': 'max-age=60',
+1098 silly registry.get     'content-length': '43198',
+1098 silly registry.get     'accept-ranges': 'bytes',
+1098 silly registry.get     via: '1.1 varnish',
+1098 silly registry.get     age: '3329',
+1098 silly registry.get     'x-served-by': 'cache-lcy1131-LCY',
+1098 silly registry.get     'x-cache': 'HIT',
+1098 silly registry.get     'x-cache-hits': '1',
+1098 silly registry.get     'x-timer': 'S1409398296.932503,VS0,VE0',
+1098 silly registry.get     vary: 'Accept',
+1098 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1098 silly registry.get     connection: 'Keep-Alive' } ]
+1099 silly addNameRange number 2 { name: 'cheerio', range: '>=0.9.2-0 <0.10.0-0', hasData: true }
+1100 silly addNameRange versions [ 'cheerio',
+1100 silly addNameRange   [ '0.0.1',
+1100 silly addNameRange     '0.0.2',
+1100 silly addNameRange     '0.0.3',
+1100 silly addNameRange     '0.0.4',
+1100 silly addNameRange     '0.1.1',
+1100 silly addNameRange     '0.1.2',
+1100 silly addNameRange     '0.1.3',
+1100 silly addNameRange     '0.1.4',
+1100 silly addNameRange     '0.1.5',
+1100 silly addNameRange     '0.2.0',
+1100 silly addNameRange     '0.2.1',
+1100 silly addNameRange     '0.2.2',
+1100 silly addNameRange     '0.3.0',
+1100 silly addNameRange     '0.3.1',
+1100 silly addNameRange     '0.3.2',
+1100 silly addNameRange     '0.4.0',
+1100 silly addNameRange     '0.4.1',
+1100 silly addNameRange     '0.4.2',
+1100 silly addNameRange     '0.5.0',
+1100 silly addNameRange     '0.5.1',
+1100 silly addNameRange     '0.5.2',
+1100 silly addNameRange     '0.6.0',
+1100 silly addNameRange     '0.6.1',
+1100 silly addNameRange     '0.6.2',
+1100 silly addNameRange     '0.7.0',
+1100 silly addNameRange     '0.8.0',
+1100 silly addNameRange     '0.8.1',
+1100 silly addNameRange     '0.8.2',
+1100 silly addNameRange     '0.8.3',
+1100 silly addNameRange     '0.9.0',
+1100 silly addNameRange     '0.9.1',
+1100 silly addNameRange     '0.9.2',
+1100 silly addNameRange     '0.10.0',
+1100 silly addNameRange     '0.10.1',
+1100 silly addNameRange     '0.10.2',
+1100 silly addNameRange     '0.10.3',
+1100 silly addNameRange     '0.10.4',
+1100 silly addNameRange     '0.10.5',
+1100 silly addNameRange     '0.10.6',
+1100 silly addNameRange     '0.10.7',
+1100 silly addNameRange     '0.10.8',
+1100 silly addNameRange     '0.11.0',
+1100 silly addNameRange     '0.12.0',
+1100 silly addNameRange     '0.12.1',
+1100 silly addNameRange     '0.12.2',
+1100 silly addNameRange     '0.12.3',
+1100 silly addNameRange     '0.12.4',
+1100 silly addNameRange     '0.13.0',
+1100 silly addNameRange     '0.13.1',
+1100 silly addNameRange     '0.14.0',
+1100 silly addNameRange     '0.15.0',
+1100 silly addNameRange     '0.16.0',
+1100 silly addNameRange     '0.17.0' ] ]
+1101 verbose addNamed [ 'cheerio', '0.9.2' ]
+1102 verbose addNamed [ '0.9.2', '0.9.2' ]
+1103 silly lockFile 6d7dde83-cheerio-0-9-2 cheerio@0.9.2
+1104 verbose lock cheerio@0.9.2 /Users/andy/.npm/6d7dde83-cheerio-0-9-2.lock
+1105 silly addNameRange number 2 { name: 'prompt', range: '>=0.1.12-0 <0.2.0-0', hasData: true }
+1106 silly addNameRange versions [ 'prompt',
+1106 silly addNameRange   [ '0.0.1',
+1106 silly addNameRange     '0.0.2',
+1106 silly addNameRange     '0.0.3',
+1106 silly addNameRange     '0.0.4',
+1106 silly addNameRange     '0.1.0',
+1106 silly addNameRange     '0.1.1',
+1106 silly addNameRange     '0.1.2',
+1106 silly addNameRange     '0.1.3',
+1106 silly addNameRange     '0.1.4',
+1106 silly addNameRange     '0.1.5',
+1106 silly addNameRange     '0.1.7',
+1106 silly addNameRange     '0.1.8',
+1106 silly addNameRange     '0.1.9',
+1106 silly addNameRange     '0.1.10',
+1106 silly addNameRange     '0.1.11',
+1106 silly addNameRange     '0.1.12',
+1106 silly addNameRange     '0.2.0',
+1106 silly addNameRange     '0.2.1',
+1106 silly addNameRange     '0.2.2',
+1106 silly addNameRange     '0.2.3',
+1106 silly addNameRange     '0.2.4',
+1106 silly addNameRange     '0.2.5',
+1106 silly addNameRange     '0.2.6',
+1106 silly addNameRange     '0.2.7',
+1106 silly addNameRange     '0.2.8',
+1106 silly addNameRange     '0.2.9',
+1106 silly addNameRange     '0.2.10',
+1106 silly addNameRange     '0.2.11',
+1106 silly addNameRange     '0.2.12',
+1106 silly addNameRange     '0.2.13' ] ]
+1107 verbose addNamed [ 'prompt', '0.1.12' ]
+1108 verbose addNamed [ '0.1.12', '0.1.12' ]
+1109 silly lockFile cd9b35ef-prompt-0-1-12 prompt@0.1.12
+1110 verbose lock prompt@0.1.12 /Users/andy/.npm/cd9b35ef-prompt-0-1-12.lock
+1111 silly lockFile b2104bdb-js-org-cheerio-cheerio-0-9-2-tgz https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz
+1112 verbose lock https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz /Users/andy/.npm/b2104bdb-js-org-cheerio-cheerio-0-9-2-tgz.lock
+1113 silly lockFile 31afaea1-mjs-org-prompt-prompt-0-1-12-tgz https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz
+1114 verbose lock https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz /Users/andy/.npm/31afaea1-mjs-org-prompt-prompt-0-1-12-tgz.lock
+1115 verbose addRemoteTarball [ 'https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz',
+1115 verbose addRemoteTarball   '8cabe74aecc245dbafe03470e2decad87d133923' ]
+1116 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz',
+1116 verbose addRemoteTarball   'd3114e4fb985ac66eaa35586dcb7b3fb3b27bfc6' ]
+1117 info retry fetch attempt 1 at 12:31:36
+1118 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz
+1119 info retry fetch attempt 1 at 12:31:36
+1120 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/prompt/-/prompt-0.1.12.tgz
+1121 http GET https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz
+1122 http 304 https://registry.npmjs.org/clean-css
+1123 silly registry.get cb [ 304,
+1123 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1123 silly registry.get     server: 'Apache',
+1123 silly registry.get     via: '1.1 varnish',
+1123 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:28:03 GMT',
+1123 silly registry.get     'cache-control': 'max-age=60',
+1123 silly registry.get     etag: '"B7UHP4GWX64Z5FXVYCU5G1Y1L"',
+1123 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+1123 silly registry.get     'x-cache': 'HIT',
+1123 silly registry.get     'x-cache-hits': '3',
+1123 silly registry.get     'x-timer': 'S1409398297.016633,VS0,VE0',
+1123 silly registry.get     vary: 'Accept',
+1123 silly registry.get     'content-length': '0',
+1123 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1123 silly registry.get     connection: 'Keep-Alive' } ]
+1124 verbose etag https://registry.npmjs.org/clean-css from cache
+1125 http 200 https://registry.npmjs.org/open/-/open-0.0.2.tgz
+1126 http GET https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz
+1127 http 200 https://registry.npmjs.org/bower/-/bower-0.3.2.tgz
+1128 http 304 https://registry.npmjs.org/connect
+1129 silly registry.get cb [ 304,
+1129 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1129 silly registry.get     server: 'Apache',
+1129 silly registry.get     via: '1.1 varnish',
+1129 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1129 silly registry.get     'cache-control': 'max-age=60',
+1129 silly registry.get     etag: '"D2SK9SKTOETGHSI26774CH4QP"',
+1129 silly registry.get     'x-served-by': 'cache-lcy1131-LCY',
+1129 silly registry.get     'x-cache': 'HIT',
+1129 silly registry.get     'x-cache-hits': '1',
+1129 silly registry.get     'x-timer': 'S1409398297.021423,VS0,VE1',
+1129 silly registry.get     vary: 'Accept',
+1129 silly registry.get     'content-length': '0',
+1129 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1129 silly registry.get     connection: 'Keep-Alive' } ]
+1130 verbose etag https://registry.npmjs.org/connect from cache
+1131 silly addNameRange number 2 { name: 'clean-css', range: '>=0.3.2-0 <0.4.0-0', hasData: true }
+1132 silly addNameRange versions [ 'clean-css',
+1132 silly addNameRange   [ '0.1.0',
+1132 silly addNameRange     '0.2.0',
+1132 silly addNameRange     '0.2.1',
+1132 silly addNameRange     '0.2.2',
+1132 silly addNameRange     '0.2.3',
+1132 silly addNameRange     '0.2.4',
+1132 silly addNameRange     '0.2.5',
+1132 silly addNameRange     '0.2.6',
+1132 silly addNameRange     '0.3.0',
+1132 silly addNameRange     '0.3.1',
+1132 silly addNameRange     '0.3.2',
+1132 silly addNameRange     '0.3.3',
+1132 silly addNameRange     '0.4.0',
+1132 silly addNameRange     '0.4.1',
+1132 silly addNameRange     '0.4.2',
+1132 silly addNameRange     '0.5.0',
+1132 silly addNameRange     '0.6.0',
+1132 silly addNameRange     '0.7.0',
+1132 silly addNameRange     '0.8.0',
+1132 silly addNameRange     '0.8.1',
+1132 silly addNameRange     '0.8.2',
+1132 silly addNameRange     '0.8.3',
+1132 silly addNameRange     '0.9.0',
+1132 silly addNameRange     '0.9.1',
+1132 silly addNameRange     '0.10.0',
+1132 silly addNameRange     '0.10.1',
+1132 silly addNameRange     '0.10.2',
+1132 silly addNameRange     '1.0.0',
+1132 silly addNameRange     '1.0.1',
+1132 silly addNameRange     '1.0.2',
+1132 silly addNameRange     '1.0.3',
+1132 silly addNameRange     '1.0.4',
+1132 silly addNameRange     '1.0.5',
+1132 silly addNameRange     '1.0.6',
+1132 silly addNameRange     '1.0.7',
+1132 silly addNameRange     '1.0.8',
+1132 silly addNameRange     '1.0.9',
+1132 silly addNameRange     '1.0.10',
+1132 silly addNameRange     '1.0.11',
+1132 silly addNameRange     '1.0.12',
+1132 silly addNameRange     '1.1.0',
+1132 silly addNameRange     '1.1.1',
+1132 silly addNameRange     '1.1.2',
+1132 silly addNameRange     '1.1.3',
+1132 silly addNameRange     '1.1.4',
+1132 silly addNameRange     '1.1.5',
+1132 silly addNameRange     '1.1.6',
+1132 silly addNameRange     '1.1.7',
+1132 silly addNameRange     '2.0.0',
+1132 silly addNameRange     '2.0.1',
+1132 silly addNameRange     '2.0.2',
+1132 silly addNameRange     '2.0.3',
+1132 silly addNameRange     '2.0.4',
+1132 silly addNameRange     '2.0.5',
+1132 silly addNameRange     '2.0.6',
+1132 silly addNameRange     '2.0.7',
+1132 silly addNameRange     '2.0.8',
+1132 silly addNameRange     '2.1.0',
+1132 silly addNameRange     '2.1.1',
+1132 silly addNameRange     '2.1.2',
+1132 silly addNameRange     '2.1.3',
+1132 silly addNameRange     '2.1.4',
+1132 silly addNameRange     '2.1.5',
+1132 silly addNameRange     '2.1.6',
+1132 silly addNameRange     '2.1.7',
+1132 silly addNameRange     '2.1.8',
+1132 silly addNameRange     '2.2.0',
+1132 silly addNameRange     '2.2.1',
+1132 silly addNameRange     '2.2.2',
+1132 silly addNameRange     '2.2.3',
+1132 silly addNameRange     '2.2.4',
+1132 silly addNameRange     '2.2.5',
+1132 silly addNameRange     '2.2.6',
+1132 silly addNameRange     '2.2.7',
+1132 silly addNameRange     '2.2.8',
+1132 silly addNameRange     '2.2.9',
+1132 silly addNameRange     '2.2.10',
+1132 silly addNameRange     '2.2.11',
+1132 silly addNameRange     '2.2.12',
+1132 silly addNameRange     '2.2.13',
+1132 silly addNameRange     '2.2.14' ] ]
+1133 verbose addNamed [ 'clean-css', '0.3.3' ]
+1134 verbose addNamed [ '0.3.3', '0.3.3' ]
+1135 silly lockFile 63b4bcac-clean-css-0-3-3 clean-css@0.3.3
+1136 verbose lock clean-css@0.3.3 /Users/andy/.npm/63b4bcac-clean-css-0-3-3.lock
+1137 http 200 https://registry.npmjs.org/grunt-contrib-coffee
+1138 silly registry.get cb [ 200,
+1138 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:36 GMT',
+1138 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1138 silly registry.get     etag: '"1EELO9MJT3GQ224ORTGWWK290"',
+1138 silly registry.get     'content-type': 'application/json',
+1138 silly registry.get     'cache-control': 'max-age=60',
+1138 silly registry.get     'content-length': '48334',
+1138 silly registry.get     'accept-ranges': 'bytes',
+1138 silly registry.get     via: '1.1 varnish',
+1138 silly registry.get     age: '1622',
+1138 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
+1138 silly registry.get     'x-cache': 'HIT',
+1138 silly registry.get     'x-cache-hits': '1',
+1138 silly registry.get     'x-timer': 'S1409398296.989639,VS0,VE0',
+1138 silly registry.get     vary: 'Accept',
+1138 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1138 silly registry.get     connection: 'Keep-Alive' } ]
+1139 http 304 https://registry.npmjs.org/request
+1140 silly registry.get cb [ 304,
+1140 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1140 silly registry.get     server: 'Apache',
+1140 silly registry.get     via: '1.1 varnish',
+1140 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:29:02 GMT',
+1140 silly registry.get     'cache-control': 'max-age=60',
+1140 silly registry.get     etag: '"6CWP5S5RUVXE36N6LHWTDA7BQ"',
+1140 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+1140 silly registry.get     'x-cache': 'HIT',
+1140 silly registry.get     'x-cache-hits': '4',
+1140 silly registry.get     'x-timer': 'S1409398297.048541,VS0,VE0',
+1140 silly registry.get     vary: 'Accept',
+1140 silly registry.get     'content-length': '0',
+1140 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1140 silly registry.get     connection: 'Keep-Alive' } ]
+1141 verbose etag https://registry.npmjs.org/request from cache
+1142 http 200 https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz
+1143 http 304 https://registry.npmjs.org/which
+1144 silly registry.get cb [ 304,
+1144 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1144 silly registry.get     server: 'Apache',
+1144 silly registry.get     via: '1.1 varnish',
+1144 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1144 silly registry.get     'cache-control': 'max-age=60',
+1144 silly registry.get     etag: '"D1CXA5D4Y90FYSCWAVL67QCU8"',
+1144 silly registry.get     'x-served-by': 'cache-lcy1131-LCY',
+1144 silly registry.get     'x-cache': 'HIT',
+1144 silly registry.get     'x-cache-hits': '1',
+1144 silly registry.get     'x-timer': 'S1409398297.056311,VS0,VE0',
+1144 silly registry.get     vary: 'Accept',
+1144 silly registry.get     'content-length': '0',
+1144 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1144 silly registry.get     connection: 'Keep-Alive' } ]
+1145 verbose etag https://registry.npmjs.org/which from cache
+1146 http 200 https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz
+1147 silly lockFile b2774cf3-rg-clean-css-clean-css-0-3-3-tgz https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz
+1148 verbose lock https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz /Users/andy/.npm/b2774cf3-rg-clean-css-clean-css-0-3-3-tgz.lock
+1149 http 200 https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz
+1150 http 200 https://registry.npmjs.org/grunt-mocha
+1151 silly registry.get cb [ 200,
+1151 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1151 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1151 silly registry.get     etag: '"63O7SGQNLP5JIM8JBXWH7M4JJ"',
+1151 silly registry.get     'content-type': 'application/json',
+1151 silly registry.get     'cache-control': 'max-age=60',
+1151 silly registry.get     'content-length': '43442',
+1151 silly registry.get     'accept-ranges': 'bytes',
+1151 silly registry.get     via: '1.1 varnish',
+1151 silly registry.get     age: '10395',
+1151 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+1151 silly registry.get     'x-cache': 'MISS',
+1151 silly registry.get     'x-cache-hits': '0',
+1151 silly registry.get     'x-timer': 'S1409398296.932330,VS0,VE85',
+1151 silly registry.get     vary: 'Accept',
+1151 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1151 silly registry.get     connection: 'Keep-Alive' } ]
+1152 silly addNameRange number 2 { name: 'connect', range: '>=2.2.1-0 <2.3.0-0', hasData: true }
+1153 silly addNameRange versions [ 'connect',
+1153 silly addNameRange   [ '0.0.1',
+1153 silly addNameRange     '0.0.2',
+1153 silly addNameRange     '0.0.3',
+1153 silly addNameRange     '0.0.4',
+1153 silly addNameRange     '0.0.5',
+1153 silly addNameRange     '0.0.6',
+1153 silly addNameRange     '0.1.0',
+1153 silly addNameRange     '0.2.0',
+1153 silly addNameRange     '0.2.1',
+1153 silly addNameRange     '0.2.2',
+1153 silly addNameRange     '0.2.3',
+1153 silly addNameRange     '0.2.4',
+1153 silly addNameRange     '0.2.5',
+1153 silly addNameRange     '0.2.6',
+1153 silly addNameRange     '0.2.7',
+1153 silly addNameRange     '0.3.0',
+1153 silly addNameRange     '0.4.0',
+1153 silly addNameRange     '0.5.0',
+1153 silly addNameRange     '0.5.1',
+1153 silly addNameRange     '0.5.2',
+1153 silly addNameRange     '0.5.3',
+1153 silly addNameRange     '0.5.4',
+1153 silly addNameRange     '0.5.5',
+1153 silly addNameRange     '0.5.6',
+1153 silly addNameRange     '0.5.7',
+1153 silly addNameRange     '0.5.8',
+1153 silly addNameRange     '0.5.9',
+1153 silly addNameRange     '0.5.10',
+1153 silly addNameRange     '1.0.0',
+1153 silly addNameRange     '1.0.1',
+1153 silly addNameRange     '1.0.2',
+1153 silly addNameRange     '1.0.3',
+1153 silly addNameRange     '1.0.4',
+1153 silly addNameRange     '1.0.5',
+1153 silly addNameRange     '1.0.6',
+1153 silly addNameRange     '1.1.0',
+1153 silly addNameRange     '1.1.1',
+1153 silly addNameRange     '1.1.2',
+1153 silly addNameRange     '1.1.3',
+1153 silly addNameRange     '1.1.4',
+1153 silly addNameRange     '1.1.5',
+1153 silly addNameRange     '1.2.0',
+1153 silly addNameRange     '1.2.1',
+1153 silly addNameRange     '1.2.2',
+1153 silly addNameRange     '1.2.3',
+1153 silly addNameRange     '1.3.0',
+1153 silly addNameRange     '1.4.0',
+1153 silly addNameRange     '1.4.1',
+1153 silly addNameRange     '1.4.2',
+1153 silly addNameRange     '1.4.3',
+1153 silly addNameRange     '1.4.4',
+1153 silly addNameRange     '1.4.5',
+1153 silly addNameRange     '1.4.6',
+1153 silly addNameRange     '1.5.0',
+1153 silly addNameRange     '1.5.1',
+1153 silly addNameRange     '1.5.2',
+1153 silly addNameRange     '1.6.0',
+1153 silly addNameRange     '1.6.1',
+1153 silly addNameRange     '1.6.2',
+1153 silly addNameRange     '1.6.3',
+1153 silly addNameRange     '1.6.4',
+1153 silly addNameRange     '1.7.0',
+1153 silly addNameRange     '1.7.1',
+1153 silly addNameRange     '1.7.2',
+1153 silly addNameRange     '1.7.3',
+1153 silly addNameRange     '1.8.0',
+1153 silly addNameRange     '1.8.1',
+1153 silly addNameRange     '1.8.2',
+1153 silly addNameRange     '1.8.3',
+1153 silly addNameRange     '1.8.4',
+1153 silly addNameRange     '1.8.5',
+1153 silly addNameRange     '2.0.0',
+1153 silly addNameRange     '2.0.1',
+1153 silly addNameRange     '2.0.2',
+1153 silly addNameRange     '2.0.3',
+1153 silly addNameRange     '1.8.6',
+1153 silly addNameRange     '2.1.0',
+1153 silly addNameRange     '2.1.1',
+1153 silly addNameRange     '2.1.2',
+1153 silly addNameRange     '1.8.7',
+1153 silly addNameRange     '2.1.3',
+1153 silly addNameRange     '2.2.0',
+1153 silly addNameRange     '2.2.1',
+1153 silly addNameRange     '2.2.2',
+1153 silly addNameRange     '2.3.0',
+1153 silly addNameRange     '2.3.1',
+1153 silly addNameRange     '2.3.2',
+1153 silly addNameRange     '2.3.3',
+1153 silly addNameRange     '1.9.0',
+1153 silly addNameRange     '1.9.1',
+1153 silly addNameRange     '2.3.4',
+1153 silly addNameRange     '2.3.5',
+1153 silly addNameRange     '2.3.6',
+1153 silly addNameRange     '2.3.7',
+1153 silly addNameRange     '1.9.2',
+1153 silly addNameRange     '2.3.8',
+1153 silly addNameRange     '2.3.9',
+1153 silly addNameRange     '2.4.0',
+1153 silly addNameRange     '2.4.1',
+1153 silly addNameRange     '2.4.2',
+1153 silly addNameRange     '2.4.3',
+1153 silly addNameRange     '2.4.4',
+1153 silly addNameRange     '2.4.5',
+1153 silly addNameRange     '2.4.6',
+1153 silly addNameRange     '2.5.0',
+1153 silly addNameRange     '2.6.0',
+1153 silly addNameRange     '2.6.1',
+1153 silly addNameRange     '2.6.2',
+1153 silly addNameRange     '2.7.0',
+1153 silly addNameRange     '2.7.1',
+1153 silly addNameRange     '2.7.2',
+1153 silly addNameRange     '2.7.3',
+1153 silly addNameRange     '2.7.4',
+1153 silly addNameRange     '2.7.5',
+1153 silly addNameRange     '2.7.6',
+1153 silly addNameRange     '2.7.7',
+1153 silly addNameRange     '2.7.8',
+1153 silly addNameRange     '2.7.9',
+1153 silly addNameRange     '2.7.10',
+1153 silly addNameRange     '2.7.11',
+1153 silly addNameRange     '2.8.0',
+1153 silly addNameRange     '2.8.1',
+1153 silly addNameRange     '2.8.2',
+1153 silly addNameRange     '2.8.3',
+1153 silly addNameRange     '2.8.4',
+1153 silly addNameRange     '2.8.5',
+1153 silly addNameRange     '2.8.6',
+1153 silly addNameRange     '2.8.7',
+1153 silly addNameRange     '2.8.8',
+1153 silly addNameRange     '2.9.0',
+1153 silly addNameRange     '2.9.1',
+1153 silly addNameRange     '2.9.2',
+1153 silly addNameRange     '2.10.0',
+1153 silly addNameRange     '2.10.1',
+1153 silly addNameRange     '2.11.0',
+1153 silly addNameRange     '2.11.1',
+1153 silly addNameRange     '2.11.2',
+1153 silly addNameRange     '2.12.0',
+1153 silly addNameRange     '2.13.0',
+1153 silly addNameRange     '2.13.1',
+1153 silly addNameRange     '2.14.0',
+1153 silly addNameRange     '2.14.1',
+1153 silly addNameRange     '3.0.0-rc.1',
+1153 silly addNameRange     '2.14.2',
+1153 silly addNameRange     '2.14.3',
+1153 silly addNameRange     '2.14.4',
+1153 silly addNameRange     '2.14.5',
+1153 silly addNameRange     '2.15.0',
+1153 silly addNameRange     '3.0.0-rc.2',
+1153 silly addNameRange     '2.16.0',
+1153 silly addNameRange     '2.16.1',
+1153 silly addNameRange     '2.16.2',
+1153 silly addNameRange     '2.17.0',
+1153 silly addNameRange     '2.17.1',
+1153 silly addNameRange     '2.17.2',
+1153 silly addNameRange     '2.17.3',
+1153 silly addNameRange     '2.18.0',
+1153 silly addNameRange     '3.0.0',
+1153 silly addNameRange     '2.19.0',
+1153 silly addNameRange     '2.19.1',
+1153 silly addNameRange     '2.19.2',
+1153 silly addNameRange     '2.19.3',
+1153 silly addNameRange     '2.19.4',
+1153 silly addNameRange     '2.19.5',
+1153 silly addNameRange     '2.19.6',
+1153 silly addNameRange     '2.20.0',
+1153 silly addNameRange     '2.20.1',
+1153 silly addNameRange     '2.20.2',
+1153 silly addNameRange     '3.0.1',
+1153 silly addNameRange     '2.21.0',
+1153 silly addNameRange     '2.21.1',
+1153 silly addNameRange     '2.22.0',
+1153 silly addNameRange     '2.23.0',
+1153 silly addNameRange     '3.0.2',
+1153 silly addNameRange     '2.24.0',
+1153 silly addNameRange     '3.1.0',
+1153 silly addNameRange     '2.24.1',
+1153 silly addNameRange     '2.24.2',
+1153 silly addNameRange     '2.24.3',
+1153 silly addNameRange     '2.25.0',
+1153 silly addNameRange     '2.25.1',
+1153 silly addNameRange     '2.25.2',
+1153 silly addNameRange     '2.25.3',
+1153 silly addNameRange     '2.25.4',
+1153 silly addNameRange     '3.1.1',
+1153 silly addNameRange     '2.25.5',
+1153 silly addNameRange     '2.25.6',
+1153 silly addNameRange     '2.25.7',
+1153 silly addNameRange     '2.25.8',
+1153 silly addNameRange     '2.25.9' ] ]
+1154 verbose addNamed [ 'connect', '2.2.2' ]
+1155 verbose addNamed [ '2.2.2', '2.2.2' ]
+1156 silly lockFile fa3f39c5-connect-2-2-2 connect@2.2.2
+1157 verbose lock connect@2.2.2 /Users/andy/.npm/fa3f39c5-connect-2-2-2.lock
+1158 verbose addRemoteTarball [ 'https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz',
+1158 verbose addRemoteTarball   '9237317229c3e7481a485398111d91c6e0cb9e93' ]
+1159 http 200 https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz
+1160 http 304 https://registry.npmjs.org/fstream-ignore
+1161 silly registry.get cb [ 304,
+1161 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1161 silly registry.get     server: 'Apache',
+1161 silly registry.get     via: '1.1 varnish',
+1161 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1161 silly registry.get     'cache-control': 'max-age=60',
+1161 silly registry.get     etag: '"4LVQ6N1DMFJN877VX7Y8TFHL3"',
+1161 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+1161 silly registry.get     'x-cache': 'HIT',
+1161 silly registry.get     'x-cache-hits': '1',
+1161 silly registry.get     'x-timer': 'S1409398297.085299,VS0,VE0',
+1161 silly registry.get     vary: 'Accept',
+1161 silly registry.get     'content-length': '0',
+1161 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1161 silly registry.get     connection: 'Keep-Alive' } ]
+1162 verbose etag https://registry.npmjs.org/fstream-ignore from cache
+1163 silly lockFile ad3c167b-js-org-connect-connect-2-2-2-tgz https://registry.npmjs.org/connect/-/connect-2.2.2.tgz
+1164 verbose lock https://registry.npmjs.org/connect/-/connect-2.2.2.tgz /Users/andy/.npm/ad3c167b-js-org-connect-connect-2-2-2-tgz.lock
+1165 silly addNameRange number 2 { name: 'request',
+1165 silly addNameRange   range: '>=2.9.200-0 <2.10.0-0',
+1165 silly addNameRange   hasData: true }
+1166 silly addNameRange versions [ 'request',
+1166 silly addNameRange   [ '0.10.0',
+1166 silly addNameRange     '0.8.3',
+1166 silly addNameRange     '0.9.0',
+1166 silly addNameRange     '0.9.1',
+1166 silly addNameRange     '0.9.5',
+1166 silly addNameRange     '1.0.0',
+1166 silly addNameRange     '1.1.0',
+1166 silly addNameRange     '1.1.1',
+1166 silly addNameRange     '1.2.0',
+1166 silly addNameRange     '1.9.0',
+1166 silly addNameRange     '1.9.1',
+1166 silly addNameRange     '1.9.2',
+1166 silly addNameRange     '1.9.3',
+1166 silly addNameRange     '1.9.5',
+1166 silly addNameRange     '1.9.7',
+1166 silly addNameRange     '1.9.8',
+1166 silly addNameRange     '1.9.9',
+1166 silly addNameRange     '2.0.0',
+1166 silly addNameRange     '2.0.1',
+1166 silly addNameRange     '2.0.2',
+1166 silly addNameRange     '2.0.3',
+1166 silly addNameRange     '2.0.4',
+1166 silly addNameRange     '2.0.5',
+1166 silly addNameRange     '2.1.0',
+1166 silly addNameRange     '2.1.1',
+1166 silly addNameRange     '2.2.0',
+1166 silly addNameRange     '2.2.5',
+1166 silly addNameRange     '2.2.6',
+1166 silly addNameRange     '2.2.9',
+1166 silly addNameRange     '2.9.0',
+1166 silly addNameRange     '2.9.1',
+1166 silly addNameRange     '2.9.2',
+1166 silly addNameRange     '2.9.3',
+1166 silly addNameRange     '2.9.100',
+1166 silly addNameRange     '2.9.150',
+1166 silly addNameRange     '2.9.151',
+1166 silly addNameRange     '2.9.152',
+1166 silly addNameRange     '2.9.153',
+1166 silly addNameRange     '2.9.200',
+1166 silly addNameRange     '2.9.201',
+1166 silly addNameRange     '2.9.202',
+1166 silly addNameRange     '2.9.203',
+1166 silly addNameRange     '2.10.0',
+1166 silly addNameRange     '2.11.0',
+1166 silly addNameRange     '2.11.1',
+1166 silly addNameRange     '2.11.2',
+1166 silly addNameRange     '2.11.3',
+1166 silly addNameRange     '2.11.4',
+1166 silly addNameRange     '2.12.0',
+1166 silly addNameRange     '2.14.0',
+1166 silly addNameRange     '2.16.0',
+1166 silly addNameRange     '2.16.2',
+1166 silly addNameRange     '2.16.4',
+1166 silly addNameRange     '2.16.6',
+1166 silly addNameRange     '2.18.0',
+1166 silly addNameRange     '2.19.0',
+1166 silly addNameRange     '2.20.0',
+1166 silly addNameRange     '2.21.0',
+1166 silly addNameRange     '2.22.0',
+1166 silly addNameRange     '2.23.0',
+1166 silly addNameRange     '2.24.0',
+1166 silly addNameRange     '2.25.0',
+1166 silly addNameRange     '2.26.0',
+1166 silly addNameRange     '2.27.0',
+1166 silly addNameRange     '2.28.0',
+1166 silly addNameRange     '2.29.0',
+1166 silly addNameRange     '2.30.0',
+1166 silly addNameRange     '2.31.0',
+1166 silly addNameRange     '2.32.0',
+1166 silly addNameRange     '2.33.0',
+1166 silly addNameRange     '2.34.0',
+1166 silly addNameRange     '2.35.0',
+1166 silly addNameRange     '2.36.0',
+1166 silly addNameRange     '2.37.0',
+1166 silly addNameRange     '2.38.0',
+1166 silly addNameRange     '2.39.0',
+1166 silly addNameRange     '2.40.0' ] ]
+1167 verbose addNamed [ 'request', '2.9.203' ]
+1168 verbose addNamed [ '2.9.203', '2.9.203' ]
+1169 silly lockFile 3887d89d-request-2-9-203 request@2.9.203
+1170 verbose lock request@2.9.203 /Users/andy/.npm/3887d89d-request-2-9-203.lock
+1171 info retry fetch attempt 1 at 12:31:37
+1172 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz
+1173 silly addNameRange number 2 { name: 'grunt-contrib-coffee',
+1173 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+1173 silly addNameRange   hasData: true }
+1174 silly addNameRange versions [ 'grunt-contrib-coffee',
+1174 silly addNameRange   [ '0.2.0',
+1174 silly addNameRange     '0.3.0',
+1174 silly addNameRange     '0.3.1',
+1174 silly addNameRange     '0.3.2',
+1174 silly addNameRange     '0.4.0',
+1174 silly addNameRange     '0.5.0',
+1174 silly addNameRange     '0.6.0',
+1174 silly addNameRange     '0.6.1',
+1174 silly addNameRange     '0.6.2',
+1174 silly addNameRange     '0.6.3',
+1174 silly addNameRange     '0.6.4',
+1174 silly addNameRange     '0.6.5',
+1174 silly addNameRange     '0.6.6',
+1174 silly addNameRange     '0.6.7',
+1174 silly addNameRange     '0.7.0',
+1174 silly addNameRange     '0.8.0',
+1174 silly addNameRange     '0.8.2',
+1174 silly addNameRange     '0.9.0',
+1174 silly addNameRange     '0.10.0',
+1174 silly addNameRange     '0.4.0-rc7',
+1174 silly addNameRange     '0.10.1',
+1174 silly addNameRange     '0.11.0',
+1174 silly addNameRange     '0.11.1' ] ]
+1175 verbose addNamed [ 'grunt-contrib-coffee', '0.3.2' ]
+1176 verbose addNamed [ '0.3.2', '0.3.2' ]
+1177 silly lockFile 0579c274-grunt-contrib-coffee-0-3-2 grunt-contrib-coffee@0.3.2
+1178 verbose lock grunt-contrib-coffee@0.3.2 /Users/andy/.npm/0579c274-grunt-contrib-coffee-0-3-2.lock
+1179 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.2.2.tgz',
+1179 verbose addRemoteTarball   'd650f4c457f9a76a975551318967e50e0fdfe948' ]
+1180 silly lockFile ddb0b8ac-ry-npmjs-org-open-open-0-0-2-tgz https://registry.npmjs.org/open/-/open-0.0.2.tgz
+1181 silly lockFile ddb0b8ac-ry-npmjs-org-open-open-0-0-2-tgz https://registry.npmjs.org/open/-/open-0.0.2.tgz
+1182 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+1183 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+1184 verbose addNamed [ 'which', '1.0.5' ]
+1185 verbose addNamed [ '1.0.5', '1.0.5' ]
+1186 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1187 verbose lock which@1.0.5 /Users/andy/.npm/4aed4494-which-1-0-5.lock
+1188 silly lockFile 14da5d7e-open-0-0-2 open@0.0.2
+1189 silly lockFile 14da5d7e-open-0-0-2 open@0.0.2
+1190 http GET https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz
+1191 silly lockFile 96e7181b--org-request-request-2-9-203-tgz https://registry.npmjs.org/request/-/request-2.9.203.tgz
+1192 verbose lock https://registry.npmjs.org/request/-/request-2.9.203.tgz /Users/andy/.npm/96e7181b--org-request-request-2-9-203-tgz.lock
+1193 silly lockFile 11581f39-e-grunt-contrib-coffee-0-3-2-tgz https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz
+1194 verbose lock https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz /Users/andy/.npm/11581f39-e-grunt-contrib-coffee-0-3-2-tgz.lock
+1195 info retry fetch attempt 1 at 12:31:37
+1196 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/connect/-/connect-2.2.2.tgz
+1197 silly addNameRange number 2 { name: 'grunt-mocha',
+1197 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+1197 silly addNameRange   hasData: true }
+1198 silly addNameRange versions [ 'grunt-mocha',
+1198 silly addNameRange   [ '0.1.0',
+1198 silly addNameRange     '0.1.1',
+1198 silly addNameRange     '0.1.2',
+1198 silly addNameRange     '0.1.3',
+1198 silly addNameRange     '0.1.4',
+1198 silly addNameRange     '0.1.5',
+1198 silly addNameRange     '0.1.6',
+1198 silly addNameRange     '0.1.7',
+1198 silly addNameRange     '0.2.0',
+1198 silly addNameRange     '0.2.1',
+1198 silly addNameRange     '0.2.2',
+1198 silly addNameRange     '0.2.3',
+1198 silly addNameRange     '0.3.0',
+1198 silly addNameRange     '0.3.1',
+1198 silly addNameRange     '0.3.2',
+1198 silly addNameRange     '0.3.3',
+1198 silly addNameRange     '0.3.4',
+1198 silly addNameRange     '0.4.0',
+1198 silly addNameRange     '0.4.1',
+1198 silly addNameRange     '0.4.4',
+1198 silly addNameRange     '0.4.5',
+1198 silly addNameRange     '0.4.6',
+1198 silly addNameRange     '0.4.7',
+1198 silly addNameRange     '0.4.8',
+1198 silly addNameRange     '0.4.9',
+1198 silly addNameRange     '0.4.10',
+1198 silly addNameRange     '0.4.11' ] ]
+1199 verbose addNamed [ 'grunt-mocha', '0.1.7' ]
+1200 verbose addNamed [ '0.1.7', '0.1.7' ]
+1201 silly lockFile 9fb9df0e-grunt-mocha-0-1-7 grunt-mocha@0.1.7
+1202 verbose lock grunt-mocha@0.1.7 /Users/andy/.npm/9fb9df0e-grunt-mocha-0-1-7.lock
+1203 http 304 https://registry.npmjs.org/tar
+1204 silly registry.get cb [ 304,
+1204 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1204 silly registry.get     server: 'Apache',
+1204 silly registry.get     via: '1.1 varnish',
+1204 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1204 silly registry.get     'cache-control': 'max-age=60',
+1204 silly registry.get     etag: '"VT9NWKXIPNJ1BYLKQMOSY9TP"',
+1204 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+1204 silly registry.get     'x-cache': 'HIT',
+1204 silly registry.get     'x-cache-hits': '1',
+1204 silly registry.get     'x-timer': 'S1409398297.105464,VS0,VE0',
+1204 silly registry.get     vary: 'Accept',
+1204 silly registry.get     'content-length': '0',
+1204 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1204 silly registry.get     connection: 'Keep-Alive' } ]
+1205 verbose etag https://registry.npmjs.org/tar from cache
+1206 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.9.203.tgz',
+1206 verbose addRemoteTarball   '6c1711a5407fb94a114219563e44145bcbf4723a' ]
+1207 http GET https://registry.npmjs.org/connect/-/connect-2.2.2.tgz
+1208 silly lockFile bd477bc0--ignore-fstream-ignore-0-0-5-tgz https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz
+1209 verbose lock https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz /Users/andy/.npm/bd477bc0--ignore-fstream-ignore-0-0-5-tgz.lock
+1210 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz',
+1210 verbose addRemoteTarball   'e6139053213b2e43a8c87f8342b43345ca7ebd93' ]
+1211 silly lockFile be512869-runt-mocha-grunt-mocha-0-1-7-tgz https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz
+1212 verbose lock https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz /Users/andy/.npm/be512869-runt-mocha-grunt-mocha-0-1-7-tgz.lock
+1213 verbose addRemoteTarball [ 'https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz',
+1213 verbose addRemoteTarball   '054e6efb613bad5f71a7a5c031e15a6a9c8f075c' ]
+1214 info retry fetch attempt 1 at 12:31:37
+1215 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/request/-/request-2.9.203.tgz
+1216 info retry fetch attempt 1 at 12:31:37
+1217 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz
+1218 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz',
+1218 verbose addRemoteTarball   '58066ac3ecdc742668ffca4100f8a9327eb4c34d' ]
+1219 http 200 https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz
+1220 silly lockFile 8735d580--npmjs-org-bower-bower-0-3-2-tgz https://registry.npmjs.org/bower/-/bower-0.3.2.tgz
+1221 silly lockFile 8735d580--npmjs-org-bower-bower-0-3-2-tgz https://registry.npmjs.org/bower/-/bower-0.3.2.tgz
+1222 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1223 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1224 silly lockFile dc6374eb-bower-0-3-2 bower@0.3.2
+1225 silly lockFile dc6374eb-bower-0-3-2 bower@0.3.2
+1226 http GET https://registry.npmjs.org/request/-/request-2.9.203.tgz
+1227 silly lockFile bcfae994-pmjs-org-rimraf-rimraf-2-0-3-tgz https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz
+1228 silly lockFile bcfae994-pmjs-org-rimraf-rimraf-2-0-3-tgz https://registry.npmjs.org/rimraf/-/rimraf-2.0.3.tgz
+1229 http GET https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz
+1230 info retry fetch attempt 1 at 12:31:37
+1231 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz
+1232 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1233 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1234 silly lockFile 3741dbef-bower-0-3-0 bower@~0.3.0
+1235 silly lockFile 3741dbef-bower-0-3-0 bower@~0.3.0
+1236 silly addNameRange number 2 { name: 'tar', range: '>=0.1.13-0 <0.2.0-0', hasData: true }
+1237 silly addNameRange versions [ 'tar',
+1237 silly addNameRange   [ '0.0.1',
+1237 silly addNameRange     '0.1.0',
+1237 silly addNameRange     '0.1.2',
+1237 silly addNameRange     '0.1.3',
+1237 silly addNameRange     '0.1.4',
+1237 silly addNameRange     '0.1.5',
+1237 silly addNameRange     '0.1.6',
+1237 silly addNameRange     '0.1.7',
+1237 silly addNameRange     '0.1.8',
+1237 silly addNameRange     '0.1.9',
+1237 silly addNameRange     '0.1.10',
+1237 silly addNameRange     '0.1.11',
+1237 silly addNameRange     '0.1.12',
+1237 silly addNameRange     '0.1.13',
+1237 silly addNameRange     '0.1.14',
+1237 silly addNameRange     '0.1.15',
+1237 silly addNameRange     '0.1.16',
+1237 silly addNameRange     '0.1.17',
+1237 silly addNameRange     '0.1.18',
+1237 silly addNameRange     '0.1.19',
+1237 silly addNameRange     '0.1.20',
+1237 silly addNameRange     '1.0.0',
+1237 silly addNameRange     '1.0.1' ] ]
+1238 verbose addNamed [ 'tar', '0.1.20' ]
+1239 verbose addNamed [ '0.1.20', '0.1.20' ]
+1240 silly lockFile f61c64ec-tar-0-1-20 tar@0.1.20
+1241 verbose lock tar@0.1.20 /Users/andy/.npm/f61c64ec-tar-0-1-20.lock
+1242 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+1243 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+1244 info retry fetch attempt 1 at 12:31:37
+1245 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz
+1246 silly lockFile f13b63b4-rimraf-2-0-1 rimraf@~2.0.1
+1247 silly lockFile f13b63b4-rimraf-2-0-1 rimraf@~2.0.1
+1248 http GET https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz
+1249 http 304 https://registry.npmjs.org/coffee-script
+1250 silly registry.get cb [ 304,
+1250 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1250 silly registry.get     server: 'Apache',
+1250 silly registry.get     via: '1.1 varnish',
+1250 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:23 GMT',
+1250 silly registry.get     'cache-control': 'max-age=60',
+1250 silly registry.get     etag: '"46GDPIA3PE3S3ZA0AJ2OUKQKS"',
+1250 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+1250 silly registry.get     'x-cache': 'HIT',
+1250 silly registry.get     'x-cache-hits': '2',
+1250 silly registry.get     'x-timer': 'S1409398297.120438,VS0,VE0',
+1250 silly registry.get     vary: 'Accept',
+1250 silly registry.get     'content-length': '0',
+1250 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1250 silly registry.get     connection: 'Keep-Alive' } ]
+1251 verbose etag https://registry.npmjs.org/coffee-script from cache
+1252 http GET https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz
+1253 silly lockFile b2104bdb-js-org-cheerio-cheerio-0-9-2-tgz https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz
+1254 silly lockFile b2104bdb-js-org-cheerio-cheerio-0-9-2-tgz https://registry.npmjs.org/cheerio/-/cheerio-0.9.2.tgz
+1255 silly lockFile 6d7dde83-cheerio-0-9-2 cheerio@0.9.2
+1256 silly lockFile 6d7dde83-cheerio-0-9-2 cheerio@0.9.2
+1257 silly lockFile 7f3e93b9-cheerio-0-9-2 cheerio@~0.9.2
+1258 silly lockFile 7f3e93b9-cheerio-0-9-2 cheerio@~0.9.2
+1259 silly lockFile f61c64ec-tar-0-1-20 tar@0.1.20
+1260 silly lockFile f61c64ec-tar-0-1-20 tar@0.1.20
+1261 silly addNameRange number 2 { name: 'coffee-script',
+1261 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+1261 silly addNameRange   hasData: true }
+1262 silly addNameRange versions [ 'coffee-script',
+1262 silly addNameRange   [ '0.7.0',
+1262 silly addNameRange     '0.7.1',
+1262 silly addNameRange     '0.7.2',
+1262 silly addNameRange     '0.9.0',
+1262 silly addNameRange     '0.9.1',
+1262 silly addNameRange     '0.9.2',
+1262 silly addNameRange     '0.9.3',
+1262 silly addNameRange     '0.9.4',
+1262 silly addNameRange     '0.9.5',
+1262 silly addNameRange     '0.9.6',
+1262 silly addNameRange     '1.0.0',
+1262 silly addNameRange     '1.0.1',
+1262 silly addNameRange     '1.1.0',
+1262 silly addNameRange     '1.1.1',
+1262 silly addNameRange     '1.1.2',
+1262 silly addNameRange     '1.1.3',
+1262 silly addNameRange     '1.2.0',
+1262 silly addNameRange     '1.3.0',
+1262 silly addNameRange     '1.3.1',
+1262 silly addNameRange     '1.3.2',
+1262 silly addNameRange     '1.3.3',
+1262 silly addNameRange     '1.4.0',
+1262 silly addNameRange     '1.5.0',
+1262 silly addNameRange     '1.6.0',
+1262 silly addNameRange     '1.6.1',
+1262 silly addNameRange     '1.6.2',
+1262 silly addNameRange     '1.6.3',
+1262 silly addNameRange     '1.7.0',
+1262 silly addNameRange     '1.7.1',
+1262 silly addNameRange     '1.8.0' ] ]
+1263 verbose addNamed [ 'coffee-script', '1.3.3' ]
+1264 verbose addNamed [ '1.3.3', '1.3.3' ]
+1265 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+1266 verbose lock coffee-script@1.3.3 /Users/andy/.npm/022c8436-coffee-script-1-3-3.lock
+1267 silly lockFile e648d358-tar-0-1-13 tar@~0.1.13
+1268 silly lockFile e648d358-tar-0-1-13 tar@~0.1.13
+1269 silly lockFile 31afaea1-mjs-org-prompt-prompt-0-1-12-tgz https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz
+1270 silly lockFile 31afaea1-mjs-org-prompt-prompt-0-1-12-tgz https://registry.npmjs.org/prompt/-/prompt-0.1.12.tgz
+1271 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+1272 silly lockFile 022c8436-coffee-script-1-3-3 coffee-script@1.3.3
+1273 silly lockFile cd9b35ef-prompt-0-1-12 prompt@0.1.12
+1274 silly lockFile cd9b35ef-prompt-0-1-12 prompt@0.1.12
+1275 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+1276 silly lockFile f72bb580-coffee-script-1-3-3 coffee-script@~1.3.3
+1277 silly lockFile 39e4a135-prompt-0-1-12 prompt@~0.1.12
+1278 silly lockFile 39e4a135-prompt-0-1-12 prompt@~0.1.12
+1279 http 304 https://registry.npmjs.org/faye-websocket
+1280 silly registry.get cb [ 304,
+1280 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1280 silly registry.get     server: 'Apache',
+1280 silly registry.get     via: '1.1 varnish',
+1280 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1280 silly registry.get     'cache-control': 'max-age=60',
+1280 silly registry.get     etag: '"AFWCJ3E6IEK4L5J5X2TD2DEDX"',
+1280 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+1280 silly registry.get     'x-cache': 'HIT',
+1280 silly registry.get     'x-cache-hits': '1',
+1280 silly registry.get     'x-timer': 'S1409398297.136244,VS0,VE0',
+1280 silly registry.get     vary: 'Accept',
+1280 silly registry.get     'content-length': '0',
+1280 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1280 silly registry.get     connection: 'Keep-Alive' } ]
+1281 verbose etag https://registry.npmjs.org/faye-websocket from cache
+1282 silly addNameRange number 2 { name: 'faye-websocket',
+1282 silly addNameRange   range: '>=0.4.2-0 <0.5.0-0',
+1282 silly addNameRange   hasData: true }
+1283 silly addNameRange versions [ 'faye-websocket',
+1283 silly addNameRange   [ '0.1.0',
+1283 silly addNameRange     '0.1.1',
+1283 silly addNameRange     '0.1.2',
+1283 silly addNameRange     '0.2.0',
+1283 silly addNameRange     '0.3.0',
+1283 silly addNameRange     '0.3.1',
+1283 silly addNameRange     '0.4.0',
+1283 silly addNameRange     '0.4.1',
+1283 silly addNameRange     '0.4.2',
+1283 silly addNameRange     '0.4.3',
+1283 silly addNameRange     '0.4.4',
+1283 silly addNameRange     '0.5.0',
+1283 silly addNameRange     '0.6.0',
+1283 silly addNameRange     '0.6.1',
+1283 silly addNameRange     '0.7.0',
+1283 silly addNameRange     '0.7.1',
+1283 silly addNameRange     '0.7.2' ] ]
+1284 verbose addNamed [ 'faye-websocket', '0.4.4' ]
+1285 verbose addNamed [ '0.4.4', '0.4.4' ]
+1286 silly lockFile f9b80149-faye-websocket-0-4-4 faye-websocket@0.4.4
+1287 verbose lock faye-websocket@0.4.4 /Users/andy/.npm/f9b80149-faye-websocket-0-4-4.lock
+1288 silly lockFile f9b80149-faye-websocket-0-4-4 faye-websocket@0.4.4
+1289 silly lockFile f9b80149-faye-websocket-0-4-4 faye-websocket@0.4.4
+1290 silly lockFile c74c85de-faye-websocket-0-4-2 faye-websocket@~0.4.2
+1291 silly lockFile c74c85de-faye-websocket-0-4-2 faye-websocket@~0.4.2
+1292 silly lockFile 340a2099-ask-grunt-jasmine-task-0-2-3-tgz https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz
+1293 silly lockFile 340a2099-ask-grunt-jasmine-task-0-2-3-tgz https://registry.npmjs.org/grunt-jasmine-task/-/grunt-jasmine-task-0.2.3.tgz
+1294 silly lockFile 01c0ff83-grunt-jasmine-task-0-2-3 grunt-jasmine-task@0.2.3
+1295 silly lockFile 01c0ff83-grunt-jasmine-task-0-2-3 grunt-jasmine-task@0.2.3
+1296 silly lockFile c212c3e3-grunt-jasmine-task-0-2-2 grunt-jasmine-task@~0.2.2
+1297 silly lockFile c212c3e3-grunt-jasmine-task-0-2-2 grunt-jasmine-task@~0.2.2
+1298 http 304 https://registry.npmjs.org/shelljs
+1299 silly registry.get cb [ 304,
+1299 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1299 silly registry.get     server: 'Apache',
+1299 silly registry.get     via: '1.1 varnish',
+1299 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1299 silly registry.get     'cache-control': 'max-age=60',
+1299 silly registry.get     etag: '"RBT12ASRGPWTW0UAU2M8NCPX"',
+1299 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+1299 silly registry.get     'x-cache': 'HIT',
+1299 silly registry.get     'x-cache-hits': '1',
+1299 silly registry.get     'x-timer': 'S1409398297.149302,VS0,VE0',
+1299 silly registry.get     vary: 'Accept',
+1299 silly registry.get     'content-length': '0',
+1299 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1299 silly registry.get     connection: 'Keep-Alive' } ]
+1300 verbose etag https://registry.npmjs.org/shelljs from cache
+1301 http 200 https://registry.npmjs.org/request/-/request-2.9.203.tgz
+1302 silly addNameRange number 2 { name: 'shelljs', range: '>=0.0.6-0 <0.1.0-0', hasData: true }
+1303 silly addNameRange versions [ 'shelljs',
+1303 silly addNameRange   [ '0.0.1',
+1303 silly addNameRange     '0.0.2',
+1303 silly addNameRange     '0.0.3',
+1303 silly addNameRange     '0.0.4',
+1303 silly addNameRange     '0.0.5',
+1303 silly addNameRange     '0.0.6',
+1303 silly addNameRange     '0.0.7',
+1303 silly addNameRange     '0.0.8',
+1303 silly addNameRange     '0.0.9',
+1303 silly addNameRange     '0.1.0',
+1303 silly addNameRange     '0.1.1',
+1303 silly addNameRange     '0.1.2',
+1303 silly addNameRange     '0.1.3',
+1303 silly addNameRange     '0.1.4',
+1303 silly addNameRange     '0.2.0',
+1303 silly addNameRange     '0.2.1',
+1303 silly addNameRange     '0.2.2',
+1303 silly addNameRange     '0.2.3',
+1303 silly addNameRange     '0.2.4',
+1303 silly addNameRange     '0.2.5',
+1303 silly addNameRange     '0.2.6',
+1303 silly addNameRange     '0.3.0',
+1303 silly addNameRange     '0.0.1-alpha1',
+1303 silly addNameRange     '0.0.2-pre1',
+1303 silly addNameRange     '0.0.4-pre1',
+1303 silly addNameRange     '0.0.5-pre1',
+1303 silly addNameRange     '0.0.5-pre2',
+1303 silly addNameRange     '0.0.5-pre3',
+1303 silly addNameRange     '0.0.5-pre4',
+1303 silly addNameRange     '0.0.6-pre1',
+1303 silly addNameRange     '0.0.6-pre2' ] ]
+1304 verbose addNamed [ 'shelljs', '0.0.9' ]
+1305 verbose addNamed [ '0.0.9', '0.0.9' ]
+1306 silly lockFile bd35cb54-shelljs-0-0-9 shelljs@0.0.9
+1307 verbose lock shelljs@0.0.9 /Users/andy/.npm/bd35cb54-shelljs-0-0-9.lock
+1308 silly lockFile 3c051ab7-js-org-shelljs-shelljs-0-0-9-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz
+1309 verbose lock https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz /Users/andy/.npm/3c051ab7-js-org-shelljs-shelljs-0-0-9-tgz.lock
+1310 verbose addRemoteTarball [ 'https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz',
+1310 verbose addRemoteTarball   '417bf78ae22a703f8071f5df3e0a6ed004205d5f' ]
+1311 info retry fetch attempt 1 at 12:31:37
+1312 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz
+1313 http GET https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz
+1314 http 304 https://registry.npmjs.org/colors
+1315 silly registry.get cb [ 304,
+1315 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1315 silly registry.get     server: 'Apache',
+1315 silly registry.get     via: '1.1 varnish',
+1315 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1315 silly registry.get     'cache-control': 'max-age=60',
+1315 silly registry.get     etag: '"AHKR9DKQF2F508URK75TGDY8Z"',
+1315 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+1315 silly registry.get     'x-cache': 'HIT',
+1315 silly registry.get     'x-cache-hits': '1',
+1315 silly registry.get     'x-timer': 'S1409398297.164140,VS0,VE0',
+1315 silly registry.get     vary: 'Accept',
+1315 silly registry.get     'content-length': '0',
+1315 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1315 silly registry.get     connection: 'Keep-Alive' } ]
+1316 verbose etag https://registry.npmjs.org/colors from cache
+1317 http 200 https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz
+1318 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+1319 silly addNameRange versions [ 'colors',
+1319 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+1320 verbose addNamed [ 'colors', '0.6.2' ]
+1321 verbose addNamed [ '0.6.2', '0.6.2' ]
+1322 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+1323 verbose lock colors@0.6.2 /Users/andy/.npm/1ce149d5-colors-0-6-2.lock
+1324 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+1325 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+1326 silly lockFile 87ce7fc7-colors-0-6-0 colors@~0.6.0
+1327 silly lockFile 87ce7fc7-colors-0-6-0 colors@~0.6.0
+1328 silly lockFile 11581f39-e-grunt-contrib-coffee-0-3-2-tgz https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz
+1329 silly lockFile 11581f39-e-grunt-contrib-coffee-0-3-2-tgz https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.3.2.tgz
+1330 silly lockFile 0579c274-grunt-contrib-coffee-0-3-2 grunt-contrib-coffee@0.3.2
+1331 silly lockFile 0579c274-grunt-contrib-coffee-0-3-2 grunt-contrib-coffee@0.3.2
+1332 silly lockFile fc10f0e7-grunt-contrib-coffee-0-3-1 grunt-contrib-coffee@~0.3.1
+1333 silly lockFile fc10f0e7-grunt-contrib-coffee-0-3-1 grunt-contrib-coffee@~0.3.1
+1334 http 200 https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz
+1335 silly lockFile bd477bc0--ignore-fstream-ignore-0-0-5-tgz https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz
+1336 silly lockFile bd477bc0--ignore-fstream-ignore-0-0-5-tgz https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.5.tgz
+1337 silly lockFile 2284ac87-fstream-ignore-0-0-5 fstream-ignore@0.0.5
+1338 silly lockFile 2284ac87-fstream-ignore-0-0-5 fstream-ignore@0.0.5
+1339 silly lockFile 1446610b-rg-requirejs-requirejs-2-0-6-tgz https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz
+1340 silly lockFile 1446610b-rg-requirejs-requirejs-2-0-6-tgz https://registry.npmjs.org/requirejs/-/requirejs-2.0.6.tgz
+1341 silly lockFile dadba93d-requirejs-2-0-6 requirejs@2.0.6
+1342 silly lockFile dadba93d-requirejs-2-0-6 requirejs@2.0.6
+1343 silly lockFile 0bb51518-requirejs-2-0-2 requirejs@~2.0.2
+1344 silly lockFile 0bb51518-requirejs-2-0-2 requirejs@~2.0.2
+1345 silly lockFile 96e7181b--org-request-request-2-9-203-tgz https://registry.npmjs.org/request/-/request-2.9.203.tgz
+1346 silly lockFile 96e7181b--org-request-request-2-9-203-tgz https://registry.npmjs.org/request/-/request-2.9.203.tgz
+1347 silly lockFile 3887d89d-request-2-9-203 request@2.9.203
+1348 silly lockFile 3887d89d-request-2-9-203 request@2.9.203
+1349 silly lockFile 1659c081-request-2-9-200 request@~2.9.200
+1350 silly lockFile 1659c081-request-2-9-200 request@~2.9.200
+1351 http 200 https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz
+1352 http 200 https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz
+1353 http 200 https://registry.npmjs.org/connect/-/connect-2.2.2.tgz
+1354 http 200 https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz
+1355 http 304 https://registry.npmjs.org/html-minifier
+1356 silly registry.get cb [ 304,
+1356 silly registry.get   { date: 'Sat, 30 Aug 2014 11:31:37 GMT',
+1356 silly registry.get     server: 'Apache',
+1356 silly registry.get     via: '1.1 varnish',
+1356 silly registry.get     'last-modified': 'Sat, 30 Aug 2014 11:31:37 GMT',
+1356 silly registry.get     'cache-control': 'max-age=60',
+1356 silly registry.get     etag: '"2VDDTT1N5F8BKU5RZ6PJ4D6HG"',
+1356 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
+1356 silly registry.get     'x-cache': 'HIT',
+1356 silly registry.get     'x-cache-hits': '1',
+1356 silly registry.get     'x-timer': 'S1409398297.085301,VS0,VE155',
+1356 silly registry.get     vary: 'Accept',
+1356 silly registry.get     'content-length': '0',
+1356 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1356 silly registry.get     connection: 'Keep-Alive' } ]
+1357 verbose etag https://registry.npmjs.org/html-minifier from cache
+1358 silly addNameRange number 2 { name: 'html-minifier',
+1358 silly addNameRange   range: '>=0.4.5-0 <0.5.0-0',
+1358 silly addNameRange   hasData: true }
+1359 silly addNameRange versions [ 'html-minifier',
+1359 silly addNameRange   [ '0.4.3',
+1359 silly addNameRange     '0.4.4',
+1359 silly addNameRange     '0.4.5',
+1359 silly addNameRange     '0.5.0',
+1359 silly addNameRange     '0.5.1',
+1359 silly addNameRange     '0.5.2',
+1359 silly addNameRange     '0.5.4',
+1359 silly addNameRange     '0.5.5',
+1359 silly addNameRange     '0.5.6',
+1359 silly addNameRange     '0.6.0',
+1359 silly addNameRange     '0.6.1',
+1359 silly addNameRange     '0.6.2',
+1359 silly addNameRange     '0.6.3',
+1359 silly addNameRange     '0.6.4',
+1359 silly addNameRange     '0.6.5',
+1359 silly addNameRange     '0.6.6' ] ]
+1360 verbose addNamed [ 'html-minifier', '0.4.5' ]
+1361 verbose addNamed [ '0.4.5', '0.4.5' ]
+1362 silly lockFile 0a8b6e93-html-minifier-0-4-5 html-minifier@0.4.5
+1363 verbose lock html-minifier@0.4.5 /Users/andy/.npm/0a8b6e93-html-minifier-0-4-5.lock
+1364 silly lockFile 9079843f-minifier-html-minifier-0-4-5-tgz https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz
+1365 verbose lock https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz /Users/andy/.npm/9079843f-minifier-html-minifier-0-4-5-tgz.lock
+1366 verbose addRemoteTarball [ 'https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz',
+1366 verbose addRemoteTarball   '763a1c806c0c18ee8117021bf137b18db056e786' ]
+1367 info retry fetch attempt 1 at 12:31:37
+1368 verbose fetch to= /tmp/npm-1652-ZN9FsDMP/registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz
+1369 http GET https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz
+1370 silly lockFile be512869-runt-mocha-grunt-mocha-0-1-7-tgz https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz
+1371 silly lockFile be512869-runt-mocha-grunt-mocha-0-1-7-tgz https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.1.7.tgz
+1372 silly lockFile 9fb9df0e-grunt-mocha-0-1-7 grunt-mocha@0.1.7
+1373 silly lockFile 9fb9df0e-grunt-mocha-0-1-7 grunt-mocha@0.1.7
+1374 silly lockFile 0b644ca0-grunt-mocha-0-1-3 grunt-mocha@~0.1.3
+1375 silly lockFile 0b644ca0-grunt-mocha-0-1-3 grunt-mocha@~0.1.3
+1376 silly lockFile 3c051ab7-js-org-shelljs-shelljs-0-0-9-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz
+1377 silly lockFile 3c051ab7-js-org-shelljs-shelljs-0-0-9-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.0.9.tgz
+1378 silly lockFile bd35cb54-shelljs-0-0-9 shelljs@0.0.9
+1379 silly lockFile bd35cb54-shelljs-0-0-9 shelljs@0.0.9
+1380 silly lockFile 51fc5c5c-shelljs-0-0-6 shelljs@~0.0.6
+1381 silly lockFile 51fc5c5c-shelljs-0-0-6 shelljs@~0.0.6
+1382 silly lockFile b2774cf3-rg-clean-css-clean-css-0-3-3-tgz https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz
+1383 silly lockFile b2774cf3-rg-clean-css-clean-css-0-3-3-tgz https://registry.npmjs.org/clean-css/-/clean-css-0.3.3.tgz
+1384 silly lockFile 63b4bcac-clean-css-0-3-3 clean-css@0.3.3
+1385 silly lockFile 63b4bcac-clean-css-0-3-3 clean-css@0.3.3
+1386 silly lockFile e88db108-clean-css-0-3-2 clean-css@~0.3.2
+1387 silly lockFile e88db108-clean-css-0-3-2 clean-css@~0.3.2
+1388 silly lockFile ad3c167b-js-org-connect-connect-2-2-2-tgz https://registry.npmjs.org/connect/-/connect-2.2.2.tgz
+1389 silly lockFile ad3c167b-js-org-connect-connect-2-2-2-tgz https://registry.npmjs.org/connect/-/connect-2.2.2.tgz
+1390 silly lockFile fa3f39c5-connect-2-2-2 connect@2.2.2
+1391 silly lockFile fa3f39c5-connect-2-2-2 connect@2.2.2
+1392 silly lockFile c4784122-connect-2-2-1 connect@~2.2.1
+1393 silly lockFile c4784122-connect-2-2-1 connect@~2.2.1
+1394 http 200 https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz
+1395 silly lockFile 9079843f-minifier-html-minifier-0-4-5-tgz https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz
+1396 silly lockFile 9079843f-minifier-html-minifier-0-4-5-tgz https://registry.npmjs.org/html-minifier/-/html-minifier-0.4.5.tgz
+1397 silly lockFile 0a8b6e93-html-minifier-0-4-5 html-minifier@0.4.5
+1398 silly lockFile 0a8b6e93-html-minifier-0-4-5 html-minifier@0.4.5
+1399 silly lockFile bd8a6d97-html-minifier-0-4-5 html-minifier@~0.4.5
+1400 silly lockFile bd8a6d97-html-minifier-0-4-5 html-minifier@~0.4.5
+1401 http 406 http://github.com/yeoman/generators/archive/0.9.5.tar.gz
+1402 error fetch failed http://github.com/yeoman/generators/archive/0.9.5.tar.gz
+1403 silly lockFile 39a440c4--generators-archive-0-9-5-tar-gz http://github.com/yeoman/generators/archive/0.9.5.tar.gz
+1404 silly lockFile 39a440c4--generators-archive-0-9-5-tar-gz http://github.com/yeoman/generators/archive/0.9.5.tar.gz
+1405 verbose about to build /usr/local/lib/node_modules/yeoman
+1406 verbose lib/node_modules/yeoman unbuild
+1407 info preuninstall yeoman@0.9.6
+1408 info uninstall yeoman@0.9.6
+1409 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yeoman@0.9.6
+1410 verbose /usr/local/bin,[object Object] binRoot
+1411 info postuninstall yeoman@0.9.6
+1412 error Error: 406 Not Acceptable
+1412 error     at WriteStream.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/fetch.js:58:12)
+1412 error     at WriteStream.emit (events.js:117:20)
+1412 error     at evalmachine.<anonymous>:1609:14
+1412 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+1412 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+1413 error If you need help, you may report this *entire* log,
+1413 error including the npm and node versions, at:
+1413 error     <http://github.com/npm/npm/issues>
+1414 error System Darwin 13.3.0
+1415 error command "node" "/usr/local/bin/npm" "install" "-g" "yeoman"
+1416 error cwd /Users/andy/Development/codewords
+1417 error node -v v0.10.31
+1418 error npm -v 1.4.23
+1419 verbose exit [ 1, true ]
