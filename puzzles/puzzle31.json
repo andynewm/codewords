@@ -1,0 +1,19 @@
+{
+  "map": [
+    [3, 1, 6, null, 17, 10, 1, 9, 24, 17, 4, 1, 17],
+    [0, null, 14, null, 7, null, 7, null, 5, null, null, null, 7],
+    [13, 24, 9, 9, 24, null, 12, 1, 10, 10, 16, 14, 8],
+    [null, null, 1, null, 2, null, null, null, 0, null, 14, null, 18],
+    [21, 24, 19, 1, 10, 10, 24, null, 11, 18, 10, 1, 4],
+    [null, null, 1, null, null, null, 17, null, null, null, 10, null, null],
+    [17, 14, 14, null, 10, 1, 20, 15, 1, 23, 8, null, 11],
+    [15, null, 19, null, 0, null, 15, null, null, 1, null, 18, 1],
+    [7, null, null, 12, 24, 9, 1, 12, 24, 22, 0, null, 4],
+    [7, null, 11, null, 6, null, 7, null, null, 22, null, null, 4],
+    [24, 17, 25, 1, 0, 21, 0, null, 24, 10, 1, 3, 1],
+    [19, null, 1, null, 7, null, null, 15, null, 0, null, null, 19],
+    [4, 24, 18, null, 11, 15, 3, 11, 1, 6, 1, 19, 13]
+  ],
+  "solution": "EIWBTXDRYMLSKGOUJCPNQVZFAH",
+  "state": [null, null, null, null, null, null, null, "R", null, null, null, null, null, null, "O", null, "J", null, null, null, null, null, null, null, null, null]
+}

@@ -1,0 +1,19 @@
+{
+  "map": [
+    [9, 23, 23, 0, 16, 17, 0, 15, 13, null, 24, 19, 0],
+    [20, null, null, null, 17, null, 17, null, 23, null, 19, null, 17],
+    [9, 25, 20, 16, 16, 19, 7, null, 3, 7, 17, 13, 13],
+    [0, null, null, null, 17, null, null, 6, null, null, 25, null, 0],
+    [15, 1, 13, 18, 10, null, 5, 23, 1, 13, 0, null, 19],
+    [null, null, 0, null, 17, null, 19, null, 16, null, 15, null, null],
+    [14, 1, 20, 12, null, null, 13, 16, 7, 17, 10, 19, 22],
+    [null, null, 2, null, 17, null, 0, null, 23, null, null, null, 1],
+    [13, 0, 1, 7, 22, 10, null, 13, 23, 9, 0, 19, 7],
+    [20, null, 25, null, 8, null, 25, null, 0, null, 15, null, 19],
+    [4, null, 17, 6, 19, null, 17, 21, 13, 24, 19, 7, 13],
+    [0, null, 21, null, 7, null, 12, null, null, null, 9, null, 13],
+    [15, 17, 0, null, 3, 23, 10, 11, 23, 0, 0, 13, null]
+  ],
+  "solution": "TUMBXJGRVFYCZSQHPAKEINDOWL",
+  "state": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "H", null, null, null, "E", null, null, null, null, "W", null]
+}
