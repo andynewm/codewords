@@ -1,4 +1,6 @@
-﻿angular.module('codeword', ['ngRoute'])
+﻿/* global angular */
+
+angular.module('codeword', ['ngRoute'])
 	.config(['$routeProvider', function ($routeProvider) {
 
 		$routeProvider
@@ -11,7 +13,7 @@
 				controller: 'puzzleCtrl',
 				resolve: {
 					puzzle: ['puzzleFactory', '$route', function(puzzleFactory, $route) {
-						return puzzleFactory.load($route.current.params.id)
+						return puzzleFactory.load($route.current.params.id);
 					}]
 				}
 			})

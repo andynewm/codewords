@@ -1,3 +1,5 @@
+/* global angular, $ */
+
 angular.module('codeword')
 	.directive('testd', function () {
 
@@ -8,8 +10,8 @@ angular.module('codeword')
 
 		return {
 			link: function (scope, element) {
-
 				element.on('keydown', function (e) {
+					var index;
 
 					switch(e.which) {
 						case 39:
@@ -23,7 +25,7 @@ angular.module('codeword')
 							return false;
 
 						case 38:
-							var index = $(this)
+							index = $(this)
 								.closest('td')
 								.index() + 1;
 
@@ -47,7 +49,7 @@ angular.module('codeword')
 							return false;
 
 						case 40:
-							var index = $(this)
+							index = $(this)
 								.closest('td')
 								.index() + 1;
 
@@ -68,6 +70,6 @@ angular.module('codeword')
 					}
 				});
 			}
-		}
+		};
 
-	})
+	});

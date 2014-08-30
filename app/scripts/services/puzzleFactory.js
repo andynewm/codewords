@@ -1,8 +1,9 @@
-﻿angular.module('codeword')
-	.factory('puzzleFactory', ['$http', '$routeParams', '$q', function ($http, $routeParams, $q) {
+﻿/* global angular */
+
+angular.module('codeword')
+	.factory('puzzleFactory', ['$http', '$q', function ($http, $q) {
 
 		function load(index) {
-
 			var deferred = $q.defer();
 
 			$http.get('puzzles/puzzle' + index + '.json')
@@ -14,21 +15,9 @@
 				});
 
 			return deferred.promise;
-
-		}
-
-		function first(array, predicate) {
-			for (var i = 0; i < array.length; i++) {
-				var item = array[i];
-				if (predicate(item)) {
-					return item;
-				}
-			}
-			return null;
 		}
 
 		function Puzzle(puzzle) {
-
 			this.state = puzzle.state;
 			this.initState = puzzle.state.slice(0);
 			this.solution = puzzle.solution;
@@ -39,13 +28,11 @@
 				}
 				return obj;
 			}, {});
-
 		}
 
 		Puzzle.prototype.setLetter = function (code, letter) {
-
-			var state = this.state;
-			var inverseState = this.inverseState;
+			var state = this.state,
+			    inverseState = this.inverseState;
 
 			state.forEach(function (value, i) {
 
@@ -55,26 +42,26 @@
 
 				}
 
-			})
+			});
 			
 			state[code] = letter;
 
 			inverseState[letter] = code + 1;
-
-		}
+		};
 
 		Puzzle.prototype.isSolved = function () {
+			var state = this.state,
+			    solution = this.solution;
 
 			return state.every(function (x, i) {
 				return x == solution[i];
 			});
-
-		}
+		};
 
 		Puzzle.prototype.match = function (letter) {
 			return this.inverseState[letter];
-		}
+		};
 
 		return { load: load };
 
-}]);
+	}]);
