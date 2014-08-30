@@ -1,5 +1,5 @@
 ﻿angular.module('codeword', ['ngRoute'])
-    .config(function ($routeProvider) {
+    .config(['$routeProvider', function ($routeProvider) {
 
         $routeProvider
             .when('/', {
@@ -17,4 +17,4 @@
             })
             .otherwise({redirectTo: '/'});
 
-    });
+    }]);

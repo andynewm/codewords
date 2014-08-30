@@ -1,5 +1,5 @@
 ﻿angular.module('codeword')
-	.factory('puzzleFactory', function ($http, $routeParams, $q) {
+	.factory('puzzleFactory', ['$http', '$routeParams', '$q', function ($http, $routeParams, $q) {
 
 		function load(index) {
 
@@ -61,4 +61,4 @@
 
 		return { load: load };
 
-});
+}]);
