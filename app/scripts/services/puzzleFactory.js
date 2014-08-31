@@ -35,11 +35,9 @@ angular.module('codeword')
 			    inverseState = this.inverseState;
 
 			state.forEach(function (value, i) {
-
 				if (value == letter) {
 
 					state[i] = null;
-
 				}
 
 			});
