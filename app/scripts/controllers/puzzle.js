@@ -1,9 +1,8 @@
 ﻿/* global angular */
 
 angular.module('codeword')
-	.controller('puzzleCtrl', ['$scope', '$routeParams', 'puzzle' , function ($scope, $routeParams, puzzle) {
+	.controller('puzzleCtrl', ['$scope', 'puzzle' , function ($scope, puzzle) {
 
-		$scope.puzzleNumber = $routeParams.id;
 		$scope.map = puzzle.map;
 		$scope.state = puzzle.state;
 		$scope.initState = puzzle.initState;
