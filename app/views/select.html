@@ -1,3 +1,3 @@
-﻿<ul>
-	<li ng-repeat="i in range(40)"><a ng-href='#/{{i+1}}'>puzzle {{i+1}}</a></li>
+﻿<ul id="puzzleList">
+	<li ng-repeat="i in range(40)"><a ng-href='#/{{i+1}}'># {{i+1 | pad: 3}}</a></li>
 </ul>

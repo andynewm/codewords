@@ -61,6 +61,11 @@ angular.module('codeword')
 								.focus();
 
 							return false;
+
+						case 8:
+							scope.setLetter(scope.cell, null);
+
+							return false;
 						}
 
 					if (isLetter(e.which)) {

@@ -1,10 +1,52 @@
-﻿body {
+﻿/** Shared **/
+
+body {
     font-family: sans-serif;
-    background: #235;
+    background: #fff;
 }
 
-table {
-    margin: 50px auto;
+h1 {
+    font-family: 'PT serif';
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+    margin-left: 0;
+    transition: margin-left 0.4s;
+}
+
+a:hover {
+    color: #36a;
+    margin-left: 4px;
+}
+
+/** Select page **/
+
+ul#puzzleList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+ul#puzzleList a
+{
+    padding: 10px 0;
+}
+
+/** Puzzle page **/
+
+table#grid {
+    margin: 20px auto;
+    padding: 7px;
+    background: #111;
+    border: 7px solid #999;
+    border-radius: 7px;
+    box-shadow: 4px 4px 9px #aaa;
 }
 
 td {
@@ -13,13 +55,6 @@ td {
     height:25px;
     margin: 0;
     padding: 0;
-}
-
-.clamped {
-    position: fixed;
-    top: 30px;
-    bottom: 30px;
-    overflow-y: scroll;
 }
 
 div.cell {
@@ -67,17 +102,6 @@ div.cell.default {
 tr {
     margin: 0;
     padding: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    color: #e8e8e8;
-    text-decoration: none;
 }
 
 
