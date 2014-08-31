@@ -10,6 +10,10 @@ angular.module('codeword')
 
 		return {
 			link: function (scope, element) {
+				element.on('click', function () {
+					$(this).focus();
+				});
+
 				element.on('keydown', function (e) {
 					var index;
 
@@ -20,7 +24,7 @@ angular.module('codeword')
 								.nextAll()
 								.find('.cell:not(.default)')
 								.first()
-								.focus();
+								.click();
 
 							return false;
 
@@ -34,7 +38,7 @@ angular.module('codeword')
 								.prevAll()
 								.find('td:nth-child(' + index + ') .cell:not(.default)')
 								.last()
-								.focus();
+								.click();
 
 							return false;
 
@@ -44,7 +48,7 @@ angular.module('codeword')
 								.prevAll()
 								.find('.cell:not(.default)')
 								.last()
-								.focus();
+								.click();
 
 							return false;
 
@@ -58,7 +62,7 @@ angular.module('codeword')
 								.nextAll()
 								.find('td:nth-child(' + index + ') .cell:not(.default)')
 								.first()
-								.focus();
+								.click();
 
 							return false;
 
