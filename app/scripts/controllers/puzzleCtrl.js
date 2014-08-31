@@ -23,4 +23,8 @@ angular.module('codeword')
 			return puzzle.match(letter);
 		};
 
+		$scope.isSolved = function () {
+			return puzzle.isSolved();
+		};
+
 	}]);
