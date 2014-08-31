@@ -12,13 +12,26 @@ h1 {
 a {
     color: #444;
     text-decoration: none;
-    margin-left: 0;
-    transition: margin-left 0.4s;
 }
 
 a:hover {
     color: #36a;
-    margin-left: 4px;
+}
+
+a:active {
+    color: #000;
+}
+
+#content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.central {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /** Select page **/
@@ -29,13 +42,28 @@ ul#puzzleList {
     margin: 0;
     overflow-y: auto;
     position: absolute;
-    bottom: 0;
-    top: 0;
+    bottom: 30px;
+    top: 80px;
 }
 
 ul#puzzleList a
 {
-    padding: 10px 0;
+    width: 300px;
+    display: inline-block;
+    margin: 2px;
+    padding: 10px 8px;
+    background: #e8e8e8;
+    transition: padding-left, background-color 0.4s;
+}
+
+ul#puzzleList a:hover
+{
+    background: #f0f0f0;
+}
+
+ul#puzzleList a:active
+{
+    background: #fff;
 }
 
 /** Puzzle page **/
@@ -44,7 +72,6 @@ table#grid {
     margin: 20px auto;
     padding: 7px;
     background: #111;
-    border: 7px solid #999;
     border-radius: 7px;
     box-shadow: 4px 4px 9px #aaa;
 }
@@ -72,16 +99,18 @@ div.cell {
 
 div.cell.enterable {
     cursor: pointer;
-    background-color: #ddd;
+    background-color: #e8e8e8;
 }
 
 div.cell:not(.entered):not(.selected) {
-    opacity: 0.5;
+    background-color: #444;
+    color: #aaa;
 }
 
 div.cell:not(.entered) {
-    font-family: monospace;
-    font-size: 0.9em;
+    font-family: 'Nova Mono', monospace;
+    font-size: 12px;
+
     color: #444;
 }
 
@@ -94,7 +123,7 @@ div.cell:focus {
 }
 
 div.cell.default {
-    background: #ddd;
+    background: #e8e8e8;
     cursor: default;
     font-weight: bold;
 }
@@ -102,6 +131,30 @@ div.cell.default {
 tr {
     margin: 0;
     padding: 0;
+}
+
+table#lookup {
+    margin: 0 auto;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.mono {
+    font-family: 'Nova Mono', monospace;
+}
+
+table#lookup td {
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+}
+
+table#lookup td.entered {
+    font-weight: bold;
+    background-color: #333;
+    color: #e8e8e8;
 }
 
 

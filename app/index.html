@@ -14,15 +14,17 @@
     <link rel="stylesheet" href="styles/app.css">
     <!-- endbuild -->
     <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet' type='text/css'>
   </head>
   <body ng-app="codeword">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    
-    <h1>Codewords</h1>
-    <div ng-view></div>
+    <div id="content">
+        <h1>Codewords</h1>
+        <div ng-view></div>
+    </div>
 
     <!-- build:js(.) scripts/oldieshim.js -->
     <!--[if lt IE 9]>
