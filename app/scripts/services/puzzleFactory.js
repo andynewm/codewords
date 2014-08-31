@@ -1,4 +1,4 @@
-﻿/* global angular */
+﻿/* global angular, $ */
 
 angular.module('codeword')
 	.factory('puzzleFactory', ['$http', '$q', function ($http, $q) {
@@ -28,18 +28,25 @@ angular.module('codeword')
 				}
 				return obj;
 			}, {});
+			this.inverseInitialState = $.extend({}, this.inverseState);
 		}
 
 		Puzzle.prototype.setLetter = function (code, letter) {
+			if (this.inverseInitialState[letter]) {
+				return;
+			}
+
 			var state = this.state,
 			    inverseState = this.inverseState;
 
+			if (state[code]) {
+				delete inverseState[state[code]];
+			}
+
 			state.forEach(function (value, i) {
 				if (value == letter) {
-
 					state[i] = null;
 				}
-
 			});
 			
 			state[code] = letter;
