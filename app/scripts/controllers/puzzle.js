@@ -1,7 +1,8 @@
 ﻿/* global angular */
 
 angular.module('codeword')
-	.controller('puzzleCtrl', ['$scope', 'puzzle' , function ($scope, puzzle) {
+	.controller('puzzleCtrl', ['$scope', '$routeParams', 'puzzle' ,
+		function ($scope, $routeParams, puzzle) {
 
 		$scope.map = puzzle.map;
 		$scope.state = puzzle.state;
@@ -11,6 +12,10 @@ angular.module('codeword')
 		$scope.select = function (cell) {
 			$scope.selected = cell;
 		};
+
+		$scope.deselect = function () {
+			$scope.selected = null;
+		}
 
 		$scope.setLetter = function (cell, option) {
 			$scope.$apply(function () {
@@ -25,5 +30,9 @@ angular.module('codeword')
 		$scope.isSolved = function () {
 			return puzzle.isSolved();
 		};
+
+		var id = +$routeParams.id;
+
+		$scope.next = id < 148 ? id + 1 : null;
 
 	}]);
