@@ -31,6 +31,10 @@ angular.module('codeword')
 			return puzzle.isSolved();
 		};
 
+		$scope.isValid = function () {
+			return puzzle.isValid();
+		};
+
 		var id = +$routeParams.id;
 
 		$scope.next = id < 148 ? id + 1 : null;

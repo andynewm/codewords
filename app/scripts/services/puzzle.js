@@ -67,6 +67,15 @@ angular.module('codeword')
 			});
 		};
 
+		Puzzle.prototype.isValid = function () {
+			var state = this.state,
+			    solution = this.solution;
+
+			return state.every(function (x, i) {
+				return !x || x == solution[i];
+			})
+		}
+
 		Puzzle.prototype.match = function (letter) {
 			return this.inverseState[letter];
 		};
