@@ -23,7 +23,11 @@
 <div class="splash" ng-if="isSolved()">
 	<h3>Congratulations!</h3>
 	<h4>You solved the codeword</h4>
-	<p ng-if="next">do <a href="#/{{next}}">puzzle {{next}}</a></p>
+	<p ng-if="next"><a href="#/">menu</a> | <a href="#/{{next}}">puzzle {{next}}</a></p>
+</div>
+
+<div class="splash" ng-if="!isValid()">
+	<p>Uh-oh, looks like you've got something wrong</p>
 </div>
 
 <table id="lookup">
