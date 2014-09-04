@@ -1,14 +1,15 @@
 ﻿/* global angular, $ */
 
 angular.module('codeword')
-	.factory('puzzleFactory', ['$http', '$q', function ($http, $q) {
+	.factory('puzzleFactory', ['$http', '$q', 'storage',
+		function ($http, $q, storage) {
 
 		function load(index) {
 			var deferred = $q.defer();
 
 			$http.get('puzzles/puzzle' + index + '.json')
 				.success(function (data) {
-					deferred.resolve(new Puzzle(data));
+					deferred.resolve(new Puzzle(data, index));
 				})
 				.error(function () {
 					deferred.reject();
@@ -17,12 +18,13 @@ angular.module('codeword')
 			return deferred.promise;
 		}
 
-		function Puzzle(puzzle) {
-			this.state = puzzle.state;
+		function Puzzle(puzzle, number) {
+			this.state = storage.getState(number) || puzzle.state;
+			this.number = number;
 			this.initState = puzzle.state.slice(0);
 			this.solution = puzzle.solution;
 			this.map = puzzle.map;
-			this.inverseState = puzzle.state.reduce(function (obj, item, index) {
+			this.inverseState = this.state.reduce(function (obj, item, index) {
 				if (item) {
 					obj[item] = index + 1;
 				}
@@ -48,10 +50,12 @@ angular.module('codeword')
 					state[i] = null;
 				}
 			});
-			
+
 			state[code] = letter;
 
 			inverseState[letter] = code + 1;
+
+			storage.saveState(this.number, this.state);
 		};
 
 		Puzzle.prototype.isSolved = function () {
