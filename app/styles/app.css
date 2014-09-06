@@ -14,6 +14,17 @@ a {
     text-decoration: none;
 }
 
+a.button {
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding: 5px 10px;
+}
+
+a.button:hover {
+    background-color: #333;
+    color: #e8e8e8;
+}
+
 a:hover {
     color: #36a;
 }
@@ -27,11 +38,8 @@ a:active {
     margin: 0 auto;
 }
 
-.central {
-    width: 100%;
+.center {
     text-align: center;
-    display: inline-block;
-    margin-top: 20px;
 }
 
 header > h1 {
@@ -57,37 +65,34 @@ ul#puzzleList {
 
 ul#puzzleList a
 {
+    border-radius: 5px;
     width: 100px;
     display: inline-block;
-    margin: 2px;
+    margin: 6px 4px;
     padding: 10px 8px;
     background: #e8e8e8;
-    transition: padding-left, background-color 0.4s;
 }
 
 ul#puzzleList a.solved {
-    background-color: #d8f8d8;
+    background-color: #bfffb8;
 }
 
 ul#puzzleList a.solved:hover {
-    background-color: #e8ffe8;
+    background-color: #337033;
 }
 
 ul#puzzleList a.inProgress {
-    background-color: #fff8d8;
+    background-color: #cfb0ff;
 }
 
 ul#puzzleList a.inProgress:hover {
-    background-color: #ffffe8;
-}
-
-ul#puzzleList a.inProgress {
-    background-color: #ffffe0;
+    background-color: #333370;
 }
 
 ul#puzzleList a:hover
 {
-    background: #f0f0f0;
+    background-color: #333;
+    color: #e8e8e8;
 }
 
 ul#puzzleList a:active
@@ -98,7 +103,7 @@ ul#puzzleList a:active
 /** Puzzle page **/
 
 table#grid {
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 7px;
     background: #111;
     border-radius: 7px;
@@ -163,7 +168,8 @@ tr {
 }
 
 table#lookup {
-    margin: 0 auto;
+    margin: 10px auto;
+
 }
 
 .small {
