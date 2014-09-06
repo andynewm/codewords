@@ -30,7 +30,12 @@ angular.module('codeword')
 				}
 				return obj;
 			}, {});
-			this.inverseInitialState = $.extend({}, this.inverseState);
+			this.inverseInitialState = this.initState.reduce(function (obj, item, index) {
+				if (item) {
+					obj[item] = index + 1;
+				}
+				return obj;
+			}, {});
 		}
 
 		Puzzle.prototype.setLetter = function (code, letter) {
