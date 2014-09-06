@@ -65,6 +65,26 @@ ul#puzzleList a
     transition: padding-left, background-color 0.4s;
 }
 
+ul#puzzleList a.solved {
+    background-color: #d8f8d8;
+}
+
+ul#puzzleList a.solved:hover {
+    background-color: #e8ffe8;
+}
+
+ul#puzzleList a.inProgress {
+    background-color: #fff8d8;
+}
+
+ul#puzzleList a.inProgress:hover {
+    background-color: #ffffe8;
+}
+
+ul#puzzleList a.inProgress {
+    background-color: #ffffe0;
+}
+
 ul#puzzleList a:hover
 {
     background: #f0f0f0;

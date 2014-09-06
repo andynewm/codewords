@@ -61,6 +61,13 @@ angular.module('codeword')
 			inverseState[letter] = code + 1;
 
 			storage.saveState(this.number, this.state);
+
+			if (this.isSolved()) {
+				storage.setGlobalState(this.number, 'solved');
+			}
+			else {
+				storage.setGlobalState(this.number, 'inProgress');
+			}
 		};
 
 		Puzzle.prototype.isSolved = function () {

@@ -1,3 +1,5 @@
 ﻿<ul id="puzzleList">
-	<li ng-repeat="i in range(148)"><a ng-href='#/{{i+1}}'># {{i+1 | pad: 3}}</a></li>
+	<li ng-repeat="state in states track by $index">
+		<a ng-href='#/{{$index+1}}' class="{{state}}"># {{$index+1 | pad: 3}}</a>
+	</li>
 </ul>

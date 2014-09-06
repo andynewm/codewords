@@ -1,7 +1,10 @@
 ﻿/* global angular */
 
 angular.module('codeword')
-	.controller('selectCtrl', ['$scope', function ($scope) {
+	.controller('selectCtrl', ['$scope', 'storage',
+		function ($scope, storage) {
+
+		$scope.states = storage.getGlobalState();
 
 		$scope.range = function (n) {
 			var a = [];
