@@ -103,11 +103,37 @@ ul#puzzleList a:active
 /** Puzzle page **/
 
 table#grid {
-    margin: 10px auto;
+    margin: 0;
     padding: 7px;
     background: #111;
-    border-radius: 7px;
+    border-radius: 7px 0px 7px 7px;
     box-shadow: 4px 4px 9px #aaa;
+}
+
+#gridContainer {
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#gridSidebar {
+    padding: 5px 2px 5px 0;
+    background: #222;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    right: -32px;
+    border-radius: 0px 7px 7px 0px;
+}
+
+#gridSidebar a {
+    color: #ccc;
+    display: block;
+    margin: 8px 0;
+}
+
+#gridSidebar a:hover {
+    color: #bbf;
 }
 
 td {
