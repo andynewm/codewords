@@ -73,16 +73,8 @@ angular.module('codeword')
 				if (undoStack.length) {
 					redoStack.push(state.slice(0));
 
-					for(prop in inverseState) {
-						delete inverseState[prop];
-					}
-
-					undoStack.pop().forEach(function (letter, i) {
-						if (letter) {
-							inverseState[letter] = i + 1;
-						}
-						state[i] = letter;
-					});
+					state = undoStack.pop();
+					inverseState = getInverseState(state);
 				}
 			}
 
@@ -90,16 +82,8 @@ angular.module('codeword')
 				if (redoStack.length) {
 					undoStack.push(state.slice(0));
 
-					for(prop in inverseState) {
-						delete inverseState[prop];
-					}
-
-					redoStack.pop().forEach(function (letter, i) {
-						if (letter) {
-							inverseState[letter] = i + 1;
-						}
-						state[i] = letter;
-					});
+					state = redoStack.pop();
+					inverseState = getInverseState(state);
 				}
 			}
 
@@ -119,16 +103,20 @@ angular.module('codeword')
 				return inverseState[letter];
 			}
 
+			function getState(code) {
+				return state[code];
+			}
+
 			function clear() {
 				undoStack.push(state.slice(0));
 				redoStack.length = 0;
 
 				state = initState.slice(0);
-				inverseState = inverseInitialState;
+				inverseState = getInverseState(state);
 			}
 
 			return {
-				state: state,
+				getState: getState,
 				map: map,
 				initState: initState,
 				setLetter: setLetter,

@@ -7,15 +7,15 @@
 						 ng-if="cell != null && !puzzle.initState[cell]"
 						 ng-focus="select(cell)"
 						 ng-blur="deselect()"
-						 ng-class="{entered: puzzle.state[cell], selected: cell == selected}"
+						 ng-class="{entered: puzzle.getState(cell), selected: cell == selected}"
 						 tabindex="0"
 						 data-index="{{cell}}"
 						 testd>
-						{{puzzle.state[cell] || cell + 1}}
+						{{puzzle.getState(cell) || cell + 1}}
 					</div>
 					<div class="cell default entered"
 						 ng-if="cell != null && !!puzzle.initState[cell]">
-						{{puzzle.state[cell]}}
+						{{puzzle.getState(cell)}}
 					</div>
 				</td>
 			</tr>
