@@ -185,6 +185,7 @@ table#lookup td {
     text-align: center;
     padding: 2px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 table#lookup td.entered {

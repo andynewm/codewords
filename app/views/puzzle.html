@@ -11,6 +11,7 @@
 				 ng-blur="deselect()"
 				 ng-class="{entered: state[cell], selected: cell == selected}"
 				 tabindex="0"
+				 data-index="{{cell}}"
 				 testd>
 				{{state[cell] || cell + 1}}
 			</div>
@@ -37,13 +38,13 @@
 
 <table id="lookup">
 	<tr>
-		<td ng-repeat="letter in 'ABCDEFGHIJKLM'" ng-class="{entered: match(letter)}">
+		<td ng-repeat="letter in 'ABCDEFGHIJKLM'" ng-class="{entered: match(letter)}" set-letter>
 			<div>{{letter}}</div>
 			<div class="small mono">{{match(letter)}}</div>
 		</td>
 	</tr>
 	<tr>
-		<td ng-repeat="letter in 'NOPQRSTUVWXYZ'" ng-class="{entered: match(letter)}">
+		<td ng-repeat="letter in 'NOPQRSTUVWXYZ'" ng-class="{entered: match(letter)}" set-letter>
 			<div>{{letter}}</div>
 			<div class="small mono">{{match(letter)}}</div>
 		</td>
