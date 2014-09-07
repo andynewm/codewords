@@ -36,6 +36,8 @@ angular.module('codeword')
 				}
 				return obj;
 			}, {});
+			this.undoStack = [];
+			this.redoStack = [];
 		}
 
 		Puzzle.prototype.setLetter = function (code, letter) {
@@ -44,7 +46,12 @@ angular.module('codeword')
 			}
 
 			var state = this.state,
-			    inverseState = this.inverseState;
+			    inverseState = this.inverseState
+			    undoStack = this.undoStack
+			    redoStack = this.redoStack;
+
+			undoStack.push(state.slice(0));
+			redoStack.length = 0;
 
 			if (state[code]) {
 				delete inverseState[state[code]];
@@ -69,6 +76,50 @@ angular.module('codeword')
 				storage.setGlobalState(this.number, 'inProgress');
 			}
 		};
+
+		Puzzle.prototype.undo = function () {
+			var state= this.state,
+			    inverseState = this.inverseState,
+			    undoStack = this.undoStack,
+			    redoStack = this.redoStack;
+
+			if (undoStack.length) {
+				redoStack.push(state.slice(0));
+
+				for(prop in inverseState) {
+					delete inverseState[prop];
+				}
+
+				undoStack.pop().forEach(function (letter, i) {
+					if (letter) {
+						inverseState[letter] = i + 1;
+					}
+					state[i] = letter;
+				});
+			}
+		}
+
+		Puzzle.prototype.redo = function () {
+			var state= this.state,
+			    inverseState = this.inverseState,
+			    undoStack = this.undoStack,
+			    redoStack = this.redoStack;
+
+			if (redoStack.length) {
+				undoStack.push(state.slice(0));
+
+				for(prop in inverseState) {
+					delete inverseState[prop];
+				}
+
+				redoStack.pop().forEach(function (letter, i) {
+					if (letter) {
+						inverseState[letter] = i + 1;
+					}
+					state[i] = letter;
+				});
+			}
+		}
 
 		Puzzle.prototype.isSolved = function () {
 			var state = this.state,

@@ -35,6 +35,14 @@ angular.module('codeword')
 			return puzzle.isValid();
 		};
 
+		$scope.undo = function () {
+			return puzzle.undo();
+		};
+
+		$scope.redo = function () {
+			return puzzle.redo();
+		};
+
 		$scope.showCheck = function () {
 			$scope.checkVisible = true;
 			$timeout(function () { 
