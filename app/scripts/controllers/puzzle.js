@@ -1,8 +1,8 @@
 ﻿/* global angular */
 
 angular.module('codeword')
-	.controller('puzzleCtrl', ['$scope', '$routeParams', 'puzzle' ,
-		function ($scope, $routeParams, puzzle) {
+	.controller('puzzleCtrl', ['$scope', '$timeout', '$routeParams', 'puzzle',
+		function ($scope, $timeout, $routeParams, puzzle) {
 
 		$scope.map = puzzle.map;
 		$scope.state = puzzle.state;
@@ -33,6 +33,13 @@ angular.module('codeword')
 
 		$scope.isValid = function () {
 			return puzzle.isValid();
+		};
+
+		$scope.showCheck = function () {
+			$scope.checkVisible = true;
+			$timeout(function () { 
+				$scope.checkVisible = false;
+			}, 1600);
 		};
 
 		var id = +$routeParams.id;
