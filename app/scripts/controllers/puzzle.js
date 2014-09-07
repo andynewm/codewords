@@ -4,10 +4,9 @@ angular.module('codeword')
 	.controller('puzzleCtrl', ['$scope', '$timeout', '$routeParams', 'puzzle',
 		function ($scope, $timeout, $routeParams, puzzle) {
 
-		$scope.map = puzzle.map;
-		$scope.state = puzzle.state;
-		$scope.initState = puzzle.initState;
 		$scope.selected = null;
+
+		$scope.puzzle = puzzle;
 
 		$scope.select = function (cell) {
 			$scope.selected = cell;
@@ -15,32 +14,12 @@ angular.module('codeword')
 
 		$scope.deselect = function () {
 			$scope.selected = null;
-		}
+		};
 
 		$scope.setLetter = function (cell, option) {
 			$scope.$apply(function () {
 				puzzle.setLetter(cell, option);
 			});
-		};
-
-		$scope.match = function (letter) {
-			return puzzle.match(letter);
-		};
-
-		$scope.isSolved = function () {
-			return puzzle.isSolved();
-		};
-
-		$scope.isValid = function () {
-			return puzzle.isValid();
-		};
-
-		$scope.undo = function () {
-			return puzzle.undo();
-		};
-
-		$scope.redo = function () {
-			return puzzle.redo();
 		};
 
 		$scope.showCheck = function () {

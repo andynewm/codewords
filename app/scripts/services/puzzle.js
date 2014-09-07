@@ -117,7 +117,15 @@ angular.module('codeword')
 
 			function match(letter) {
 				return inverseState[letter];
-			};
+			}
+
+			function clear() {
+				undoStack.push(state.slice(0));
+				redoStack.length = 0;
+
+				state = initState.slice(0);
+				inverseState = inverseInitialState;
+			}
 
 			return {
 				state: state,
@@ -128,7 +136,8 @@ angular.module('codeword')
 				redo: redo,
 				isSolved: isSolved,
 				isValid: isValid,
-				match: match
+				match: match,
+				clear: clear
 			};
 		}
 
