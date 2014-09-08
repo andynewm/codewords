@@ -6,14 +6,4 @@ angular.module('codeword')
 
 		$scope.states = storage.getGlobalState();
 
-		$scope.range = function (n) {
-			var a = [];
-			
-			for (var i = 0; i < n; i++) {
-				a.push(i);
-			}
-
-			return a;
-		};
-
 	}]);
